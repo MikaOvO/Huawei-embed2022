@@ -1,0 +1,9 @@
+info: 
+data_file: D:\workspace\cpp_workspace\Huawei-embed2022\data\case0.in
+sum_cost: 347819024 best_answer: 347819024 cost_time: 0s
+
+
+info: 
+data_file: D:\workspace\cpp_workspace\Huawei-embed2022\data\case0.in
+sum_cost: 416802672 best_answer: 416802672 cost_time: 0.001s
+

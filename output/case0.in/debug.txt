@@ -1,0 +1,50 @@
+inst_n: 13 edge_n: 15 max_cir: 1
+window_id: 0 cir: -1
+window_id: 1 cir: 0
+window_id: 2 cir: -1
+window_id: 3 cir: 3
+window_id: 4 cir: 4
+tpsort, inst_id: 0 sta, window_id: 0 area_id: 0 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 1 sta, window_id: 1 area_id: 0 cir: 0 inst_type: 1 ener_type: 0
+tpsort, inst_id: 6 sta, window_id: 0 area_id: 0 cir: 1 inst_type: 0 ener_type: 0
+tpsort, inst_id: 10 sta, window_id: 0 area_id: 0 cir: 1 inst_type: 0 ener_type: 0
+tpsort, inst_id: 2 sta, window_id: 0 area_id: 0 cir: 1 inst_type: 0 ener_type: 0
+tpsort, inst_id: 3 sta, window_id: 2 area_id: 4 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 7 sta, window_id: 1 area_id: 0 cir: 1 inst_type: 0 ener_type: 0
+tpsort, inst_id: 8 sta, window_id: 2 area_id: 4 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 4 sta, window_id: 2 area_id: 3 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 5 sta, window_id: 3 area_id: 5 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 9 sta, window_id: 4 area_id: 7 cir: 0 inst_type: 2 ener_type: 4
+tpsort, inst_id: 12 sta, window_id: 3 area_id: 5 cir: 1 inst_type: 0 ener_type: 0
+tpsort, inst_id: 11 sta, window_id: 4 area_id: 6 cir: 0 inst_type: 0 ener_type: 1
+inst_id: 0 sta: 0 0 0 install_cost: 262144
+Max 2 cost: 262144 262144
+inst_id: 1 sta: 1 0 0 install_cost: 3014656
+Max 2 cost: 1146880 3014656
+inst_id: 2 sta: 0 0 1 install_cost: 67108864
+Max 2 cost: 524288 67108864
+inst_id: 3 sta: 2 4 0 install_cost: 851968
+Max 2 cost: 851968 184680448
+inst_id: 4 sta: 2 3 0 install_cost: 262144
+Max 2 cost: 262144 262144
+inst_id: 5 sta: 3 5 0 install_cost: 65536
+Max 2 cost: 65536 65536
+inst_id: 6 sta: 0 0 1 install_cost: 49152
+Max 2 cost: 49152 49152
+inst_id: 7 sta: 1 0 1 install_cost: 67108864
+Max 2 cost: 524288 67108864
+inst_id: 8 sta: 2 4 0 install_cost: 983040
+Max 2 cost: 983040 218234880
+inst_id: 9 sta: 4 7 0 install_cost: 218234880
+Max 2 cost: 983040 218234880
+inst_id: 10 sta: 0 0 1 install_cost: 524288
+Max 2 cost: 524288 524288
+inst_id: 11 sta: 4 6 0 install_cost: 262144
+Max 2 cost: 262144 262144
+inst_id: 12 sta: 3 5 1 install_cost: 2097152
+Max 2 cost: 524288 2097152
+window_id: 0 one_time: 62 enter_k: 2 cost_k: 1024 sum_time: 124
+window_id: 1 one_time: 62 enter_k: 2 cost_k: 1480 sum_time: 124
+window_id: 2 one_time: 0 enter_k: 0 cost_k: 1600 sum_time: 0
+window_id: 3 one_time: 62 enter_k: 1 cost_k: 2048 sum_time: 62
+window_id: 4 one_time: 242 enter_k: 1 cost_k: 2048 sum_time: 242
