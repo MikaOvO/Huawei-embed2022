@@ -61,6 +61,8 @@ int heart_edge_ids[MAXEDGE];
 
 ll best_answer = INF;
 
+int tp_sort_ids[MAXINST];
+
 struct Inst;
 struct Window;
 struct Area;
@@ -365,7 +367,7 @@ ll CalcCost(int inst_id, int window_id, int area_id) {
     return res;
 }
 
-void InstallInst(int inst_id, int window_id, int area_id, int cir, int update=1) {
+void InstallInst(int inst_id, int window_id, int area_id, int cir, int sta_id, int update=1) {
     // 非核心不需要计时
     if (inst[inst_id].is_heart == 0) return;
     // 和协同边位于同一窗口 暂时没判断cir和下一个节点
@@ -375,6 +377,8 @@ void InstallInst(int inst_id, int window_id, int area_id, int cir, int update=1)
         inst[inst[inst_id].last_heart_inst_id].sta.window_id == window_id) {
             --window[window_id].enter_k;
         }
+    inst[inst_id].sta_id = sta_id;
+    inst[inst_id].sta = State(window_id, area_id, cir);
     if (update == 1) {
         ++window[window_id].enter_k;
         ++window[window_id].use_ener_type[area[area_id].ener_type];
@@ -382,11 +386,16 @@ void InstallInst(int inst_id, int window_id, int area_id, int cir, int update=1)
     }
 }
 
-void InstallInst(int inst_id, State &sta, int update=1) {
+void InstallInst(int inst_id, State &sta, int sta_id,int update=1) {
     InstallInst(inst_id, sta.window_id, sta.area_id, sta.cir, update);
 }
 
-void Clear() {
+void Clear(int clear_inst) {
+    if (clear_inst == 1) {
+        for (int i = 0; i < inst_n; ++i) {
+            inst[i].sta_id = -1;
+        }
+    }
     for (int i = 0; i < window_n; ++i) {
         window[i].enter_k = 0;
         window[i].max_one_use_time = 0;
@@ -398,8 +407,8 @@ void Clear() {
 
 void ReInstall() {
     for (int i = 0; i < inst_n; ++i) {
-        InstallInst(i, inst[i].sta, 1);
-    }
+        InstallInst(i, inst[i].sta, inst[i].sta_id, 1);
+    } 
 }
 
 ll GetAnswer() {
@@ -410,12 +419,11 @@ ll GetAnswer() {
         answer += inst[inst_id].ener_cost[area[area_id].ener_type];
     }
 
-    Clear();
+    Clear(0);
     ReInstall();
 
     for (int window_id = 0; window_id < window_n; ++window_id) {
-        answer += window[window_id].GetSumUseTime() * produce_k;
-        answer += window[window_id].GetOneUseTime() * window[window_id].cost_k;
+        answer += window[window_id].GetCost();
     }
 
     return answer;

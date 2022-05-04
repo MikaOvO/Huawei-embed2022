@@ -4,6 +4,7 @@ window_id: 1 cir: 0
 window_id: 2 cir: -1
 window_id: 3 cir: 3
 window_id: 4 cir: 4
+sta_n: 9
 tpsort, inst_id: 0 sta, window_id: 0 area_id: 0 cir: 0 inst_type: 0 ener_type: 0
 tpsort, inst_id: 1 sta, window_id: 1 area_id: 0 cir: 0 inst_type: 1 ener_type: 0
 tpsort, inst_id: 6 sta, window_id: 0 area_id: 0 cir: 1 inst_type: 0 ener_type: 0

@@ -14,3 +14,5 @@ info:
 data_file: D:\workspace\cpp_workspace\Huawei-embed2022\data\case3.in
 sum_cost: 17601084865 best_answer: 17601084865 cost_time: 0.004s
 
+
+

@@ -99,6 +99,7 @@ window_id: 96 cir: 96
 window_id: 97 cir: -1
 window_id: 98 cir: -1
 window_id: 99 cir: 99
+sta_n: 524
 tpsort, inst_id: 0 sta, window_id: 0 area_id: 165 cir: 0 inst_type: 0 ener_type: 1
 tpsort, inst_id: 1 sta, window_id: 2 area_id: 149 cir: 0 inst_type: 1 ener_type: 2
 tpsort, inst_id: 2 sta, window_id: 0 area_id: 165 cir: 0 inst_type: 0 ener_type: 1
