@@ -26,6 +26,8 @@ const int MAXINST = 1000 + 1;
 const int MAXEDGE = 1000 + 1;
 const int MAXAREA = MAXSHOP * 5 + 1;
 const int MAXINSTTYPE = 3 + 1;
+const int MAXCIR = 10 + 1;
+const int MAXSTATE = (MAXWIND + 1) * (MAXCIR + 1) + 1;
 const ll INF = 1e18;
 
 clock_t begin_time;
@@ -50,6 +52,9 @@ int max_cir;
 int first_cir;
 int ener_n = 5;
 int inst_type_n = 3;
+int sta_n;
+
+vector<int> inst_type_to_ener_type[MAXINSTTYPE];
 
 int heart_edge_n;
 int heart_edge_ids[MAXEDGE];
@@ -67,7 +72,7 @@ struct State;
 void ReadIn();
 void Output();
 bool Check(int inst_id, State &sta);
-void InstallInst(int inst_id, State &sta);
+void InstallInst(int inst_id, State &sta, int update=1);
 
 
 struct Shop {
@@ -90,6 +95,7 @@ struct Window {
     int use_ener_type[MAXENERGY];
     ll cost_k;
     ll enter_k;
+    ll max_one_use_time;
     Window() {
         cir_window_id = -1; // 没有环回
         shop_id = 0;
@@ -99,6 +105,7 @@ struct Window {
         }
         cost_k = 0;
         enter_k = 0;
+        max_one_use_time = 0;
     }
     int GetEnerAreaId(int ener_type) {
         if (shop[shop_id].ener_area_ids[ener_type].size() > 0) {
@@ -120,6 +127,12 @@ struct Window {
     ll GetSumUseTime() {
         return GetOneUseTime() * enter_k;
     }
+    ll GetCost() {
+        ll answer = 0;
+        answer += max_one_use_time * produce_k;
+        answer += max_one_use_time * enter_k * cost_k;
+        return answer;
+    }
 } window[MAXWIND];
 
 struct State {
@@ -133,9 +146,9 @@ struct State {
         cir = _cir;
     }
     bool cmp(State &p) {
-        if (cir < first_cir && p.cir >= first_cir) return true;
-        if (cir >= first_cir && p.cir < first_cir) return false;
-        if (cir < first_cir) {
+        if (window_id < first_cir && p.window_id >= first_cir) return true;
+        if (window_id >= first_cir && p.window_id < first_cir) return false;
+        if (window_id < first_cir) {
             if (cir == p.cir) {
                 return window_id < p.window_id;
             }
@@ -161,23 +174,26 @@ struct State {
         window_id = window[window_id].cir_window_id;
         return true;
     }
-};
+} sta[MAXSTATE];
 
 struct Inst {
     int inst_type;
     ll ener_cost[MAXENERGY];
     
     vector<int> vec; // 邻接边id
+    vector<int> r_vec; // 反图邻接边id
+
+    int sta_id;
 
     State sta;
     State l_sta; // 拓扑排序中可选状态[l_sta, r_sta]
     State r_sta;
     State best_sta;
-    
+
     int is_heart; // 核心点
     int last_heart_inst_id; // 核心点上个核心点
     int last_edge_type; // 核心点上一条边类型
-    
+
     Inst () {
         inst_type = 0;
         for (int i = 0; i < MAXENERGY; i++) {
@@ -185,7 +201,9 @@ struct Inst {
         }
         is_heart = 0;
         last_edge_type = -1;
+        sta_id = -1;
         vec.clear();
+        r_vec.clear();
     }
 } inst[MAXINST];
 
@@ -283,6 +301,7 @@ struct Graph {
                 tmp = inst[u].sta;
                 //cout<<u<<" "<<tmp.window_id<<" "<<tmp.area_id<<" "<<tmp.cir<<endl;
                 if (e.edge_type == 0) tmp.Next();
+                //tmp.Next();
                 if (! tmp.cmp(inst[e.to_inst_id].sta)) {
                     inst[e.to_inst_id].sta = tmp;
                     //cout<<"x"<<e.to_inst_id<<" "<<tmp.window_id<<" "<<tmp.area_id<<" "<<tmp.cir<<endl;
@@ -331,26 +350,46 @@ bool Check(int inst_id, State &sta) {
     return Check(inst_id, sta.window_id, sta.area_id);
 }
 
-void InstallInst(int inst_id, int window_id, int area_id, int cir) {
+ll CalcCost(int inst_id, int window_id, int area_id) {
+    ll res = inst[inst_id].ener_cost[area[area_id].ener_type];
+    if (inst[inst_id].is_heart == 0) return res;
+    ll enter_k = window[window_id].enter_k;
+    ++enter_k;
+    if (inst[inst_id].last_edge_type == 1 && 
+        inst[inst_id].last_heart_inst_id != -1 &&
+        inst[inst[inst_id].last_heart_inst_id].sta.window_id == window_id) {
+            --enter_k;
+        }
+    ll max_one_use_time = max(window[window_id].max_one_use_time, ener_time[area[area_id].ener_type]);
+
+    return res;
+}
+
+void InstallInst(int inst_id, int window_id, int area_id, int cir, int update=1) {
     // 非核心不需要计时
     if (inst[inst_id].is_heart == 0) return;
     // 和协同边位于同一窗口 暂时没判断cir和下一个节点
-    if (inst[inst_id].last_edge_type == 1 && 
+    if (update == 1 &&
+        inst[inst_id].last_edge_type == 1 && 
         inst[inst_id].last_heart_inst_id != -1 &&
         inst[inst[inst_id].last_heart_inst_id].sta.window_id == window_id) {
             --window[window_id].enter_k;
         }
-    ++window[window_id].enter_k;
-    ++window[window_id].use_ener_type[area[area_id].ener_type];
+    if (update == 1) {
+        ++window[window_id].enter_k;
+        ++window[window_id].use_ener_type[area[area_id].ener_type];
+        window[window_id].max_one_use_time = max(window[window_id].max_one_use_time, ener_time[area[area_id].ener_type]);
+    }
 }
 
-void InstallInst(int inst_id, State &sta) {
-    InstallInst(inst_id, sta.window_id, sta.area_id, sta.cir);
+void InstallInst(int inst_id, State &sta, int update=1) {
+    InstallInst(inst_id, sta.window_id, sta.area_id, sta.cir, update);
 }
 
 void Clear() {
     for (int i = 0; i < window_n; ++i) {
         window[i].enter_k = 0;
+        window[i].max_one_use_time = 0;
         for (int j = 0; j < ener_n; ++j) {
             window[i].use_ener_type[j] = 0;
         }
@@ -359,7 +398,7 @@ void Clear() {
 
 void ReInstall() {
     for (int i = 0; i < inst_n; ++i) {
-        InstallInst(i, inst[i].sta);
+        InstallInst(i, inst[i].sta, 1);
     }
 }
 
@@ -392,7 +431,7 @@ void Init() {
         inst[edge[heart_edge_ids[i]].to_inst_id].last_heart_inst_id = edge[heart_edge_ids[i]].fr_inst_id;
         inst[edge[heart_edge_ids[i]].to_inst_id].last_edge_type = edge[heart_edge_ids[i]].edge_type;
         if (i == 0) {
-            inst[edge[heart_edge_ids[i]].to_inst_id].last_heart_inst_id = -1; 
+            inst[edge[heart_edge_ids[i]].fr_inst_id].last_heart_inst_id = -1; 
         }
     }
 
@@ -406,7 +445,23 @@ void Init() {
     }
 
     for (int edge_id = 0; edge_id < edge_n; ++edge_id) {
-        inst[edge[edge_id].fr_inst_id].vec.emplace_back(edge[edge_id].to_inst_id);
+        inst[edge[edge_id].fr_inst_id].vec.emplace_back(edge_id);
+        inst[edge[edge_id].to_inst_id].r_vec.emplace_back(edge_id);
+    }
+
+    sta[0] = State(0, -1, 0);
+    sta_n = 1;
+    while (true) {
+        sta[sta_n] = sta[sta_n - 1];
+        if (sta[sta_n].Next()) {
+            ++sta_n;
+        } else {
+            break;
+        }
+    }
+
+    if (debug_file != nullptr) {
+        (*debug_file) << "sta_n: " << sta_n << endl;
     }
 
     // if (debug_file != nullptr) {

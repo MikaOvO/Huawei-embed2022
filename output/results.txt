@@ -1,9 +1,16 @@
 info: 
 data_file: D:\workspace\cpp_workspace\Huawei-embed2022\data\case0.in
-sum_cost: 347819024 best_answer: 347819024 cost_time: 0s
-
+sum_cost: 416802672 best_answer: 416802672 cost_time: 0s
 
 info: 
-data_file: D:\workspace\cpp_workspace\Huawei-embed2022\data\case0.in
-sum_cost: 416802672 best_answer: 416802672 cost_time: 0.001s
+data_file: D:\workspace\cpp_workspace\Huawei-embed2022\data\case1.in
+sum_cost: 9868661085 best_answer: 9868661085 cost_time: 0.004s
+
+info: 
+data_file: D:\workspace\cpp_workspace\Huawei-embed2022\data\case2.in
+sum_cost: 12579940113 best_answer: 12579940113 cost_time: 0.004s
+
+info: 
+data_file: D:\workspace\cpp_workspace\Huawei-embed2022\data\case3.in
+sum_cost: 17601084865 best_answer: 17601084865 cost_time: 0.004s
 

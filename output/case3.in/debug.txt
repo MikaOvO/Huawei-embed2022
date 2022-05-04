@@ -1,0 +1,1101 @@
+inst_n: 300 edge_n: 747 max_cir: 8
+window_id: 0 cir: -1
+window_id: 1 cir: -1
+window_id: 2 cir: -1
+window_id: 3 cir: -1
+window_id: 4 cir: -1
+window_id: 5 cir: -1
+window_id: 6 cir: -1
+window_id: 7 cir: -1
+window_id: 8 cir: -1
+window_id: 9 cir: -1
+window_id: 10 cir: -1
+window_id: 11 cir: -1
+window_id: 12 cir: -1
+window_id: 13 cir: -1
+window_id: 14 cir: -1
+window_id: 15 cir: -1
+window_id: 16 cir: -1
+window_id: 17 cir: -1
+window_id: 18 cir: -1
+window_id: 19 cir: 0
+window_id: 20 cir: -1
+window_id: 21 cir: -1
+window_id: 22 cir: 22
+window_id: 23 cir: -1
+window_id: 24 cir: 24
+window_id: 25 cir: -1
+window_id: 26 cir: -1
+window_id: 27 cir: -1
+window_id: 28 cir: -1
+window_id: 29 cir: -1
+window_id: 30 cir: -1
+window_id: 31 cir: -1
+window_id: 32 cir: 32
+window_id: 33 cir: 33
+window_id: 34 cir: 34
+window_id: 35 cir: -1
+window_id: 36 cir: 36
+window_id: 37 cir: 37
+window_id: 38 cir: -1
+window_id: 39 cir: 39
+window_id: 40 cir: -1
+window_id: 41 cir: -1
+window_id: 42 cir: -1
+window_id: 43 cir: -1
+window_id: 44 cir: 44
+window_id: 45 cir: -1
+window_id: 46 cir: -1
+window_id: 47 cir: -1
+window_id: 48 cir: 48
+window_id: 49 cir: -1
+window_id: 50 cir: 50
+window_id: 51 cir: 51
+window_id: 52 cir: 52
+window_id: 53 cir: -1
+window_id: 54 cir: 54
+window_id: 55 cir: 55
+window_id: 56 cir: 56
+window_id: 57 cir: -1
+window_id: 58 cir: -1
+window_id: 59 cir: 59
+window_id: 60 cir: -1
+window_id: 61 cir: 61
+window_id: 62 cir: 62
+window_id: 63 cir: 63
+window_id: 64 cir: 64
+window_id: 65 cir: -1
+window_id: 66 cir: 66
+window_id: 67 cir: 67
+window_id: 68 cir: -1
+window_id: 69 cir: 69
+window_id: 70 cir: 70
+window_id: 71 cir: 71
+window_id: 72 cir: 72
+window_id: 73 cir: 73
+window_id: 74 cir: 74
+window_id: 75 cir: 75
+window_id: 76 cir: -1
+window_id: 77 cir: -1
+window_id: 78 cir: -1
+window_id: 79 cir: -1
+window_id: 80 cir: -1
+window_id: 81 cir: -1
+window_id: 82 cir: 82
+window_id: 83 cir: -1
+window_id: 84 cir: -1
+window_id: 85 cir: -1
+window_id: 86 cir: -1
+window_id: 87 cir: 87
+window_id: 88 cir: -1
+window_id: 89 cir: 89
+window_id: 90 cir: -1
+window_id: 91 cir: -1
+window_id: 92 cir: 92
+window_id: 93 cir: -1
+window_id: 94 cir: -1
+window_id: 95 cir: 95
+window_id: 96 cir: -1
+window_id: 97 cir: 97
+window_id: 98 cir: 98
+window_id: 99 cir: 99
+tpsort, inst_id: 0 sta, window_id: 1 area_id: 33 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 1 sta, window_id: 0 area_id: 109 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 2 sta, window_id: 1 area_id: 33 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 3 sta, window_id: 0 area_id: 109 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 4 sta, window_id: 1 area_id: 33 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 11 sta, window_id: 2 area_id: 151 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 13 sta, window_id: 0 area_id: 109 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 16 sta, window_id: 0 area_id: 109 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 31 sta, window_id: 1 area_id: 33 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 37 sta, window_id: 2 area_id: 151 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 39 sta, window_id: 1 area_id: 33 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 42 sta, window_id: 0 area_id: 109 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 102 sta, window_id: 1 area_id: 33 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 103 sta, window_id: 0 area_id: 109 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 104 sta, window_id: 1 area_id: 33 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 105 sta, window_id: 1 area_id: 33 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 109 sta, window_id: 1 area_id: 33 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 124 sta, window_id: 2 area_id: 151 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 131 sta, window_id: 2 area_id: 151 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 160 sta, window_id: 2 area_id: 151 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 161 sta, window_id: 1 area_id: 33 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 162 sta, window_id: 1 area_id: 33 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 164 sta, window_id: 2 area_id: 151 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 165 sta, window_id: 1 area_id: 33 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 166 sta, window_id: 1 area_id: 33 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 167 sta, window_id: 2 area_id: 151 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 169 sta, window_id: 0 area_id: 109 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 170 sta, window_id: 2 area_id: 151 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 179 sta, window_id: 1 area_id: 33 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 180 sta, window_id: 1 area_id: 33 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 187 sta, window_id: 0 area_id: 109 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 189 sta, window_id: 0 area_id: 109 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 191 sta, window_id: 2 area_id: 151 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 194 sta, window_id: 2 area_id: 151 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 208 sta, window_id: 0 area_id: 109 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 209 sta, window_id: 1 area_id: 33 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 211 sta, window_id: 1 area_id: 33 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 240 sta, window_id: 2 area_id: 151 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 241 sta, window_id: 1 area_id: 33 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 242 sta, window_id: 1 area_id: 33 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 243 sta, window_id: 2 area_id: 151 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 244 sta, window_id: 2 area_id: 151 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 245 sta, window_id: 1 area_id: 33 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 247 sta, window_id: 1 area_id: 33 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 249 sta, window_id: 0 area_id: 109 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 250 sta, window_id: 2 area_id: 151 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 251 sta, window_id: 1 area_id: 33 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 255 sta, window_id: 0 area_id: 109 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 267 sta, window_id: 0 area_id: 109 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 269 sta, window_id: 0 area_id: 109 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 274 sta, window_id: 2 area_id: 151 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 276 sta, window_id: 1 area_id: 33 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 6 sta, window_id: 2 area_id: 172 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 29 sta, window_id: 4 area_id: 165 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 34 sta, window_id: 2 area_id: 151 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 8 sta, window_id: 2 area_id: 151 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 43 sta, window_id: 4 area_id: 165 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 5 sta, window_id: 1 area_id: 33 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 7 sta, window_id: 2 area_id: 172 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 9 sta, window_id: 4 area_id: 165 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 14 sta, window_id: 4 area_id: 165 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 23 sta, window_id: 3 area_id: 176 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 125 sta, window_id: 4 area_id: 165 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 171 sta, window_id: 3 area_id: 93 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 163 sta, window_id: 4 area_id: 165 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 168 sta, window_id: 2 area_id: 172 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 176 sta, window_id: 4 area_id: 165 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 174 sta, window_id: 3 area_id: 93 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 178 sta, window_id: 3 area_id: 93 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 238 sta, window_id: 4 area_id: 165 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 172 sta, window_id: 3 area_id: 176 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 190 sta, window_id: 4 area_id: 165 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 236 sta, window_id: 2 area_id: 151 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 182 sta, window_id: 1 area_id: 33 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 201 sta, window_id: 4 area_id: 165 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 246 sta, window_id: 3 area_id: 176 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 248 sta, window_id: 4 area_id: 165 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 256 sta, window_id: 3 area_id: 93 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 253 sta, window_id: 2 area_id: 151 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 262 sta, window_id: 3 area_id: 176 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 263 sta, window_id: 3 area_id: 93 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 259 sta, window_id: 2 area_id: 151 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 281 sta, window_id: 1 area_id: 41 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 273 sta, window_id: 4 area_id: 165 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 285 sta, window_id: 3 area_id: 93 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 12 sta, window_id: 4 area_id: 165 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 24 sta, window_id: 3 area_id: 93 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 38 sta, window_id: 8 area_id: 147 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 19 sta, window_id: 2 area_id: 172 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 10 sta, window_id: 3 area_id: 176 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 26 sta, window_id: 3 area_id: 93 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 27 sta, window_id: 3 area_id: 176 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 17 sta, window_id: 7 area_id: 145 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 15 sta, window_id: 6 area_id: 2 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 173 sta, window_id: 6 area_id: 2 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 181 sta, window_id: 8 area_id: 147 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 193 sta, window_id: 7 area_id: 145 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 188 sta, window_id: 7 area_id: 145 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 175 sta, window_id: 4 area_id: 14 cir: 0 inst_type: 2 ener_type: 4
+tpsort, inst_id: 186 sta, window_id: 4 area_id: 14 cir: 0 inst_type: 2 ener_type: 4
+tpsort, inst_id: 192 sta, window_id: 8 area_id: 147 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 218 sta, window_id: 8 area_id: 147 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 257 sta, window_id: 4 area_id: 165 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 286 sta, window_id: 4 area_id: 165 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 252 sta, window_id: 6 area_id: 2 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 265 sta, window_id: 8 area_id: 147 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 254 sta, window_id: 3 area_id: 176 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 272 sta, window_id: 4 area_id: 165 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 271 sta, window_id: 4 area_id: 14 cir: 0 inst_type: 2 ener_type: 4
+tpsort, inst_id: 261 sta, window_id: 4 area_id: 165 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 18 sta, window_id: 8 area_id: 147 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 20 sta, window_id: 3 area_id: 176 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 35 sta, window_id: 3 area_id: 176 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 48 sta, window_id: 7 area_id: 145 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 47 sta, window_id: 4 area_id: 165 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 28 sta, window_id: 4 area_id: 165 cir: 0 inst_type: 1 ener_type: 0
+tpsort, inst_id: 40 sta, window_id: 4 area_id: 14 cir: 0 inst_type: 2 ener_type: 4
+tpsort, inst_id: 21 sta, window_id: 8 area_id: 69 cir: 0 inst_type: 2 ener_type: 4
+tpsort, inst_id: 25 sta, window_id: 8 area_id: 147 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 33 sta, window_id: 8 area_id: 69 cir: 0 inst_type: 2 ener_type: 4
+tpsort, inst_id: 183 sta, window_id: 7 area_id: 145 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 184 sta, window_id: 8 area_id: 147 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 197 sta, window_id: 8 area_id: 69 cir: 0 inst_type: 2 ener_type: 4
+tpsort, inst_id: 177 sta, window_id: 7 area_id: 145 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 199 sta, window_id: 8 area_id: 147 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 202 sta, window_id: 10 area_id: 118 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 195 sta, window_id: 7 area_id: 145 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 266 sta, window_id: 7 area_id: 145 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 278 sta, window_id: 7 area_id: 145 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 258 sta, window_id: 7 area_id: 145 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 260 sta, window_id: 8 area_id: 147 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 288 sta, window_id: 8 area_id: 147 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 22 sta, window_id: 4 area_id: 14 cir: 0 inst_type: 2 ener_type: 4
+tpsort, inst_id: 46 sta, window_id: 9 area_id: 74 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 30 sta, window_id: 12 area_id: 80 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 32 sta, window_id: 10 area_id: 118 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 41 sta, window_id: 9 area_id: 74 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 185 sta, window_id: 8 area_id: 147 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 210 sta, window_id: 8 area_id: 69 cir: 0 inst_type: 2 ener_type: 4
+tpsort, inst_id: 196 sta, window_id: 12 area_id: 80 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 204 sta, window_id: 10 area_id: 118 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 205 sta, window_id: 10 area_id: 118 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 200 sta, window_id: 9 area_id: 74 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 206 sta, window_id: 10 area_id: 118 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 219 sta, window_id: 10 area_id: 118 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 207 sta, window_id: 12 area_id: 80 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 217 sta, window_id: 11 area_id: 89 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 198 sta, window_id: 8 area_id: 69 cir: 0 inst_type: 2 ener_type: 4
+tpsort, inst_id: 264 sta, window_id: 8 area_id: 69 cir: 0 inst_type: 2 ener_type: 4
+tpsort, inst_id: 277 sta, window_id: 8 area_id: 69 cir: 0 inst_type: 2 ener_type: 4
+tpsort, inst_id: 282 sta, window_id: 10 area_id: 118 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 284 sta, window_id: 9 area_id: 74 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 44 sta, window_id: 8 area_id: 147 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 45 sta, window_id: 6 area_id: 2 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 50 sta, window_id: 6 area_id: 2 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 36 sta, window_id: 13 area_id: 13 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 49 sta, window_id: 11 area_id: 89 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 203 sta, window_id: 10 area_id: 118 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 213 sta, window_id: 12 area_id: 80 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 216 sta, window_id: 8 area_id: 147 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 221 sta, window_id: 14 area_id: 117 cir: 0 inst_type: 1 ener_type: 0
+tpsort, inst_id: 212 sta, window_id: 10 area_id: 10 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 229 sta, window_id: 11 area_id: 13 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 227 sta, window_id: 11 area_id: 89 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 268 sta, window_id: 12 area_id: 80 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 290 sta, window_id: 10 area_id: 118 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 279 sta, window_id: 12 area_id: 80 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 51 sta, window_id: 8 area_id: 69 cir: 0 inst_type: 2 ener_type: 4
+tpsort, inst_id: 214 sta, window_id: 14 area_id: 117 cir: 0 inst_type: 1 ener_type: 0
+tpsort, inst_id: 220 sta, window_id: 11 area_id: 89 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 226 sta, window_id: 12 area_id: 80 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 239 sta, window_id: 13 area_id: 13 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 223 sta, window_id: 15 area_id: 33 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 215 sta, window_id: 11 area_id: 89 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 231 sta, window_id: 11 area_id: 89 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 270 sta, window_id: 13 area_id: 13 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 289 sta, window_id: 14 area_id: 117 cir: 0 inst_type: 1 ener_type: 0
+tpsort, inst_id: 297 sta, window_id: 13 area_id: 89 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 52 sta, window_id: 7 area_id: 145 cir: 1 inst_type: 1 ener_type: 2
+tpsort, inst_id: 237 sta, window_id: 15 area_id: 41 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 232 sta, window_id: 17 area_id: 161 cir: 0 inst_type: 1 ener_type: 0
+tpsort, inst_id: 222 sta, window_id: 13 area_id: 89 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 234 sta, window_id: 12 area_id: 86 cir: 0 inst_type: 2 ener_type: 4
+tpsort, inst_id: 275 sta, window_id: 14 area_id: 117 cir: 0 inst_type: 1 ener_type: 0
+tpsort, inst_id: 280 sta, window_id: 15 area_id: 33 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 53 sta, window_id: 8 area_id: 147 cir: 1 inst_type: 1 ener_type: 0
+tpsort, inst_id: 224 sta, window_id: 15 area_id: 33 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 233 sta, window_id: 14 area_id: 117 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 283 sta, window_id: 15 area_id: 41 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 293 sta, window_id: 15 area_id: 41 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 294 sta, window_id: 16 area_id: 30 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 54 sta, window_id: 9 area_id: 74 cir: 1 inst_type: 2 ener_type: 3
+tpsort, inst_id: 225 sta, window_id: 16 area_id: 30 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 228 sta, window_id: 17 area_id: 132 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 287 sta, window_id: 17 area_id: 161 cir: 0 inst_type: 1 ener_type: 0
+tpsort, inst_id: 291 sta, window_id: 17 area_id: 161 cir: 0 inst_type: 1 ener_type: 0
+tpsort, inst_id: 296 sta, window_id: 17 area_id: 132 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 298 sta, window_id: 17 area_id: 132 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 295 sta, window_id: 17 area_id: 132 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 299 sta, window_id: 17 area_id: 161 cir: 0 inst_type: 1 ener_type: 0
+tpsort, inst_id: 55 sta, window_id: 12 area_id: 86 cir: 1 inst_type: 2 ener_type: 4
+tpsort, inst_id: 235 sta, window_id: 17 area_id: 161 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 230 sta, window_id: 18 area_id: 17 cir: 0 inst_type: 1 ener_type: 0
+tpsort, inst_id: 292 sta, window_id: 18 area_id: 17 cir: 0 inst_type: 1 ener_type: 0
+tpsort, inst_id: 56 sta, window_id: 13 area_id: 13 cir: 1 inst_type: 2 ener_type: 3
+tpsort, inst_id: 57 sta, window_id: 7 area_id: 145 cir: 2 inst_type: 1 ener_type: 2
+tpsort, inst_id: 58 sta, window_id: 10 area_id: 118 cir: 2 inst_type: 0 ener_type: 1
+tpsort, inst_id: 59 sta, window_id: 12 area_id: 142 cir: 2 inst_type: 0 ener_type: 1
+tpsort, inst_id: 60 sta, window_id: 7 area_id: 145 cir: 3 inst_type: 1 ener_type: 2
+tpsort, inst_id: 61 sta, window_id: 10 area_id: 118 cir: 3 inst_type: 0 ener_type: 1
+tpsort, inst_id: 62 sta, window_id: 12 area_id: 86 cir: 3 inst_type: 2 ener_type: 4
+tpsort, inst_id: 63 sta, window_id: 7 area_id: 145 cir: 4 inst_type: 1 ener_type: 2
+tpsort, inst_id: 64 sta, window_id: 8 area_id: 69 cir: 4 inst_type: 2 ener_type: 4
+tpsort, inst_id: 65 sta, window_id: 10 area_id: 118 cir: 4 inst_type: 0 ener_type: 1
+tpsort, inst_id: 66 sta, window_id: 11 area_id: 13 cir: 4 inst_type: 2 ener_type: 3
+tpsort, inst_id: 67 sta, window_id: 12 area_id: 142 cir: 4 inst_type: 0 ener_type: 1
+tpsort, inst_id: 68 sta, window_id: 7 area_id: 145 cir: 5 inst_type: 1 ener_type: 2
+tpsort, inst_id: 69 sta, window_id: 7 area_id: 145 cir: 6 inst_type: 1 ener_type: 2
+tpsort, inst_id: 70 sta, window_id: 10 area_id: 118 cir: 6 inst_type: 0 ener_type: 1
+tpsort, inst_id: 71 sta, window_id: 12 area_id: 142 cir: 6 inst_type: 0 ener_type: 1
+tpsort, inst_id: 72 sta, window_id: 13 area_id: 13 cir: 6 inst_type: 2 ener_type: 3
+tpsort, inst_id: 73 sta, window_id: 15 area_id: 41 cir: 6 inst_type: 0 ener_type: 1
+tpsort, inst_id: 74 sta, window_id: 16 area_id: 30 cir: 6 inst_type: 0 ener_type: 1
+tpsort, inst_id: 75 sta, window_id: 18 area_id: 17 cir: 6 inst_type: 0 ener_type: 0
+tpsort, inst_id: 76 sta, window_id: 7 area_id: 145 cir: 7 inst_type: 1 ener_type: 2
+tpsort, inst_id: 77 sta, window_id: 8 area_id: 69 cir: 7 inst_type: 2 ener_type: 4
+tpsort, inst_id: 78 sta, window_id: 7 area_id: 145 cir: 8 inst_type: 1 ener_type: 2
+tpsort, inst_id: 79 sta, window_id: 7 area_id: 145 cir: 8 inst_type: 1 ener_type: 2
+tpsort, inst_id: 80 sta, window_id: 8 area_id: 69 cir: 8 inst_type: 2 ener_type: 4
+tpsort, inst_id: 81 sta, window_id: 10 area_id: 118 cir: 8 inst_type: 0 ener_type: 1
+tpsort, inst_id: 82 sta, window_id: 12 area_id: 86 cir: 8 inst_type: 2 ener_type: 4
+tpsort, inst_id: 83 sta, window_id: 13 area_id: 89 cir: 8 inst_type: 0 ener_type: 1
+tpsort, inst_id: 84 sta, window_id: 20 area_id: 80 cir: 0 inst_type: 1 ener_type: 2
+tpsort, inst_id: 85 sta, window_id: 24 area_id: 5 cir: 0 inst_type: 2 ener_type: 4
+tpsort, inst_id: 86 sta, window_id: 30 area_id: 12 cir: 0 inst_type: 1 ener_type: 0
+tpsort, inst_id: 87 sta, window_id: 37 area_id: 101 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 88 sta, window_id: 37 area_id: 101 cir: 1 inst_type: 0 ener_type: 0
+tpsort, inst_id: 89 sta, window_id: 37 area_id: 101 cir: 2 inst_type: 1 ener_type: 0
+tpsort, inst_id: 90 sta, window_id: 38 area_id: 132 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 91 sta, window_id: 40 area_id: 157 cir: 0 inst_type: 1 ener_type: 0
+tpsort, inst_id: 107 sta, window_id: 40 area_id: 157 cir: 0 inst_type: 1 ener_type: 0
+tpsort, inst_id: 92 sta, window_id: 44 area_id: 161 cir: 0 inst_type: 1 ener_type: 0
+tpsort, inst_id: 93 sta, window_id: 44 area_id: 132 cir: 1 inst_type: 2 ener_type: 3
+tpsort, inst_id: 115 sta, window_id: 44 area_id: 161 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 94 sta, window_id: 44 area_id: 161 cir: 2 inst_type: 1 ener_type: 0
+tpsort, inst_id: 122 sta, window_id: 44 area_id: 132 cir: 2 inst_type: 2 ener_type: 3
+tpsort, inst_id: 123 sta, window_id: 44 area_id: 161 cir: 2 inst_type: 1 ener_type: 0
+tpsort, inst_id: 95 sta, window_id: 44 area_id: 161 cir: 3 inst_type: 1 ener_type: 0
+tpsort, inst_id: 101 sta, window_id: 44 area_id: 161 cir: 3 inst_type: 1 ener_type: 0
+tpsort, inst_id: 106 sta, window_id: 44 area_id: 161 cir: 3 inst_type: 0 ener_type: 0
+tpsort, inst_id: 96 sta, window_id: 44 area_id: 161 cir: 4 inst_type: 1 ener_type: 0
+tpsort, inst_id: 140 sta, window_id: 44 area_id: 161 cir: 4 inst_type: 0 ener_type: 0
+tpsort, inst_id: 132 sta, window_id: 44 area_id: 132 cir: 4 inst_type: 2 ener_type: 3
+tpsort, inst_id: 108 sta, window_id: 44 area_id: 132 cir: 4 inst_type: 2 ener_type: 3
+tpsort, inst_id: 97 sta, window_id: 46 area_id: 17 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 159 sta, window_id: 44 area_id: 161 cir: 4 inst_type: 1 ener_type: 0
+tpsort, inst_id: 111 sta, window_id: 46 area_id: 17 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 126 sta, window_id: 46 area_id: 17 cir: 0 inst_type: 0 ener_type: 0
+tpsort, inst_id: 98 sta, window_id: 54 area_id: 20 cir: 0 inst_type: 1 ener_type: 0
+tpsort, inst_id: 110 sta, window_id: 54 area_id: 20 cir: 0 inst_type: 1 ener_type: 0
+tpsort, inst_id: 112 sta, window_id: 47 area_id: 56 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 113 sta, window_id: 47 area_id: 105 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 136 sta, window_id: 47 area_id: 105 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 99 sta, window_id: 55 area_id: 10 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 116 sta, window_id: 54 area_id: 20 cir: 1 inst_type: 1 ener_type: 0
+tpsort, inst_id: 119 sta, window_id: 54 area_id: 20 cir: 1 inst_type: 0 ener_type: 0
+tpsort, inst_id: 130 sta, window_id: 55 area_id: 10 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 114 sta, window_id: 65 area_id: 90 cir: 0 inst_type: 0 ener_type: 1
+tpsort, inst_id: 120 sta, window_id: 54 area_id: 20 cir: 1 inst_type: 0 ener_type: 0
+tpsort, inst_id: 133 sta, window_id: 55 area_id: 10 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 118 sta, window_id: 54 area_id: 20 cir: 1 inst_type: 1 ener_type: 0
+tpsort, inst_id: 146 sta, window_id: 48 area_id: 79 cir: 0 inst_type: 2 ener_type: 4
+tpsort, inst_id: 143 sta, window_id: 48 area_id: 79 cir: 0 inst_type: 2 ener_type: 4
+tpsort, inst_id: 100 sta, window_id: 55 area_id: 118 cir: 1 inst_type: 0 ener_type: 1
+tpsort, inst_id: 127 sta, window_id: 55 area_id: 10 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 117 sta, window_id: 66 area_id: 34 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 145 sta, window_id: 66 area_id: 34 cir: 0 inst_type: 2 ener_type: 3
+tpsort, inst_id: 152 sta, window_id: 54 area_id: 20 cir: 1 inst_type: 0 ener_type: 0
+tpsort, inst_id: 134 sta, window_id: 55 area_id: 10 cir: 1 inst_type: 2 ener_type: 3
+tpsort, inst_id: 137 sta, window_id: 55 area_id: 118 cir: 1 inst_type: 0 ener_type: 1
+tpsort, inst_id: 147 sta, window_id: 55 area_id: 10 cir: 1 inst_type: 2 ener_type: 3
+tpsort, inst_id: 138 sta, window_id: 54 area_id: 20 cir: 2 inst_type: 0 ener_type: 0
+tpsort, inst_id: 144 sta, window_id: 55 area_id: 10 cir: 2 inst_type: 2 ener_type: 3
+tpsort, inst_id: 128 sta, window_id: 66 area_id: 137 cir: 0 inst_type: 1 ener_type: 0
+tpsort, inst_id: 121 sta, window_id: 66 area_id: 34 cir: 1 inst_type: 2 ener_type: 3
+tpsort, inst_id: 135 sta, window_id: 66 area_id: 137 cir: 1 inst_type: 1 ener_type: 0
+tpsort, inst_id: 156 sta, window_id: 55 area_id: 10 cir: 2 inst_type: 2 ener_type: 3
+tpsort, inst_id: 157 sta, window_id: 60 area_id: 12 cir: 0 inst_type: 1 ener_type: 0
+tpsort, inst_id: 158 sta, window_id: 66 area_id: 34 cir: 1 inst_type: 2 ener_type: 3
+tpsort, inst_id: 129 sta, window_id: 66 area_id: 137 cir: 2 inst_type: 0 ener_type: 0
+tpsort, inst_id: 142 sta, window_id: 66 area_id: 137 cir: 2 inst_type: 1 ener_type: 0
+tpsort, inst_id: 141 sta, window_id: 66 area_id: 34 cir: 2 inst_type: 2 ener_type: 3
+tpsort, inst_id: 151 sta, window_id: 66 area_id: 137 cir: 2 inst_type: 0 ener_type: 0
+tpsort, inst_id: 154 sta, window_id: 66 area_id: 137 cir: 2 inst_type: 1 ener_type: 0
+tpsort, inst_id: 139 sta, window_id: 66 area_id: 34 cir: 2 inst_type: 2 ener_type: 3
+tpsort, inst_id: 149 sta, window_id: 66 area_id: 34 cir: 3 inst_type: 2 ener_type: 3
+tpsort, inst_id: 148 sta, window_id: 66 area_id: 34 cir: 3 inst_type: 2 ener_type: 3
+tpsort, inst_id: 150 sta, window_id: 66 area_id: 137 cir: 3 inst_type: 0 ener_type: 0
+tpsort, inst_id: 153 sta, window_id: 66 area_id: 137 cir: 3 inst_type: 0 ener_type: 0
+tpsort, inst_id: 155 sta, window_id: 66 area_id: 137 cir: 3 inst_type: 1 ener_type: 0
+inst_id: 0 sta: 1 33 0 install_cost: 50282731
+Max 2 cost: 50282731 61576705
+inst_id: 1 sta: 0 109 0 install_cost: 91635083
+Max 2 cost: 64593638 91635083
+inst_id: 2 sta: 1 33 0 install_cost: 93105689
+Max 2 cost: 67821647 93105689
+inst_id: 3 sta: 0 109 0 install_cost: 11870624
+Max 2 cost: 56104356 72880188
+inst_id: 4 sta: 1 33 0 install_cost: 82153336
+Max 2 cost: 92760446 97882599
+inst_id: 5 sta: 1 33 0 install_cost: 64789383
+Max 2 cost: 83043642 83324942
+inst_id: 6 sta: 2 172 0 install_cost: 54235746
+Max 2 cost: 73225391 85252578
+inst_id: 7 sta: 2 172 0 install_cost: 50908116
+Max 2 cost: 50690309 50908116
+inst_id: 8 sta: 2 151 0 install_cost: 90929008
+Max 2 cost: 87817247 90929008
+inst_id: 9 sta: 4 165 0 install_cost: 689811
+Max 2 cost: 69013540 95118249
+inst_id: 10 sta: 3 176 0 install_cost: 39412711
+Max 2 cost: 52463033 56215621
+inst_id: 11 sta: 2 151 0 install_cost: 72066983
+Max 2 cost: 80572764 84341686
+inst_id: 12 sta: 4 165 0 install_cost: 46382318
+Max 2 cost: 87833844 95026844
+inst_id: 13 sta: 0 109 0 install_cost: 58314229
+Max 2 cost: 61053451 96977678
+inst_id: 14 sta: 4 165 0 install_cost: 39378837
+Max 2 cost: 53939241 92682836
+inst_id: 15 sta: 6 2 0 install_cost: 67167409
+Max 2 cost: 67167409 74857058
+inst_id: 16 sta: 0 109 0 install_cost: 87607816
+Max 2 cost: 87607816 96401147
+inst_id: 17 sta: 7 145 0 install_cost: 94749591
+Max 2 cost: 71160382 94749591
+inst_id: 18 sta: 8 147 0 install_cost: 22456589
+Max 2 cost: 74329167 79717648
+inst_id: 19 sta: 2 172 0 install_cost: 41640605
+Max 2 cost: 41640605 49327611
+inst_id: 20 sta: 3 176 0 install_cost: 55247741
+Max 2 cost: 78906758 97324372
+inst_id: 21 sta: 8 69 0 install_cost: 73512765
+Max 2 cost: 27748378 73512765
+inst_id: 22 sta: 4 14 0 install_cost: 29189102
+Max 2 cost: 34717889 89621017
+inst_id: 23 sta: 3 176 0 install_cost: 2441472
+Max 2 cost: 54587423 63675818
+inst_id: 24 sta: 3 93 0 install_cost: 55480070
+Max 2 cost: 91372535 95093475
+inst_id: 25 sta: 8 147 0 install_cost: 43337576
+Max 2 cost: 85544245 93320359
+inst_id: 26 sta: 3 93 0 install_cost: 45630314
+Max 2 cost: 62335619 95018408
+inst_id: 27 sta: 3 176 0 install_cost: 46740229
+Max 2 cost: 46740229 50277909
+inst_id: 28 sta: 4 165 0 install_cost: 35922243
+Max 2 cost: 35922243 56412252
+inst_id: 29 sta: 4 165 0 install_cost: 56499535
+Max 2 cost: 82327057 87936697
+inst_id: 30 sta: 12 80 0 install_cost: 36634346
+Max 2 cost: 66244643 77223137
+inst_id: 31 sta: 1 33 0 install_cost: 93434533
+Max 2 cost: 85703608 93434533
+inst_id: 32 sta: 10 118 0 install_cost: 10862964
+Max 2 cost: 10862964 20873335
+inst_id: 33 sta: 8 69 0 install_cost: 74796895
+Max 2 cost: 57782040 74796895
+inst_id: 34 sta: 2 151 0 install_cost: 51402322
+Max 2 cost: 97343869 97375107
+inst_id: 35 sta: 3 176 0 install_cost: 83019853
+Max 2 cost: 61384199 83019853
+inst_id: 36 sta: 13 13 0 install_cost: 2800552
+Max 2 cost: 68735710 76908016
+inst_id: 37 sta: 2 151 0 install_cost: 54981108
+Max 2 cost: 52030205 54981108
+inst_id: 38 sta: 8 147 0 install_cost: 78041095
+Max 2 cost: 78041095 78628379
+inst_id: 39 sta: 1 33 0 install_cost: 76104745
+Max 2 cost: 50801523 76104745
+inst_id: 40 sta: 4 14 0 install_cost: 91348166
+Max 2 cost: 91348166 96582009
+inst_id: 41 sta: 9 74 0 install_cost: 52806880
+Max 2 cost: 94326046 98778761
+inst_id: 42 sta: 0 109 0 install_cost: 38494960
+Max 2 cost: 58871294 83937163
+inst_id: 43 sta: 4 165 0 install_cost: 93799551
+Max 2 cost: 83045280 93799551
+inst_id: 44 sta: 8 147 0 install_cost: 90262565
+Max 2 cost: 84984157 90262565
+inst_id: 45 sta: 6 2 0 install_cost: 58190745
+Max 2 cost: 71347323 73126989
+inst_id: 46 sta: 9 74 0 install_cost: 11219089
+Max 2 cost: 61394058 90293566
+inst_id: 47 sta: 4 165 0 install_cost: 71720230
+Max 2 cost: 36218124 71720230
+inst_id: 48 sta: 7 145 0 install_cost: 16736233
+Max 2 cost: 81480473 84987702
+inst_id: 49 sta: 11 89 0 install_cost: 32448153
+Max 2 cost: 85016400 97664783
+inst_id: 50 sta: 6 2 0 install_cost: 26745786
+Max 2 cost: 57508681 58500873
+inst_id: 51 sta: 8 69 0 install_cost: 69079467
+Max 2 cost: 69239457 77097135
+inst_id: 52 sta: 7 145 1 install_cost: 96442723
+Max 2 cost: 79954044 96442723
+inst_id: 53 sta: 8 147 1 install_cost: 5056447
+Max 2 cost: 49233866 51020153
+inst_id: 54 sta: 9 74 1 install_cost: 36787423
+Max 2 cost: 92718316 95057037
+inst_id: 55 sta: 12 86 1 install_cost: 86933004
+Max 2 cost: 86933004 90370028
+inst_id: 56 sta: 13 13 1 install_cost: 67668241
+Max 2 cost: 67668241 99431076
+inst_id: 57 sta: 7 145 2 install_cost: 2845256
+Max 2 cost: 74774159 95350671
+inst_id: 58 sta: 10 118 2 install_cost: 192381
+Max 2 cost: 57382647 60795701
+inst_id: 59 sta: 12 142 2 install_cost: 47856138
+Max 2 cost: 35844767 47856138
+inst_id: 60 sta: 7 145 3 install_cost: 11677224
+Max 2 cost: 63840020 71719916
+inst_id: 61 sta: 10 118 3 install_cost: 48621192
+Max 2 cost: 48621192 70506834
+inst_id: 62 sta: 12 86 3 install_cost: 12895478
+Max 2 cost: 41975700 53019489
+inst_id: 63 sta: 7 145 4 install_cost: 14325609
+Max 2 cost: 79994724 87678432
+inst_id: 64 sta: 8 69 4 install_cost: 45391033
+Max 2 cost: 49366813 84000208
+inst_id: 65 sta: 10 118 4 install_cost: 15313632
+Max 2 cost: 59902107 66767811
+inst_id: 66 sta: 11 13 4 install_cost: 38882659
+Max 2 cost: 38882659 66519044
+inst_id: 67 sta: 12 142 4 install_cost: 91447909
+Max 2 cost: 87430585 91447909
+inst_id: 68 sta: 7 145 5 install_cost: 57504417
+Max 2 cost: 73169996 78932142
+inst_id: 69 sta: 7 145 6 install_cost: 48592235
+Max 2 cost: 48592235 99438597
+inst_id: 70 sta: 10 118 6 install_cost: 95582003
+Max 2 cost: 48494032 95582003
+inst_id: 71 sta: 12 142 6 install_cost: 37980385
+Max 2 cost: 70474887 72306872
+inst_id: 72 sta: 13 13 6 install_cost: 70148048
+Max 2 cost: 67527096 70148048
+inst_id: 73 sta: 15 41 6 install_cost: 61810307
+Max 2 cost: 84598991 95648335
+inst_id: 74 sta: 16 30 6 install_cost: 91892569
+Max 2 cost: 62682040 91892569
+inst_id: 75 sta: 18 17 6 install_cost: 75262512
+Max 2 cost: 75262512 92457869
+inst_id: 76 sta: 7 145 7 install_cost: 59620123
+Max 2 cost: 60990049 89534837
+inst_id: 77 sta: 8 69 7 install_cost: 58679085
+Max 2 cost: 58679085 71945401
+inst_id: 78 sta: 7 145 8 install_cost: 38081780
+Max 2 cost: 49908644 89243523
+inst_id: 79 sta: 7 145 8 install_cost: 20812824
+Max 2 cost: 81549406 94476925
+inst_id: 80 sta: 8 69 8 install_cost: 21667336
+Max 2 cost: 55363583 94422084
+inst_id: 81 sta: 10 118 8 install_cost: 83708342
+Max 2 cost: 82281141 83708342
+inst_id: 82 sta: 12 86 8 install_cost: 39021349
+Max 2 cost: 63720447 82664899
+inst_id: 83 sta: 13 89 8 install_cost: 23849734
+Max 2 cost: 48005354 76377519
+inst_id: 84 sta: 20 80 0 install_cost: 45273525
+Max 2 cost: 45273525 69203736
+inst_id: 85 sta: 24 5 0 install_cost: 10165498
+Max 2 cost: 49587410 68948126
+inst_id: 86 sta: 30 12 0 install_cost: 70190219
+Max 2 cost: 70190219 98635154
+inst_id: 87 sta: 37 101 0 install_cost: 47457623
+Max 2 cost: 47457623 95144276
+inst_id: 88 sta: 37 101 1 install_cost: 74978234
+Max 2 cost: 74978234 81090097
+inst_id: 89 sta: 37 101 2 install_cost: 65239264
+Max 2 cost: 65239264 97774638
+inst_id: 90 sta: 38 132 0 install_cost: 87456305
+Max 2 cost: 39038665 87456305
+inst_id: 91 sta: 40 157 0 install_cost: 92934207
+Max 2 cost: 88999203 92934207
+inst_id: 92 sta: 44 161 0 install_cost: 17791648
+Max 2 cost: 26344624 58028002
+inst_id: 93 sta: 44 132 1 install_cost: 27821122
+Max 2 cost: 36378036 57445694
+inst_id: 94 sta: 44 161 2 install_cost: 21165369
+Max 2 cost: 50673418 55913700
+inst_id: 95 sta: 44 161 3 install_cost: 38145485
+Max 2 cost: 45304452 87230614
+inst_id: 96 sta: 44 161 4 install_cost: 4471375
+Max 2 cost: 62082165 84940137
+inst_id: 97 sta: 46 17 0 install_cost: 44743212
+Max 2 cost: 70921838 78688266
+inst_id: 98 sta: 54 20 0 install_cost: 98872676
+Max 2 cost: 69221588 98872676
+inst_id: 99 sta: 55 10 0 install_cost: 26374859
+Max 2 cost: 52694860 86440381
+inst_id: 100 sta: 55 118 1 install_cost: 96434024
+Max 2 cost: 70305868 96434024
+inst_id: 101 sta: 44 161 3 install_cost: 67787502
+Max 2 cost: 67787502 94139990
+inst_id: 102 sta: 1 33 0 install_cost: 19527459
+Max 2 cost: 56676845 59392873
+inst_id: 103 sta: 0 109 0 install_cost: 31075242
+Max 2 cost: 80018594 85546876
+inst_id: 104 sta: 1 33 0 install_cost: 71463230
+Max 2 cost: 71463230 81397326
+inst_id: 105 sta: 1 33 0 install_cost: 57991279
+Max 2 cost: 57991279 87672439
+inst_id: 106 sta: 44 161 3 install_cost: 26660696
+Max 2 cost: 70623849 92612896
+inst_id: 107 sta: 40 157 0 install_cost: 49306885
+Max 2 cost: 77099673 97316742
+inst_id: 108 sta: 44 132 4 install_cost: 7996822
+Max 2 cost: 90353687 98041215
+inst_id: 109 sta: 1 33 0 install_cost: 75330405
+Max 2 cost: 75330405 95925398
+inst_id: 110 sta: 54 20 0 install_cost: 1473993
+Max 2 cost: 72668944 73347564
+inst_id: 111 sta: 46 17 0 install_cost: 91256287
+Max 2 cost: 91256287 96702371
+inst_id: 112 sta: 47 56 0 install_cost: 38597829
+Max 2 cost: 40397553 52860182
+inst_id: 113 sta: 47 105 0 install_cost: 18770900
+Max 2 cost: 81411861 87167055
+inst_id: 114 sta: 65 90 0 install_cost: 9335323
+Max 2 cost: 73515010 83711110
+inst_id: 115 sta: 44 161 0 install_cost: 15460391
+Max 2 cost: 50760223 62908559
+inst_id: 116 sta: 54 20 1 install_cost: 29442378
+Max 2 cost: 36302968 89556469
+inst_id: 117 sta: 66 34 0 install_cost: 26868661
+Max 2 cost: 43640892 85535224
+inst_id: 118 sta: 54 20 1 install_cost: 3022203
+Max 2 cost: 67655314 82279477
+inst_id: 119 sta: 54 20 1 install_cost: 4553103
+Max 2 cost: 59596951 74056224
+inst_id: 120 sta: 54 20 1 install_cost: 14581118
+Max 2 cost: 31535255 78100697
+inst_id: 121 sta: 66 34 1 install_cost: 8872358
+Max 2 cost: 35359095 75001346
+inst_id: 122 sta: 44 132 2 install_cost: 55065715
+Max 2 cost: 55065715 96026227
+inst_id: 123 sta: 44 161 2 install_cost: 94180419
+Max 2 cost: 94180419 95387357
+inst_id: 124 sta: 2 151 0 install_cost: 92113878
+Max 2 cost: 61735632 92113878
+inst_id: 125 sta: 4 165 0 install_cost: 57561164
+Max 2 cost: 57561164 76004239
+inst_id: 126 sta: 46 17 0 install_cost: 53179285
+Max 2 cost: 77724666 92334338
+inst_id: 127 sta: 55 10 0 install_cost: 6639624
+Max 2 cost: 57168446 73357058
+inst_id: 128 sta: 66 137 0 install_cost: 14285668
+Max 2 cost: 48898013 58284071
+inst_id: 129 sta: 66 137 2 install_cost: 11568341
+Max 2 cost: 77503018 89012009
+inst_id: 130 sta: 55 10 0 install_cost: 86414359
+Max 2 cost: 86414359 94287272
+inst_id: 131 sta: 2 151 0 install_cost: 88571126
+Max 2 cost: 68336311 88571126
+inst_id: 132 sta: 44 132 4 install_cost: 94857201
+Max 2 cost: 79470971 94857201
+inst_id: 133 sta: 55 10 0 install_cost: 9547271
+Max 2 cost: 90689045 98362522
+inst_id: 134 sta: 55 10 1 install_cost: 41683608
+Max 2 cost: 62891539 83274756
+inst_id: 135 sta: 66 137 1 install_cost: 12908268
+Max 2 cost: 59315203 99270973
+inst_id: 136 sta: 47 105 0 install_cost: 22496897
+Max 2 cost: 67463093 85908958
+inst_id: 137 sta: 55 118 1 install_cost: 2924574
+Max 2 cost: 59766519 99387106
+inst_id: 138 sta: 54 20 2 install_cost: 32011440
+Max 2 cost: 91589753 99379587
+inst_id: 139 sta: 66 34 2 install_cost: 91640381
+Max 2 cost: 91640381 99847953
+inst_id: 140 sta: 44 161 4 install_cost: 1017939
+Max 2 cost: 76875305 86530337
+inst_id: 141 sta: 66 34 2 install_cost: 26272774
+Max 2 cost: 27811914 36172142
+inst_id: 142 sta: 66 137 2 install_cost: 21676578
+Max 2 cost: 59500230 80898320
+inst_id: 143 sta: 48 79 0 install_cost: 95851009
+Max 2 cost: 46175173 95851009
+inst_id: 144 sta: 55 10 2 install_cost: 63206584
+Max 2 cost: 84828407 96075014
+inst_id: 145 sta: 66 34 0 install_cost: 67967380
+Max 2 cost: 88889873 99439122
+inst_id: 146 sta: 48 79 0 install_cost: 6776799
+Max 2 cost: 80574856 83963532
+inst_id: 147 sta: 55 10 1 install_cost: 25910651
+Max 2 cost: 32686174 74328706
+inst_id: 148 sta: 66 34 3 install_cost: 16967963
+Max 2 cost: 36339163 65029301
+inst_id: 149 sta: 66 34 3 install_cost: 7209132
+Max 2 cost: 45029066 94058156
+inst_id: 150 sta: 66 137 3 install_cost: 94870276
+Max 2 cost: 93606135 94870276
+inst_id: 151 sta: 66 137 2 install_cost: 23372104
+Max 2 cost: 73782279 76902351
+inst_id: 152 sta: 54 20 1 install_cost: 88828999
+Max 2 cost: 62344506 88828999
+inst_id: 153 sta: 66 137 3 install_cost: 62327266
+Max 2 cost: 88618245 92274718
+inst_id: 154 sta: 66 137 2 install_cost: 48535369
+Max 2 cost: 64988871 77550954
+inst_id: 155 sta: 66 137 3 install_cost: 81541984
+Max 2 cost: 75288728 81541984
+inst_id: 156 sta: 55 10 2 install_cost: 6050444
+Max 2 cost: 53511138 55263101
+inst_id: 157 sta: 60 12 0 install_cost: 36022708
+Max 2 cost: 59841040 89673938
+inst_id: 158 sta: 66 34 1 install_cost: 79342329
+Max 2 cost: 79342329 97051764
+inst_id: 159 sta: 44 161 4 install_cost: 71337974
+Max 2 cost: 71337974 97477409
+inst_id: 160 sta: 2 151 0 install_cost: 59304714
+Max 2 cost: 87646302 95526846
+inst_id: 161 sta: 1 33 0 install_cost: 72305644
+Max 2 cost: 73202591 77360935
+inst_id: 162 sta: 1 33 0 install_cost: 62370964
+Max 2 cost: 80364198 82383190
+inst_id: 163 sta: 4 165 0 install_cost: 64960557
+Max 2 cost: 64960557 80085402
+inst_id: 164 sta: 2 151 0 install_cost: 26120097
+Max 2 cost: 54418328 61399095
+inst_id: 165 sta: 1 33 0 install_cost: 23258066
+Max 2 cost: 75641194 87820859
+inst_id: 166 sta: 1 33 0 install_cost: 4146491
+Max 2 cost: 41141461 84095452
+inst_id: 167 sta: 2 151 0 install_cost: 15971291
+Max 2 cost: 49506962 83169013
+inst_id: 168 sta: 2 172 0 install_cost: 96169009
+Max 2 cost: 67523322 96169009
+inst_id: 169 sta: 0 109 0 install_cost: 56260336
+Max 2 cost: 56260336 94027429
+inst_id: 170 sta: 2 151 0 install_cost: 33079593
+Max 2 cost: 65197401 90722641
+inst_id: 171 sta: 3 93 0 install_cost: 41459318
+Max 2 cost: 62020460 79779860
+inst_id: 172 sta: 3 176 0 install_cost: 83733255
+Max 2 cost: 83733255 85504852
+inst_id: 173 sta: 6 2 0 install_cost: 51740781
+Max 2 cost: 51740781 57100708
+inst_id: 174 sta: 3 93 0 install_cost: 32795117
+Max 2 cost: 67222111 86792071
+inst_id: 175 sta: 4 14 0 install_cost: 17906675
+Max 2 cost: 37386090 91844122
+inst_id: 176 sta: 4 165 0 install_cost: 91208950
+Max 2 cost: 34186360 91208950
+inst_id: 177 sta: 7 145 0 install_cost: 20411904
+Max 2 cost: 49169057 61953619
+inst_id: 178 sta: 3 93 0 install_cost: 5751074
+Max 2 cost: 33655533 96973993
+inst_id: 179 sta: 1 33 0 install_cost: 38295917
+Max 2 cost: 60938691 95592168
+inst_id: 180 sta: 1 33 0 install_cost: 23573324
+Max 2 cost: 23573324 83701803
+inst_id: 181 sta: 8 147 0 install_cost: 28362344
+Max 2 cost: 66224042 90292336
+inst_id: 182 sta: 1 33 0 install_cost: 68009873
+Max 2 cost: 69467712 78907753
+inst_id: 183 sta: 7 145 0 install_cost: 39412891
+Max 2 cost: 51092515 58349601
+inst_id: 184 sta: 8 147 0 install_cost: 56054126
+Max 2 cost: 63407649 98882551
+inst_id: 185 sta: 8 147 0 install_cost: 51074308
+Max 2 cost: 67459634 75968090
+inst_id: 186 sta: 4 14 0 install_cost: 74441949
+Max 2 cost: 71492845 74441949
+inst_id: 187 sta: 0 109 0 install_cost: 73620755
+Max 2 cost: 73620755 91037068
+inst_id: 188 sta: 7 145 0 install_cost: 32474825
+Max 2 cost: 70724918 72759804
+inst_id: 189 sta: 0 109 0 install_cost: 94549551
+Max 2 cost: 77825965 94549551
+inst_id: 190 sta: 4 165 0 install_cost: 46395429
+Max 2 cost: 46395429 63933055
+inst_id: 191 sta: 2 151 0 install_cost: 86358756
+Max 2 cost: 86358756 97994529
+inst_id: 192 sta: 8 147 0 install_cost: 82161048
+Max 2 cost: 70875627 82161048
+inst_id: 193 sta: 7 145 0 install_cost: 67936027
+Max 2 cost: 67936027 74425562
+inst_id: 194 sta: 2 151 0 install_cost: 38295785
+Max 2 cost: 38295785 88205080
+inst_id: 195 sta: 7 145 0 install_cost: 40990224
+Max 2 cost: 56332021 80315453
+inst_id: 196 sta: 12 80 0 install_cost: 23738303
+Max 2 cost: 35349227 58642829
+inst_id: 197 sta: 8 69 0 install_cost: 84168801
+Max 2 cost: 84168801 86828824
+inst_id: 198 sta: 8 69 0 install_cost: 9246020
+Max 2 cost: 64388675 81611168
+inst_id: 199 sta: 8 147 0 install_cost: 83800814
+Max 2 cost: 83800814 98900175
+inst_id: 200 sta: 9 74 0 install_cost: 53779941
+Max 2 cost: 57169007 61782609
+inst_id: 201 sta: 4 165 0 install_cost: 57363157
+Max 2 cost: 58026524 83591229
+inst_id: 202 sta: 10 118 0 install_cost: 41839350
+Max 2 cost: 98568094 98683883
+inst_id: 203 sta: 10 118 0 install_cost: 80923356
+Max 2 cost: 85164696 93408252
+inst_id: 204 sta: 10 118 0 install_cost: 61872631
+Max 2 cost: 61100811 61872631
+inst_id: 205 sta: 10 118 0 install_cost: 48267983
+Max 2 cost: 51033876 84939978
+inst_id: 206 sta: 10 118 0 install_cost: 54971867
+Max 2 cost: 54971867 59603388
+inst_id: 207 sta: 12 80 0 install_cost: 81815286
+Max 2 cost: 78795390 81815286
+inst_id: 208 sta: 0 109 0 install_cost: 60569050
+Max 2 cost: 65249485 97986404
+inst_id: 209 sta: 1 33 0 install_cost: 79970055
+Max 2 cost: 70927049 79970055
+inst_id: 210 sta: 8 69 0 install_cost: 87655740
+Max 2 cost: 90676853 97383235
+inst_id: 211 sta: 1 33 0 install_cost: 3423335
+Max 2 cost: 82092187 89224711
+inst_id: 212 sta: 10 10 0 install_cost: 67377442
+Max 2 cost: 67377442 94012035
+inst_id: 213 sta: 12 80 0 install_cost: 98253404
+Max 2 cost: 89051105 98253404
+inst_id: 214 sta: 14 117 0 install_cost: 17588037
+Max 2 cost: 88595037 92150967
+inst_id: 215 sta: 11 89 0 install_cost: 74313040
+Max 2 cost: 74313040 83612607
+inst_id: 216 sta: 8 147 0 install_cost: 47397449
+Max 2 cost: 51698121 91780637
+inst_id: 217 sta: 11 89 0 install_cost: 5938282
+Max 2 cost: 49437933 72131790
+inst_id: 218 sta: 8 147 0 install_cost: 43812370
+Max 2 cost: 28269958 43812370
+inst_id: 219 sta: 10 118 0 install_cost: 82246398
+Max 2 cost: 20356288 82246398
+inst_id: 220 sta: 11 89 0 install_cost: 30305077
+Max 2 cost: 79530808 90296185
+inst_id: 221 sta: 14 117 0 install_cost: 40341872
+Max 2 cost: 48733837 52019233
+inst_id: 222 sta: 13 89 0 install_cost: 12945809
+Max 2 cost: 87569288 95967213
+inst_id: 223 sta: 15 33 0 install_cost: 69682597
+Max 2 cost: 69682597 82242451
+inst_id: 224 sta: 15 33 0 install_cost: 62694319
+Max 2 cost: 62694319 89425540
+inst_id: 225 sta: 16 30 0 install_cost: 40425716
+Max 2 cost: 47215197 86167461
+inst_id: 226 sta: 12 80 0 install_cost: 46326152
+Max 2 cost: 87383822 97017556
+inst_id: 227 sta: 11 89 0 install_cost: 31192224
+Max 2 cost: 55703969 71673041
+inst_id: 228 sta: 17 132 0 install_cost: 24734795
+Max 2 cost: 76904661 82020201
+inst_id: 229 sta: 11 13 0 install_cost: 82920675
+Max 2 cost: 82920675 95532185
+inst_id: 230 sta: 18 17 0 install_cost: 26930579
+Max 2 cost: 50685447 63501110
+inst_id: 231 sta: 11 89 0 install_cost: 84191558
+Max 2 cost: 84191558 91664054
+inst_id: 232 sta: 17 161 0 install_cost: 48395055
+Max 2 cost: 48395055 79981796
+inst_id: 233 sta: 14 117 0 install_cost: 77322602
+Max 2 cost: 84545324 84699893
+inst_id: 234 sta: 12 86 0 install_cost: 6476469
+Max 2 cost: 71077338 81624648
+inst_id: 235 sta: 17 161 0 install_cost: 45133603
+Max 2 cost: 76091812 89764081
+inst_id: 236 sta: 2 151 0 install_cost: 95454973
+Max 2 cost: 73994514 95454973
+inst_id: 237 sta: 15 41 0 install_cost: 69215244
+Max 2 cost: 77603591 88192261
+inst_id: 238 sta: 4 165 0 install_cost: 26608467
+Max 2 cost: 79846814 83913679
+inst_id: 239 sta: 13 13 0 install_cost: 11584300
+Max 2 cost: 92988182 99322674
+inst_id: 240 sta: 2 151 0 install_cost: 47446101
+Max 2 cost: 47446101 67942561
+inst_id: 241 sta: 1 33 0 install_cost: 68191657
+Max 2 cost: 52138898 68191657
+inst_id: 242 sta: 1 33 0 install_cost: 87844044
+Max 2 cost: 79296391 87844044
+inst_id: 243 sta: 2 151 0 install_cost: 30192956
+Max 2 cost: 77581968 87135393
+inst_id: 244 sta: 2 151 0 install_cost: 43119520
+Max 2 cost: 51598155 99787764
+inst_id: 245 sta: 1 33 0 install_cost: 65369104
+Max 2 cost: 65369104 71865658
+inst_id: 246 sta: 3 176 0 install_cost: 90596993
+Max 2 cost: 90596993 92274476
+inst_id: 247 sta: 1 33 0 install_cost: 25779081
+Max 2 cost: 82028841 89860302
+inst_id: 248 sta: 4 165 0 install_cost: 76579122
+Max 2 cost: 55756641 76579122
+inst_id: 249 sta: 0 109 0 install_cost: 40094293
+Max 2 cost: 57101085 88133904
+inst_id: 250 sta: 2 151 0 install_cost: 38196063
+Max 2 cost: 38196063 96254622
+inst_id: 251 sta: 1 33 0 install_cost: 18479439
+Max 2 cost: 59747536 73752459
+inst_id: 252 sta: 6 2 0 install_cost: 74078551
+Max 2 cost: 74078551 91517176
+inst_id: 253 sta: 2 151 0 install_cost: 26245215
+Max 2 cost: 31785255 95748414
+inst_id: 254 sta: 3 176 0 install_cost: 51828012
+Max 2 cost: 76236659 86461587
+inst_id: 255 sta: 0 109 0 install_cost: 51546495
+Max 2 cost: 64292860 79273498
+inst_id: 256 sta: 3 93 0 install_cost: 60191905
+Max 2 cost: 81107465 93398819
+inst_id: 257 sta: 4 165 0 install_cost: 94772800
+Max 2 cost: 93696041 94772800
+inst_id: 258 sta: 7 145 0 install_cost: 97092250
+Max 2 cost: 61986801 97092250
+inst_id: 259 sta: 2 151 0 install_cost: 62188631
+Max 2 cost: 66041651 77820527
+inst_id: 260 sta: 8 147 0 install_cost: 84122258
+Max 2 cost: 84122258 92513415
+inst_id: 261 sta: 4 165 0 install_cost: 39615278
+Max 2 cost: 73635307 97213369
+inst_id: 262 sta: 3 176 0 install_cost: 63392238
+Max 2 cost: 63671715 67360675
+inst_id: 263 sta: 3 93 0 install_cost: 90718497
+Max 2 cost: 86555556 90718497
+inst_id: 264 sta: 8 69 0 install_cost: 35111378
+Max 2 cost: 94510207 95470525
+inst_id: 265 sta: 8 147 0 install_cost: 38679583
+Max 2 cost: 49913795 49933849
+inst_id: 266 sta: 7 145 0 install_cost: 33212397
+Max 2 cost: 40488848 67010683
+inst_id: 267 sta: 0 109 0 install_cost: 4281698
+Max 2 cost: 63526385 71630604
+inst_id: 268 sta: 12 80 0 install_cost: 20473139
+Max 2 cost: 70762529 90997708
+inst_id: 269 sta: 0 109 0 install_cost: 54657619
+Max 2 cost: 54657619 72986698
+inst_id: 270 sta: 13 13 0 install_cost: 38676972
+Max 2 cost: 89225835 96106985
+inst_id: 271 sta: 4 14 0 install_cost: 7860791
+Max 2 cost: 63206434 81734598
+inst_id: 272 sta: 4 165 0 install_cost: 99306974
+Max 2 cost: 48646164 99306974
+inst_id: 273 sta: 4 165 0 install_cost: 93775534
+Max 2 cost: 82146097 93775534
+inst_id: 274 sta: 2 151 0 install_cost: 91535550
+Max 2 cost: 87703058 91535550
+inst_id: 275 sta: 14 117 0 install_cost: 92207455
+Max 2 cost: 83967419 92207455
+inst_id: 276 sta: 1 33 0 install_cost: 63291168
+Max 2 cost: 85371093 90281133
+inst_id: 277 sta: 8 69 0 install_cost: 43459316
+Max 2 cost: 79875620 88646523
+inst_id: 278 sta: 7 145 0 install_cost: 56812129
+Max 2 cost: 82449896 98837387
+inst_id: 279 sta: 12 80 0 install_cost: 70075931
+Max 2 cost: 62343574 70075931
+inst_id: 280 sta: 15 33 0 install_cost: 29665787
+Max 2 cost: 73155002 82709889
+inst_id: 281 sta: 1 41 0 install_cost: 18336527
+Max 2 cost: 59787770 66735304
+inst_id: 282 sta: 10 118 0 install_cost: 32427094
+Max 2 cost: 32427094 81286415
+inst_id: 283 sta: 15 41 0 install_cost: 99033103
+Max 2 cost: 86911863 99033103
+inst_id: 284 sta: 9 74 0 install_cost: 8412787
+Max 2 cost: 65528316 99267445
+inst_id: 285 sta: 3 93 0 install_cost: 37569669
+Max 2 cost: 44887347 46554096
+inst_id: 286 sta: 4 165 0 install_cost: 22647806
+Max 2 cost: 57786410 68809766
+inst_id: 287 sta: 17 161 0 install_cost: 61039516
+Max 2 cost: 34727043 61039516
+inst_id: 288 sta: 8 147 0 install_cost: 76507430
+Max 2 cost: 37223184 76507430
+inst_id: 289 sta: 14 117 0 install_cost: 80979300
+Max 2 cost: 85066002 98990983
+inst_id: 290 sta: 10 118 0 install_cost: 90568591
+Max 2 cost: 34866332 90568591
+inst_id: 291 sta: 17 161 0 install_cost: 99478766
+Max 2 cost: 99478766 99642647
+inst_id: 292 sta: 18 17 0 install_cost: 23219694
+Max 2 cost: 23219694 24544805
+inst_id: 293 sta: 15 41 0 install_cost: 96773063
+Max 2 cost: 74434999 96773063
+inst_id: 294 sta: 16 30 0 install_cost: 42652169
+Max 2 cost: 44804091 69345837
+inst_id: 295 sta: 17 132 0 install_cost: 8377450
+Max 2 cost: 48090906 90654190
+inst_id: 296 sta: 17 132 0 install_cost: 21634576
+Max 2 cost: 76565217 81662391
+inst_id: 297 sta: 13 89 0 install_cost: 33511751
+Max 2 cost: 55983764 82079146
+inst_id: 298 sta: 17 132 0 install_cost: 99034094
+Max 2 cost: 70491844 99034094
+inst_id: 299 sta: 17 161 0 install_cost: 82657851
+Max 2 cost: 77621431 82657851
+window_id: 0 one_time: 0 enter_k: 0 cost_k: 24057 sum_time: 0
+window_id: 1 one_time: 0 enter_k: 0 cost_k: 3057 sum_time: 0
+window_id: 2 one_time: 0 enter_k: 0 cost_k: 27687 sum_time: 0
+window_id: 3 one_time: 0 enter_k: 0 cost_k: 15212 sum_time: 0
+window_id: 4 one_time: 0 enter_k: 0 cost_k: 27597 sum_time: 0
+window_id: 5 one_time: 0 enter_k: 0 cost_k: 5124 sum_time: 0
+window_id: 6 one_time: 25 enter_k: 1 cost_k: 16010 sum_time: 25
+window_id: 7 one_time: 78 enter_k: 8 cost_k: 9768 sum_time: 624
+window_id: 8 one_time: 93 enter_k: 4 cost_k: 3274 sum_time: 372
+window_id: 9 one_time: 25 enter_k: 1 cost_k: 20407 sum_time: 25
+window_id: 10 one_time: 5 enter_k: 5 cost_k: 8584 sum_time: 25
+window_id: 11 one_time: 0 enter_k: 0 cost_k: 1914 sum_time: 0
+window_id: 12 one_time: 93 enter_k: 6 cost_k: 9527 sum_time: 558
+window_id: 13 one_time: 25 enter_k: 3 cost_k: 8493 sum_time: 75
+window_id: 14 one_time: 0 enter_k: 0 cost_k: 15887 sum_time: 0
+window_id: 15 one_time: 5 enter_k: 1 cost_k: 20982 sum_time: 5
+window_id: 16 one_time: 5 enter_k: 1 cost_k: 22036 sum_time: 5
+window_id: 17 one_time: 0 enter_k: 0 cost_k: 29376 sum_time: 0
+window_id: 18 one_time: 25 enter_k: 1 cost_k: 15236 sum_time: 25
+window_id: 19 one_time: 0 enter_k: 0 cost_k: 9431 sum_time: 0
+window_id: 20 one_time: 78 enter_k: 1 cost_k: 18834 sum_time: 78
+window_id: 21 one_time: 0 enter_k: 0 cost_k: 10364 sum_time: 0
+window_id: 22 one_time: 0 enter_k: 0 cost_k: 32703 sum_time: 0
+window_id: 23 one_time: 0 enter_k: 0 cost_k: 3310 sum_time: 0
+window_id: 24 one_time: 93 enter_k: 1 cost_k: 6179 sum_time: 93
+window_id: 25 one_time: 0 enter_k: 0 cost_k: 19143 sum_time: 0
+window_id: 26 one_time: 0 enter_k: 0 cost_k: 1842 sum_time: 0
+window_id: 27 one_time: 0 enter_k: 0 cost_k: 3488 sum_time: 0
+window_id: 28 one_time: 0 enter_k: 0 cost_k: 28730 sum_time: 0
+window_id: 29 one_time: 0 enter_k: 0 cost_k: 31515 sum_time: 0
+window_id: 30 one_time: 25 enter_k: 1 cost_k: 5782 sum_time: 25
+window_id: 31 one_time: 0 enter_k: 0 cost_k: 6452 sum_time: 0
+window_id: 32 one_time: 0 enter_k: 0 cost_k: 19478 sum_time: 0
+window_id: 33 one_time: 0 enter_k: 0 cost_k: 24520 sum_time: 0
+window_id: 34 one_time: 0 enter_k: 0 cost_k: 2216 sum_time: 0
+window_id: 35 one_time: 0 enter_k: 0 cost_k: 16741 sum_time: 0
+window_id: 36 one_time: 0 enter_k: 0 cost_k: 5963 sum_time: 0
+window_id: 37 one_time: 25 enter_k: 3 cost_k: 14164 sum_time: 75
+window_id: 38 one_time: 25 enter_k: 1 cost_k: 1077 sum_time: 25
+window_id: 39 one_time: 0 enter_k: 0 cost_k: 7396 sum_time: 0
+window_id: 40 one_time: 25 enter_k: 2 cost_k: 14403 sum_time: 50
+window_id: 41 one_time: 0 enter_k: 0 cost_k: 26104 sum_time: 0
+window_id: 42 one_time: 0 enter_k: 0 cost_k: 28064 sum_time: 0
+window_id: 43 one_time: 0 enter_k: 0 cost_k: 31955 sum_time: 0
+window_id: 44 one_time: 25 enter_k: 6 cost_k: 27065 sum_time: 150
+window_id: 45 one_time: 0 enter_k: 0 cost_k: 21282 sum_time: 0
+window_id: 46 one_time: 25 enter_k: 3 cost_k: 10335 sum_time: 75
+window_id: 47 one_time: 0 enter_k: 0 cost_k: 29258 sum_time: 0
+window_id: 48 one_time: 0 enter_k: 0 cost_k: 25661 sum_time: 0
+window_id: 49 one_time: 0 enter_k: 0 cost_k: 5875 sum_time: 0
+window_id: 50 one_time: 0 enter_k: 0 cost_k: 10365 sum_time: 0
+window_id: 51 one_time: 0 enter_k: 0 cost_k: 9172 sum_time: 0
+window_id: 52 one_time: 0 enter_k: 0 cost_k: 22453 sum_time: 0
+window_id: 53 one_time: 0 enter_k: 0 cost_k: 30656 sum_time: 0
+window_id: 54 one_time: 25 enter_k: 4 cost_k: 21527 sum_time: 100
+window_id: 55 one_time: 25 enter_k: 1 cost_k: 29425 sum_time: 25
+window_id: 56 one_time: 0 enter_k: 0 cost_k: 13528 sum_time: 0
+window_id: 57 one_time: 0 enter_k: 0 cost_k: 14227 sum_time: 0
+window_id: 58 one_time: 0 enter_k: 0 cost_k: 13536 sum_time: 0
+window_id: 59 one_time: 0 enter_k: 0 cost_k: 29075 sum_time: 0
+window_id: 60 one_time: 0 enter_k: 0 cost_k: 18100 sum_time: 0
+window_id: 61 one_time: 0 enter_k: 0 cost_k: 12713 sum_time: 0
+window_id: 62 one_time: 0 enter_k: 0 cost_k: 31135 sum_time: 0
+window_id: 63 one_time: 0 enter_k: 0 cost_k: 10147 sum_time: 0
+window_id: 64 one_time: 0 enter_k: 0 cost_k: 7207 sum_time: 0
+window_id: 65 one_time: 5 enter_k: 1 cost_k: 18419 sum_time: 5
+window_id: 66 one_time: 25 enter_k: 3 cost_k: 18350 sum_time: 75
+window_id: 67 one_time: 0 enter_k: 0 cost_k: 10364 sum_time: 0
+window_id: 68 one_time: 0 enter_k: 0 cost_k: 16743 sum_time: 0
+window_id: 69 one_time: 0 enter_k: 0 cost_k: 8344 sum_time: 0
+window_id: 70 one_time: 0 enter_k: 0 cost_k: 23676 sum_time: 0
+window_id: 71 one_time: 0 enter_k: 0 cost_k: 30828 sum_time: 0
+window_id: 72 one_time: 0 enter_k: 0 cost_k: 18812 sum_time: 0
+window_id: 73 one_time: 0 enter_k: 0 cost_k: 13167 sum_time: 0
+window_id: 74 one_time: 0 enter_k: 0 cost_k: 32522 sum_time: 0
+window_id: 75 one_time: 0 enter_k: 0 cost_k: 16952 sum_time: 0
+window_id: 76 one_time: 0 enter_k: 0 cost_k: 10179 sum_time: 0
+window_id: 77 one_time: 0 enter_k: 0 cost_k: 10120 sum_time: 0
+window_id: 78 one_time: 0 enter_k: 0 cost_k: 16751 sum_time: 0
+window_id: 79 one_time: 0 enter_k: 0 cost_k: 23703 sum_time: 0
+window_id: 80 one_time: 0 enter_k: 0 cost_k: 22891 sum_time: 0
+window_id: 81 one_time: 0 enter_k: 0 cost_k: 162 sum_time: 0
+window_id: 82 one_time: 0 enter_k: 0 cost_k: 4694 sum_time: 0
+window_id: 83 one_time: 0 enter_k: 0 cost_k: 8116 sum_time: 0
+window_id: 84 one_time: 0 enter_k: 0 cost_k: 24314 sum_time: 0
+window_id: 85 one_time: 0 enter_k: 0 cost_k: 7347 sum_time: 0
+window_id: 86 one_time: 0 enter_k: 0 cost_k: 7804 sum_time: 0
+window_id: 87 one_time: 0 enter_k: 0 cost_k: 2734 sum_time: 0
+window_id: 88 one_time: 0 enter_k: 0 cost_k: 1479 sum_time: 0
+window_id: 89 one_time: 0 enter_k: 0 cost_k: 358 sum_time: 0
+window_id: 90 one_time: 0 enter_k: 0 cost_k: 565 sum_time: 0
+window_id: 91 one_time: 0 enter_k: 0 cost_k: 14618 sum_time: 0
+window_id: 92 one_time: 0 enter_k: 0 cost_k: 382 sum_time: 0
+window_id: 93 one_time: 0 enter_k: 0 cost_k: 31126 sum_time: 0
+window_id: 94 one_time: 0 enter_k: 0 cost_k: 19174 sum_time: 0
+window_id: 95 one_time: 0 enter_k: 0 cost_k: 10366 sum_time: 0
+window_id: 96 one_time: 0 enter_k: 0 cost_k: 21922 sum_time: 0
+window_id: 97 one_time: 0 enter_k: 0 cost_k: 726 sum_time: 0
+window_id: 98 one_time: 0 enter_k: 0 cost_k: 18570 sum_time: 0
+window_id: 99 one_time: 0 enter_k: 0 cost_k: 19925 sum_time: 0
