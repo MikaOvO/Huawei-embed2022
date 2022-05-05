@@ -29,6 +29,7 @@ const int MAXAREA = MAXSHOP * 5 + 1;
 const int MAXINSTTYPE = 3 + 1;
 const int MAXCIR = 10 + 1;
 const int MAXSTATE = (MAXWIND + 1) * (MAXCIR + 1) + 1;
+
 const ll INF = 1e18;
 const int iINF = 1e9;
 
@@ -57,17 +58,23 @@ int inst_type_n = 3;
 int sta_n;
 
 vector<int> inst_type_to_ener_type[MAXINSTTYPE];
+int can_inst_ener[MAXINSTTYPE][MAXENERGY];
 
 int heart_edge_n;
 int heart_edge_ids[MAXEDGE];
+int heart_inst_n;
+int heart_inst_ids[MAXINST];
 
 ll best_answer = INF;
 
 int tp_sort_ids[MAXINST];
 
 // 处于某个状态下，下一个得到某个能量类型的状态是谁
-int next_ener_type[MAXSTATE][MAXENERGY];
-int heart_next_ener_type[MAXINSTTYPE][MAXSTATE][MAXENERGY];
+int next_ener_type[2][MAXINSTTYPE][MAXSTATE][MAXENERGY];
+int next_inst_type[2][MAXINSTTYPE][MAXSTATE];
+// 是否核心，处于某个状态下，上一个得到某个能量类型的状态是谁
+int last_ener_type[2][MAXINSTTYPE][MAXSTATE][MAXENERGY];
+int last_inst_type[2][MAXINSTTYPE][MAXSTATE];
 
 struct Inst;
 struct Window;
@@ -81,7 +88,8 @@ void ReadIn();
 void Output();
 bool Check(int inst_id, State &sta);
 void InstallInst(int inst_id, State &sta, int update=1);
-
+void CalcL(int inst_id, int ignore_heart, int use_sta_id);
+void CalcR(int inst_id, int ignore_heart, int use_sta_id);
 
 struct Shop {
     vector<int> area_ids;
@@ -184,6 +192,20 @@ struct State {
     }
 } sta[MAXSTATE];
 
+struct Edge {
+    int fr_inst_id;
+    int to_inst_id;
+    int edge_type;
+    int is_heart;
+    Edge() {
+        fr_inst_id = 0;
+        to_inst_id = 0;
+        edge_type = 0;
+        is_heart = 0;
+    }
+} edge[MAXEDGE];
+
+
 struct Inst {
     int inst_type;
     ll ener_cost[MAXENERGY];
@@ -194,8 +216,8 @@ struct Inst {
     int sta_id;
 
     State sta;
-    State l_sta; // 拓扑排序中可选状态[l_sta, r_sta]
-    State r_sta;
+    int l_sta_id;
+    int r_sta_id;
     State best_sta;
 
     int is_heart; // 核心点
@@ -226,42 +248,14 @@ struct Area {
     }
 } area[MAXAREA];
 
-struct Edge {
-    int fr_inst_id;
-    int to_inst_id;
-    int edge_type;
-    int is_heart;
-    Edge() {
-        fr_inst_id = 0;
-        to_inst_id = 0;
-        edge_type = 0;
-        is_heart = 0;
-    }
-} edge[MAXEDGE];
-
 struct Graph {
-    Edge edge[MAXEDGE];
-    vector<int> vec[MAXINST];
     int in[MAXINST];
     int min_sta_id[MAXINST];
     priority_queue<P> que;
     Graph() {
     }
-    void Swap() {
-        for (int i = 0; i < edge_n; ++i) {
-            swap(this->edge[i].fr_inst_id, this->edge[i].to_inst_id);
-        }
-    }
     void Init() {
-        for (int i = 0; i < edge_n; ++i) {
-            this->edge[i] = ::edge[i];
-        }
-        for (int i = 0; i < inst_n; ++i) {
-            vec[i].clear();
-        }
-        for (int i = 0; i < edge_n; ++i) {
-            vec[this->edge[i].fr_inst_id].emplace_back(i);
-        }
+        
     }
     void CheckInit() {
         for (int i = 0; i < inst_n; ++i) {
@@ -273,7 +267,7 @@ struct Graph {
             in[i] = 0;
         }
         for (int i = 0; i < edge_n; ++i) {
-            ++in[this->edge[i].to_inst_id];
+            ++in[edge[i].to_inst_id];
         }
     }
     // 计算id
@@ -287,11 +281,8 @@ struct Graph {
         }
         int u;
         State tmp;
-        int fd = 0;
         int area_id;
         int index = 0;
-        int cur_sta_id;
-        int fd_ener;
         while (que.size()) {
             u = que.top().second; 
             if (cal_index == 1) {
@@ -299,57 +290,90 @@ struct Graph {
                 ++index;
             }
             que.pop();
-            for (auto &e_id : vec[u]) {
-                Edge &e = this->edge[e_id];
-
+            for (auto &e_id : inst[u].vec) {
+                Edge &e = edge[e_id];
                 --in[e.to_inst_id];
                 if (in[e.to_inst_id] == 0) {
                     que.push(P(inst[e.to_inst_id].is_heart, e.to_inst_id));
                 }
             }
-            if (debug_file != nullptr) {
-                (*debug_file) << "tpsort, inst_id: " << u
-                              << " cur_sta_id: " << cur_sta_id
-                              << endl;
-            }
         }
         return true;
     }
-    bool Check(int index) {
-        CheckInit();
-        State tmp;
-        int cur_sta_id;
-        int u;
-        for (int i = index; i < inst_n; ++i) {
-            u = tp_sort_ids[i]; 
-            for (auto &e_id : inst[u].r_vec) {
-                Edge &e = ::edge[e_id];
-                if (e.edge_type == 0) min_sta_id[u] = max(min_sta_id[e.fr_inst_id] + 1, min_sta_id[u]);
-                else min_sta_id[u] = max(min_sta_id[e.fr_inst_id], min_sta_id[u]);
-            }
-            if (min_sta_id[u] >= sta_n) {
-                return false;
-            }
-            cur_sta_id = iINF;
-            if (inst[u].is_heart == 0) {
-                for (auto &j : inst_type_to_ener_type[inst[u].inst_type]) {
-                    if (cur_sta_id > next_ener_type[min_sta_id[u]][j]) {
-                        cur_sta_id = next_ener_type[min_sta_id[u]][j];
-                    }
-                }
-            } else {
-                for (auto &j : inst_type_to_ener_type[inst[u].inst_type]) {
-                    if (cur_sta_id > heart_next_ener_type[inst[u].inst_type][min_sta_id[u]][j]) {
-                        cur_sta_id = heart_next_ener_type[inst[u].inst_type][min_sta_id[u]][j];
-                    }
-                }
-            }
-            if (cur_sta_id >= sta_n) return false;
-            min_sta_id[u] = cur_sta_id;
+    // bool Check(int index) {
+    //     CheckInit();
+    //     State tmp;
+    //     int cur_sta_id;
+    //     int u;
+    //     for (int i = index; i < inst_n; ++i) {
+    //         u = tp_sort_ids[i]; 
+    //         for (auto &e_id : inst[u].r_vec) {
+    //             Edge &e = ::edge[e_id];
+    //             if (e.edge_type == 0) min_sta_id[u] = max(min_sta_id[e.fr_inst_id] + 1, min_sta_id[u]);
+    //             else min_sta_id[u] = max(min_sta_id[e.fr_inst_id], min_sta_id[u]);
+    //         }
+    //         if (min_sta_id[u] >= sta_n) {
+    //             return false;
+    //         }
+    //         cur_sta_id = iINF;
+    //         if (inst[u].is_heart == 0) {
+    //             for (auto &j : inst_type_to_ener_type[inst[u].inst_type]) {
+    //                 if (cur_sta_id > next_ener_type[min_sta_id[u]][j]) {
+    //                     cur_sta_id = next_ener_type[min_sta_id[u]][j];
+    //                 }
+    //             }
+    //         } else {
+    //             for (auto &j : inst_type_to_ener_type[inst[u].inst_type]) {
+    //                 if (cur_sta_id > heart_next_ener_type[inst[u].inst_type][min_sta_id[u]][j]) {
+    //                     cur_sta_id = heart_next_ener_type[inst[u].inst_type][min_sta_id[u]][j];
+    //                 }
+    //             }
+    //         }
+    //         if (cur_sta_id >= sta_n) return false;
+    //         min_sta_id[u] = cur_sta_id;
+    //     }
+    //     return true;
+    // }
+} g;
+
+void CalcL(int inst_id, int ignore_heart, int use_sta_id) {
+    inst[inst_id].l_sta_id = 0;
+    for (auto &eid : inst[inst_id].r_vec) {
+        if (ignore_heart == 1 && edge[eid].is_heart == 1) continue;
+        if (use_sta_id == 1) {
+            if (edge[eid].edge_type == 0)
+                inst[inst_id].l_sta_id = max(inst[inst_id].l_sta_id, inst[edge[eid].fr_inst_id].sta_id + 1);
+            if (edge[eid].edge_type == 1)
+                inst[inst_id].l_sta_id = max(inst[inst_id].l_sta_id, inst[edge[eid].fr_inst_id].sta_id);
+        } else {
+            if (edge[eid].edge_type == 0)
+                inst[inst_id].l_sta_id = max(inst[inst_id].l_sta_id, inst[edge[eid].fr_inst_id].l_sta_id + 1);
+            if (edge[eid].edge_type == 1)
+                inst[inst_id].l_sta_id = max(inst[inst_id].l_sta_id, inst[edge[eid].fr_inst_id].l_sta_id);    
         }
-        return true;
     }
-} g, rg;
+    inst[inst_id].l_sta_id = next_inst_type[inst[inst_id].is_heart][inst[inst_id].inst_type][inst[inst_id].l_sta_id];
+}
+
+void CalcR(int inst_id, int ignore_heart, int use_sta_id) {
+    inst[inst_id].r_sta_id = sta_n - 1;
+    for (auto &eid : inst[inst_id].vec) {
+        if (ignore_heart == 1 && edge[eid].is_heart == 1) continue;
+        if (use_sta_id == 1) {
+            if (edge[eid].edge_type == 0)
+                inst[inst_id].r_sta_id = min(inst[inst_id].r_sta_id, inst[edge[eid].to_inst_id].sta_id - 1);
+            if (edge[eid].edge_type == 1)
+                inst[inst_id].r_sta_id = min(inst[inst_id].r_sta_id, inst[edge[eid].to_inst_id].sta_id);
+        } else {
+            if (edge[eid].edge_type == 0)
+                inst[inst_id].r_sta_id = min(inst[inst_id].r_sta_id, inst[edge[eid].to_inst_id].r_sta_id - 1);
+            if (edge[eid].edge_type == 1)
+                inst[inst_id].r_sta_id = min(inst[inst_id].r_sta_id, inst[edge[eid].to_inst_id].r_sta_id);    
+        }
+    }
+    inst[inst_id].r_sta_id = last_inst_type[inst[inst_id].is_heart][inst[inst_id].inst_type][inst[inst_id].r_sta_id];
+}
+
 
 bool Check(int inst_id, int window_id, int area_id) {
     // 文档只需要预处理核心流
@@ -509,6 +533,12 @@ int DFS(int u) {
 
 void Init() {
     for (int i = 0; i < heart_edge_n; ++i) {
+        heart_inst_ids[i] = edge[heart_edge_ids[i]].fr_inst_id;    
+    }
+    heart_inst_ids[heart_edge_n] = edge[heart_edge_ids[heart_edge_n - 1]].to_inst_id;    
+    heart_inst_n = heart_edge_n + 1;
+
+    for (int i = 0; i < heart_edge_n; ++i) {
         edge[heart_edge_ids[i]].is_heart = 1;
         inst[edge[heart_edge_ids[i]].fr_inst_id].is_heart = 1;
         inst[edge[heart_edge_ids[i]].to_inst_id].is_heart = 1;
@@ -555,30 +585,60 @@ void Init() {
     inst_type_to_ener_type[2].emplace_back(3);
     inst_type_to_ener_type[2].emplace_back(4);
     
-    for (int i = 0; i < sta_n; ++i) {
-        for (int j = 0; j < ener_n; ++j) {
-            next_ener_type[i][j] = iINF;
-            for (int k = 0; k < inst_type_n; ++k) {
-                 heart_next_ener_type[k][i][j] = iINF;
-            }
+    for (int i = 0; i < inst_type_n; ++i) {
+        for (auto &j : inst_type_to_ener_type[i]) {
+            can_inst_ener[i][j] = 1;
         }
     }
 
-    for (int i = sta_n - 1; i >= 0; --i) {
-        for (int j = 0; j < ener_n; ++j) {
-            if (i < sta_n - 1) {
-                next_ener_type[i][j] = next_ener_type[i + 1][j];       
-                for (int k = 0; k < inst_type_n; ++k) {
-                    heart_next_ener_type[k][i][j] = heart_next_ener_type[k][i + 1][j]; 
+    for (int heart = 0; heart < 2; ++heart) 
+        for (int inst_type = 0; inst_type < inst_type_n; ++inst_type) 
+            for (int i = 0; i < sta_n; ++i) {
+                for (int j = 0; j < ener_n; ++j) {
+                    next_ener_type[heart][inst_type][i][j] = iINF;
+                    last_ener_type[heart][inst_type][i][j] = -iINF;
+                    next_inst_type[heart][inst_type][i] = iINF;
+                    last_inst_type[heart][inst_type][i] = -iINF;
                 }
             }
-            int area_id = window[sta[i].window_id].GetEnerAreaId(j);
-            if (area_id != -1) {
-                next_ener_type[i][j] = i;
-                for (int k = 0; k < inst_type_n; ++k) {
-                    if (window[sta[i].window_id].can_inst_type[k] == 0) continue;
-                    heart_next_ener_type[k][i][j] = i;
+    int area_id;
+    for (int inst_type = 0; inst_type < inst_type_n; ++inst_type) {
+        for (int i = sta_n - 1; i >= 0; --i) {
+            for (int j = 0; j < ener_n; ++j) {
+                if (i < sta_n - 1) {
+                    next_ener_type[0][inst_type][i][j] = next_ener_type[0][inst_type][i + 1][j];      
+                    next_inst_type[0][inst_type][i] =  min(next_inst_type[0][inst_type][i], next_inst_type[0][inst_type][i + 1]);
+                    next_ener_type[1][inst_type][i][j] = next_ener_type[1][inst_type][i + 1][j];      
+                    next_inst_type[1][inst_type][i] =  min(next_inst_type[1][inst_type][i], next_inst_type[1][inst_type][i + 1]);
                 }
+                area_id = window[sta[i].window_id].GetEnerAreaId(j);
+                if (area_id == -1) continue;
+                if (can_inst_ener[inst_type][j] == 0) continue;
+                next_ener_type[0][inst_type][i][j] = i;
+                next_inst_type[0][inst_type][i] = i;
+                if (window[sta[i].window_id].can_inst_type[inst_type] == 0) continue;
+                next_ener_type[1][inst_type][i][j] = i;
+                next_inst_type[1][inst_type][i] = i;
+            }
+        }
+    }
+    for (int inst_type = 0; inst_type < inst_type_n; ++inst_type) {
+        for (int i = 0; i < sta_n; ++i) {
+            for (int j = 0; j < ener_n; ++j) {
+                if (i > 0) {
+                    last_ener_type[0][inst_type][i][j] = last_ener_type[0][inst_type][i - 1][j];      
+                    last_inst_type[0][inst_type][i] =  max(last_inst_type[0][inst_type][i], last_inst_type[0][inst_type][i - 1]);
+                    last_ener_type[1][inst_type][i][j] = last_ener_type[1][inst_type][i - 1][j];      
+                    last_inst_type[1][inst_type][i] =  max(last_inst_type[1][inst_type][i], last_inst_type[1][inst_type][i - 1]);
+                }
+                area_id = window[sta[i].window_id].GetEnerAreaId(j);
+                if (area_id == -1) continue;
+                if (can_inst_ener[inst_type][j] == 0) continue;
+                last_ener_type[0][inst_type][i][j] = i;
+                last_inst_type[0][inst_type][i] = i;
+                if (window[sta[i].window_id].can_inst_type[inst_type] == 0) continue;
+                last_ener_type[1][inst_type][i][j] = i;
+                last_inst_type[1][inst_type][i] = i;
             }
         }
     }
@@ -611,88 +671,82 @@ void Work() {
     g.Init();
     g.TpSort(1);
 
-    for (int i = 0; i < inst_n; ++i) {
+    for (int i = inst_n - 1; i >= 0; --i) {
         int inst_id = tp_sort_ids[i];
-        int lb = 0, ub = sta_n - 1, mid;
-        int l, r = -1;
-        for (auto & eid : inst[inst_id].r_vec) {
-            if (edge[eid].edge_type == 0)
-                lb = max(lb, inst[edge[eid].fr_inst_id].sta_id + 1);
-            else
-                lb = max(lb, inst[edge[eid].fr_inst_id].sta_id);
-        }
-        l = lb;
-        while (ub >= lb) {
-            mid = (lb + ub) / 2;
-            inst[inst_id].sta_id = mid;
-            if (g.Check(i)) {
-                r = mid; 
-                lb = mid + 1;
-            } else {
-                ub = mid - 1;
-            }
-        }
+        CalcR(inst_id, 0, 0);
         if (debug_file != nullptr) {
-            (*debug_file) << "bsearch, inst_id: " << inst_id
-                          << " l: " << l
-                          << " r: " << r
+            (*debug_file) << " inst_id: " << inst_id  
+                          << " r_sta_id: " << inst[inst_id].r_sta_id
                           << endl;
         }
-        // r = sta_n - 1;
-        ll min_cost = INF;
-        int min_sta_id = -1;
-        State tmp;
-        State min_sta;
-        ll cost;
-        
-        int search_next =  (int)((double)(sta_n - l + 1) / (double)inst[inst_id].length * 2.0);
-
-        for (int j = l; j <= r; ++j) {
-            if (min_cost < INF && j > l + search_next) {
-                break ;
-            }
-            tmp = sta[j];
-            if (inst[inst_id].is_heart == 1 && window[tmp.window_id].can_inst_type[inst[inst_id].inst_type] == 0) {
-                continue;
-            }
-            for (auto &ener_type : inst_type_to_ener_type[inst[inst_id].inst_type]) {
-                tmp.area_id = window[tmp.window_id].GetEnerAreaId(ener_type);
-                if (tmp.area_id == -1) continue;
-                cost = CalcCost(inst_id, tmp.window_id, tmp.area_id);
-                if (debug_file != nullptr) {
-                    (*debug_file) << "CalcCost, inst_id: " << inst_id
-                                  << " sta_id: " << j
-                                  << " window_id: " << tmp.window_id
-                                  << " area_id: " << tmp.area_id
-                                  << " ener_type: " << ener_type 
-                                  << " inst_type: " << inst[inst_id].inst_type 
-                                  << " is_heart: " << inst[inst_id].is_heart
-                                  << " cost: " << cost
-                                  << endl;
-                }
-                if (cost < min_cost) {
-                    min_cost = cost;
-                    min_sta_id = j;
-                    min_sta = tmp;
-                }
-            }
-        }
-        if (debug_file != nullptr) {
-            (*debug_file) << "TPInstall, inst_id: " << inst_id
-                          << " sta_id: " << min_sta_id
-                          << endl;
-        }
-        inst[inst_id].sta_id = min_sta_id;
-        inst[inst_id].sta = min_sta;
     }
 
-    CheckVaild();
 
-    ll answer = GetAnswer();
-    if (answer < best_answer) {
-        best_answer = answer;
+    for (double qz = 0.5; qz < 10.0; ++qz) {
+        Clear(1);
         for (int i = 0; i < inst_n; ++i) {
-            inst[i].best_sta = inst[i].sta;
+            int inst_id = tp_sort_ids[i];
+
+            CalcL(inst_id, 0, 1);
+
+            int l = inst[inst_id].l_sta_id;
+            int r = inst[inst_id].r_sta_id;
+
+            ll min_cost = INF;
+            int min_sta_id = -1;
+            State tmp;
+            State min_sta;
+            ll cost;
+            
+            int search_next =  (int)((double)(sta_n - l + 1) / (double)inst[inst_id].length * qz);
+
+            for (int j = l; j <= r; ++j) {
+                if (min_cost < INF && j > l + search_next) {
+                    break ;
+                }
+                tmp = sta[j];
+                if (inst[inst_id].is_heart == 1 && window[tmp.window_id].can_inst_type[inst[inst_id].inst_type] == 0) {
+                    continue;
+                }
+                for (auto &ener_type : inst_type_to_ener_type[inst[inst_id].inst_type]) {
+                    tmp.area_id = window[tmp.window_id].GetEnerAreaId(ener_type);
+                    if (tmp.area_id == -1) continue;
+                    cost = CalcCost(inst_id, tmp.window_id, tmp.area_id);
+                    if (debug_file != nullptr) {
+                        (*debug_file) << "CalcCost, inst_id: " << inst_id
+                                    << " sta_id: " << j
+                                    << " window_id: " << tmp.window_id
+                                    << " area_id: " << tmp.area_id
+                                    << " ener_type: " << ener_type 
+                                    << " inst_type: " << inst[inst_id].inst_type 
+                                    << " is_heart: " << inst[inst_id].is_heart
+                                    << " cost: " << cost
+                                    << endl;
+                    }
+                    if (cost < min_cost) {
+                        min_cost = cost;
+                        min_sta_id = j;
+                        min_sta = tmp;
+                    }
+                }
+            }
+            if (debug_file != nullptr) {
+                (*debug_file) << "TPInstall, inst_id: " << inst_id
+                            << " sta_id: " << min_sta_id
+                            << endl;
+            }
+            inst[inst_id].sta_id = min_sta_id;
+            inst[inst_id].sta = min_sta;
+        }
+
+        CheckVaild();
+
+        ll answer = GetAnswer();
+        if (answer < best_answer) {
+            best_answer = answer;
+            for (int i = 0; i < inst_n; ++i) {
+                inst[i].best_sta = inst[i].sta;
+            }
         }
     }
 }

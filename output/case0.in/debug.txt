@@ -5,68 +5,393 @@ window_id: 2 cir: -1
 window_id: 3 cir: 3
 window_id: 4 cir: 4
 sta_n: 9
-tpsort, inst_id: 0 cur_sta_id: 0
-tpsort, inst_id: 1 cur_sta_id: 0
-tpsort, inst_id: 6 cur_sta_id: 0
-tpsort, inst_id: 2 cur_sta_id: 0
-tpsort, inst_id: 7 cur_sta_id: 0
-tpsort, inst_id: 10 cur_sta_id: 0
-tpsort, inst_id: 4 cur_sta_id: 0
-tpsort, inst_id: 3 cur_sta_id: 0
-tpsort, inst_id: 8 cur_sta_id: 0
-tpsort, inst_id: 5 cur_sta_id: 0
-tpsort, inst_id: 9 cur_sta_id: 0
-tpsort, inst_id: 12 cur_sta_id: 0
-tpsort, inst_id: 11 cur_sta_id: 0
-bsearch, inst_id: 0 l: 0 r: 0
+ inst_id: 11 r_sta_id: 8
+ inst_id: 12 r_sta_id: 7
+ inst_id: 9 r_sta_id: 8
+ inst_id: 5 r_sta_id: 6
+ inst_id: 8 r_sta_id: 4
+ inst_id: 3 r_sta_id: 4
+ inst_id: 4 r_sta_id: 5
+ inst_id: 10 r_sta_id: 3
+ inst_id: 7 r_sta_id: 3
+ inst_id: 2 r_sta_id: 2
+ inst_id: 6 r_sta_id: 2
+ inst_id: 1 r_sta_id: 1
+ inst_id: 0 r_sta_id: 0
 CalcCost, inst_id: 0 sta_id: 0 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6525632
 CalcCost, inst_id: 0 sta_id: 0 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22285376
 TPInstall, inst_id: 0 sta_id: 0
-bsearch, inst_id: 1 l: 1 r: 1
 CalcCost, inst_id: 1 sta_id: 1 window_id: 1 area_id: 0 ener_type: 0 inst_type: 1 is_heart: 1 cost: 9306416
 CalcCost, inst_id: 1 sta_id: 1 window_id: 1 area_id: 2 ener_type: 2 inst_type: 1 is_heart: 1 cost: 25705040
 TPInstall, inst_id: 1 sta_id: 1
-bsearch, inst_id: 6 l: 2 r: 2
 CalcCost, inst_id: 6 sta_id: 2 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6312640
 CalcCost, inst_id: 6 sta_id: 2 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22072384
 TPInstall, inst_id: 6 sta_id: 2
-bsearch, inst_id: 2 l: 2 r: 2
 CalcCost, inst_id: 2 sta_id: 2 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 73308864
 CalcCost, inst_id: 2 sta_id: 2 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22324288
 TPInstall, inst_id: 2 sta_id: 2
-bsearch, inst_id: 7 l: 3 r: 3
 CalcCost, inst_id: 7 sta_id: 3 window_id: 1 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 73400624
 CalcCost, inst_id: 7 sta_id: 3 window_id: 1 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22646928
 TPInstall, inst_id: 7 sta_id: 3
-bsearch, inst_id: 10 l: 2 r: 3
+CalcCost, inst_id: 10 sta_id: 2 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 0 cost: 524288
+CalcCost, inst_id: 10 sta_id: 2 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 0 cost: 524288
+TPInstall, inst_id: 10 sta_id: 2
+CalcCost, inst_id: 4 sta_id: 4 window_id: 2 area_id: 3 ener_type: 1 inst_type: 0 is_heart: 0 cost: 262144
+TPInstall, inst_id: 4 sta_id: 4
+CalcCost, inst_id: 3 sta_id: 4 window_id: 2 area_id: 4 ener_type: 3 inst_type: 2 is_heart: 0 cost: 851968
+TPInstall, inst_id: 3 sta_id: 4
+CalcCost, inst_id: 8 sta_id: 4 window_id: 2 area_id: 4 ener_type: 3 inst_type: 2 is_heart: 0 cost: 983040
+TPInstall, inst_id: 8 sta_id: 4
+CalcCost, inst_id: 5 sta_id: 5 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6392512
+TPInstall, inst_id: 5 sta_id: 5
+CalcCost, inst_id: 9 sta_id: 7 window_id: 4 area_id: 7 ener_type: 4 inst_type: 2 is_heart: 1 cost: 242930496
+CalcCost, inst_id: 9 sta_id: 8 window_id: 4 area_id: 7 ener_type: 4 inst_type: 2 is_heart: 1 cost: 242930496
+TPInstall, inst_id: 9 sta_id: 7
+CalcCost, inst_id: 12 sta_id: 6 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 0 cost: 2097152
+CalcCost, inst_id: 12 sta_id: 7 window_id: 4 area_id: 6 ener_type: 1 inst_type: 0 is_heart: 0 cost: 524288
+TPInstall, inst_id: 12 sta_id: 7
+CalcCost, inst_id: 11 sta_id: 8 window_id: 4 area_id: 6 ener_type: 1 inst_type: 0 is_heart: 0 cost: 262144
+TPInstall, inst_id: 11 sta_id: 8
+CalcCost, inst_id: 0 sta_id: 0 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6525632
+CalcCost, inst_id: 0 sta_id: 0 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22285376
+TPInstall, inst_id: 0 sta_id: 0
+CalcCost, inst_id: 1 sta_id: 1 window_id: 1 area_id: 0 ener_type: 0 inst_type: 1 is_heart: 1 cost: 9306416
+CalcCost, inst_id: 1 sta_id: 1 window_id: 1 area_id: 2 ener_type: 2 inst_type: 1 is_heart: 1 cost: 25705040
+TPInstall, inst_id: 1 sta_id: 1
+CalcCost, inst_id: 6 sta_id: 2 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6312640
+CalcCost, inst_id: 6 sta_id: 2 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22072384
+TPInstall, inst_id: 6 sta_id: 2
+CalcCost, inst_id: 2 sta_id: 2 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 73308864
+CalcCost, inst_id: 2 sta_id: 2 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22324288
+TPInstall, inst_id: 2 sta_id: 2
+CalcCost, inst_id: 7 sta_id: 3 window_id: 1 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 73400624
+CalcCost, inst_id: 7 sta_id: 3 window_id: 1 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22646928
+TPInstall, inst_id: 7 sta_id: 3
 CalcCost, inst_id: 10 sta_id: 2 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 0 cost: 524288
 CalcCost, inst_id: 10 sta_id: 2 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 0 cost: 524288
 CalcCost, inst_id: 10 sta_id: 3 window_id: 1 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 0 cost: 524288
 CalcCost, inst_id: 10 sta_id: 3 window_id: 1 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 0 cost: 524288
 TPInstall, inst_id: 10 sta_id: 2
-bsearch, inst_id: 4 l: 4 r: 5
 CalcCost, inst_id: 4 sta_id: 4 window_id: 2 area_id: 3 ener_type: 1 inst_type: 0 is_heart: 0 cost: 262144
 CalcCost, inst_id: 4 sta_id: 5 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 0 cost: 262144
 TPInstall, inst_id: 4 sta_id: 4
-bsearch, inst_id: 3 l: 3 r: 4
 CalcCost, inst_id: 3 sta_id: 4 window_id: 2 area_id: 4 ener_type: 3 inst_type: 2 is_heart: 0 cost: 851968
 TPInstall, inst_id: 3 sta_id: 4
-bsearch, inst_id: 8 l: 4 r: 4
 CalcCost, inst_id: 8 sta_id: 4 window_id: 2 area_id: 4 ener_type: 3 inst_type: 2 is_heart: 0 cost: 983040
 TPInstall, inst_id: 8 sta_id: 4
-bsearch, inst_id: 5 l: 5 r: 6
 CalcCost, inst_id: 5 sta_id: 5 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6392512
 CalcCost, inst_id: 5 sta_id: 6 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6392512
 TPInstall, inst_id: 5 sta_id: 5
-bsearch, inst_id: 9 l: 6 r: 8
 CalcCost, inst_id: 9 sta_id: 7 window_id: 4 area_id: 7 ener_type: 4 inst_type: 2 is_heart: 1 cost: 242930496
 CalcCost, inst_id: 9 sta_id: 8 window_id: 4 area_id: 7 ener_type: 4 inst_type: 2 is_heart: 1 cost: 242930496
 TPInstall, inst_id: 9 sta_id: 7
-bsearch, inst_id: 12 l: 6 r: 7
 CalcCost, inst_id: 12 sta_id: 6 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 0 cost: 2097152
 CalcCost, inst_id: 12 sta_id: 7 window_id: 4 area_id: 6 ener_type: 1 inst_type: 0 is_heart: 0 cost: 524288
 TPInstall, inst_id: 12 sta_id: 7
-bsearch, inst_id: 11 l: 8 r: 8
+CalcCost, inst_id: 11 sta_id: 8 window_id: 4 area_id: 6 ener_type: 1 inst_type: 0 is_heart: 0 cost: 262144
+TPInstall, inst_id: 11 sta_id: 8
+CalcCost, inst_id: 0 sta_id: 0 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6525632
+CalcCost, inst_id: 0 sta_id: 0 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22285376
+TPInstall, inst_id: 0 sta_id: 0
+CalcCost, inst_id: 1 sta_id: 1 window_id: 1 area_id: 0 ener_type: 0 inst_type: 1 is_heart: 1 cost: 9306416
+CalcCost, inst_id: 1 sta_id: 1 window_id: 1 area_id: 2 ener_type: 2 inst_type: 1 is_heart: 1 cost: 25705040
+TPInstall, inst_id: 1 sta_id: 1
+CalcCost, inst_id: 6 sta_id: 2 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6312640
+CalcCost, inst_id: 6 sta_id: 2 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22072384
+TPInstall, inst_id: 6 sta_id: 2
+CalcCost, inst_id: 2 sta_id: 2 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 73308864
+CalcCost, inst_id: 2 sta_id: 2 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22324288
+TPInstall, inst_id: 2 sta_id: 2
+CalcCost, inst_id: 7 sta_id: 3 window_id: 1 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 73400624
+CalcCost, inst_id: 7 sta_id: 3 window_id: 1 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22646928
+TPInstall, inst_id: 7 sta_id: 3
+CalcCost, inst_id: 10 sta_id: 2 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 0 cost: 524288
+CalcCost, inst_id: 10 sta_id: 2 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 0 cost: 524288
+CalcCost, inst_id: 10 sta_id: 3 window_id: 1 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 0 cost: 524288
+CalcCost, inst_id: 10 sta_id: 3 window_id: 1 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 0 cost: 524288
+TPInstall, inst_id: 10 sta_id: 2
+CalcCost, inst_id: 4 sta_id: 4 window_id: 2 area_id: 3 ener_type: 1 inst_type: 0 is_heart: 0 cost: 262144
+CalcCost, inst_id: 4 sta_id: 5 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 0 cost: 262144
+TPInstall, inst_id: 4 sta_id: 4
+CalcCost, inst_id: 3 sta_id: 4 window_id: 2 area_id: 4 ener_type: 3 inst_type: 2 is_heart: 0 cost: 851968
+TPInstall, inst_id: 3 sta_id: 4
+CalcCost, inst_id: 8 sta_id: 4 window_id: 2 area_id: 4 ener_type: 3 inst_type: 2 is_heart: 0 cost: 983040
+TPInstall, inst_id: 8 sta_id: 4
+CalcCost, inst_id: 5 sta_id: 5 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6392512
+CalcCost, inst_id: 5 sta_id: 6 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6392512
+TPInstall, inst_id: 5 sta_id: 5
+CalcCost, inst_id: 9 sta_id: 7 window_id: 4 area_id: 7 ener_type: 4 inst_type: 2 is_heart: 1 cost: 242930496
+CalcCost, inst_id: 9 sta_id: 8 window_id: 4 area_id: 7 ener_type: 4 inst_type: 2 is_heart: 1 cost: 242930496
+TPInstall, inst_id: 9 sta_id: 7
+CalcCost, inst_id: 12 sta_id: 6 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 0 cost: 2097152
+CalcCost, inst_id: 12 sta_id: 7 window_id: 4 area_id: 6 ener_type: 1 inst_type: 0 is_heart: 0 cost: 524288
+TPInstall, inst_id: 12 sta_id: 7
+CalcCost, inst_id: 11 sta_id: 8 window_id: 4 area_id: 6 ener_type: 1 inst_type: 0 is_heart: 0 cost: 262144
+TPInstall, inst_id: 11 sta_id: 8
+CalcCost, inst_id: 0 sta_id: 0 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6525632
+CalcCost, inst_id: 0 sta_id: 0 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22285376
+TPInstall, inst_id: 0 sta_id: 0
+CalcCost, inst_id: 1 sta_id: 1 window_id: 1 area_id: 0 ener_type: 0 inst_type: 1 is_heart: 1 cost: 9306416
+CalcCost, inst_id: 1 sta_id: 1 window_id: 1 area_id: 2 ener_type: 2 inst_type: 1 is_heart: 1 cost: 25705040
+TPInstall, inst_id: 1 sta_id: 1
+CalcCost, inst_id: 6 sta_id: 2 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6312640
+CalcCost, inst_id: 6 sta_id: 2 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22072384
+TPInstall, inst_id: 6 sta_id: 2
+CalcCost, inst_id: 2 sta_id: 2 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 73308864
+CalcCost, inst_id: 2 sta_id: 2 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22324288
+TPInstall, inst_id: 2 sta_id: 2
+CalcCost, inst_id: 7 sta_id: 3 window_id: 1 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 73400624
+CalcCost, inst_id: 7 sta_id: 3 window_id: 1 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22646928
+TPInstall, inst_id: 7 sta_id: 3
+CalcCost, inst_id: 10 sta_id: 2 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 0 cost: 524288
+CalcCost, inst_id: 10 sta_id: 2 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 0 cost: 524288
+CalcCost, inst_id: 10 sta_id: 3 window_id: 1 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 0 cost: 524288
+CalcCost, inst_id: 10 sta_id: 3 window_id: 1 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 0 cost: 524288
+TPInstall, inst_id: 10 sta_id: 2
+CalcCost, inst_id: 4 sta_id: 4 window_id: 2 area_id: 3 ener_type: 1 inst_type: 0 is_heart: 0 cost: 262144
+CalcCost, inst_id: 4 sta_id: 5 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 0 cost: 262144
+TPInstall, inst_id: 4 sta_id: 4
+CalcCost, inst_id: 3 sta_id: 4 window_id: 2 area_id: 4 ener_type: 3 inst_type: 2 is_heart: 0 cost: 851968
+TPInstall, inst_id: 3 sta_id: 4
+CalcCost, inst_id: 8 sta_id: 4 window_id: 2 area_id: 4 ener_type: 3 inst_type: 2 is_heart: 0 cost: 983040
+TPInstall, inst_id: 8 sta_id: 4
+CalcCost, inst_id: 5 sta_id: 5 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6392512
+CalcCost, inst_id: 5 sta_id: 6 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6392512
+TPInstall, inst_id: 5 sta_id: 5
+CalcCost, inst_id: 9 sta_id: 7 window_id: 4 area_id: 7 ener_type: 4 inst_type: 2 is_heart: 1 cost: 242930496
+CalcCost, inst_id: 9 sta_id: 8 window_id: 4 area_id: 7 ener_type: 4 inst_type: 2 is_heart: 1 cost: 242930496
+TPInstall, inst_id: 9 sta_id: 7
+CalcCost, inst_id: 12 sta_id: 6 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 0 cost: 2097152
+CalcCost, inst_id: 12 sta_id: 7 window_id: 4 area_id: 6 ener_type: 1 inst_type: 0 is_heart: 0 cost: 524288
+TPInstall, inst_id: 12 sta_id: 7
+CalcCost, inst_id: 11 sta_id: 8 window_id: 4 area_id: 6 ener_type: 1 inst_type: 0 is_heart: 0 cost: 262144
+TPInstall, inst_id: 11 sta_id: 8
+CalcCost, inst_id: 0 sta_id: 0 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6525632
+CalcCost, inst_id: 0 sta_id: 0 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22285376
+TPInstall, inst_id: 0 sta_id: 0
+CalcCost, inst_id: 1 sta_id: 1 window_id: 1 area_id: 0 ener_type: 0 inst_type: 1 is_heart: 1 cost: 9306416
+CalcCost, inst_id: 1 sta_id: 1 window_id: 1 area_id: 2 ener_type: 2 inst_type: 1 is_heart: 1 cost: 25705040
+TPInstall, inst_id: 1 sta_id: 1
+CalcCost, inst_id: 6 sta_id: 2 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6312640
+CalcCost, inst_id: 6 sta_id: 2 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22072384
+TPInstall, inst_id: 6 sta_id: 2
+CalcCost, inst_id: 2 sta_id: 2 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 73308864
+CalcCost, inst_id: 2 sta_id: 2 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22324288
+TPInstall, inst_id: 2 sta_id: 2
+CalcCost, inst_id: 7 sta_id: 3 window_id: 1 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 73400624
+CalcCost, inst_id: 7 sta_id: 3 window_id: 1 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22646928
+TPInstall, inst_id: 7 sta_id: 3
+CalcCost, inst_id: 10 sta_id: 2 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 0 cost: 524288
+CalcCost, inst_id: 10 sta_id: 2 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 0 cost: 524288
+CalcCost, inst_id: 10 sta_id: 3 window_id: 1 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 0 cost: 524288
+CalcCost, inst_id: 10 sta_id: 3 window_id: 1 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 0 cost: 524288
+TPInstall, inst_id: 10 sta_id: 2
+CalcCost, inst_id: 4 sta_id: 4 window_id: 2 area_id: 3 ener_type: 1 inst_type: 0 is_heart: 0 cost: 262144
+CalcCost, inst_id: 4 sta_id: 5 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 0 cost: 262144
+TPInstall, inst_id: 4 sta_id: 4
+CalcCost, inst_id: 3 sta_id: 4 window_id: 2 area_id: 4 ener_type: 3 inst_type: 2 is_heart: 0 cost: 851968
+TPInstall, inst_id: 3 sta_id: 4
+CalcCost, inst_id: 8 sta_id: 4 window_id: 2 area_id: 4 ener_type: 3 inst_type: 2 is_heart: 0 cost: 983040
+TPInstall, inst_id: 8 sta_id: 4
+CalcCost, inst_id: 5 sta_id: 5 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6392512
+CalcCost, inst_id: 5 sta_id: 6 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6392512
+TPInstall, inst_id: 5 sta_id: 5
+CalcCost, inst_id: 9 sta_id: 7 window_id: 4 area_id: 7 ener_type: 4 inst_type: 2 is_heart: 1 cost: 242930496
+CalcCost, inst_id: 9 sta_id: 8 window_id: 4 area_id: 7 ener_type: 4 inst_type: 2 is_heart: 1 cost: 242930496
+TPInstall, inst_id: 9 sta_id: 7
+CalcCost, inst_id: 12 sta_id: 6 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 0 cost: 2097152
+CalcCost, inst_id: 12 sta_id: 7 window_id: 4 area_id: 6 ener_type: 1 inst_type: 0 is_heart: 0 cost: 524288
+TPInstall, inst_id: 12 sta_id: 7
+CalcCost, inst_id: 11 sta_id: 8 window_id: 4 area_id: 6 ener_type: 1 inst_type: 0 is_heart: 0 cost: 262144
+TPInstall, inst_id: 11 sta_id: 8
+CalcCost, inst_id: 0 sta_id: 0 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6525632
+CalcCost, inst_id: 0 sta_id: 0 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22285376
+TPInstall, inst_id: 0 sta_id: 0
+CalcCost, inst_id: 1 sta_id: 1 window_id: 1 area_id: 0 ener_type: 0 inst_type: 1 is_heart: 1 cost: 9306416
+CalcCost, inst_id: 1 sta_id: 1 window_id: 1 area_id: 2 ener_type: 2 inst_type: 1 is_heart: 1 cost: 25705040
+TPInstall, inst_id: 1 sta_id: 1
+CalcCost, inst_id: 6 sta_id: 2 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6312640
+CalcCost, inst_id: 6 sta_id: 2 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22072384
+TPInstall, inst_id: 6 sta_id: 2
+CalcCost, inst_id: 2 sta_id: 2 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 73308864
+CalcCost, inst_id: 2 sta_id: 2 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22324288
+TPInstall, inst_id: 2 sta_id: 2
+CalcCost, inst_id: 7 sta_id: 3 window_id: 1 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 73400624
+CalcCost, inst_id: 7 sta_id: 3 window_id: 1 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22646928
+TPInstall, inst_id: 7 sta_id: 3
+CalcCost, inst_id: 10 sta_id: 2 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 0 cost: 524288
+CalcCost, inst_id: 10 sta_id: 2 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 0 cost: 524288
+CalcCost, inst_id: 10 sta_id: 3 window_id: 1 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 0 cost: 524288
+CalcCost, inst_id: 10 sta_id: 3 window_id: 1 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 0 cost: 524288
+TPInstall, inst_id: 10 sta_id: 2
+CalcCost, inst_id: 4 sta_id: 4 window_id: 2 area_id: 3 ener_type: 1 inst_type: 0 is_heart: 0 cost: 262144
+CalcCost, inst_id: 4 sta_id: 5 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 0 cost: 262144
+TPInstall, inst_id: 4 sta_id: 4
+CalcCost, inst_id: 3 sta_id: 4 window_id: 2 area_id: 4 ener_type: 3 inst_type: 2 is_heart: 0 cost: 851968
+TPInstall, inst_id: 3 sta_id: 4
+CalcCost, inst_id: 8 sta_id: 4 window_id: 2 area_id: 4 ener_type: 3 inst_type: 2 is_heart: 0 cost: 983040
+TPInstall, inst_id: 8 sta_id: 4
+CalcCost, inst_id: 5 sta_id: 5 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6392512
+CalcCost, inst_id: 5 sta_id: 6 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6392512
+TPInstall, inst_id: 5 sta_id: 5
+CalcCost, inst_id: 9 sta_id: 7 window_id: 4 area_id: 7 ener_type: 4 inst_type: 2 is_heart: 1 cost: 242930496
+CalcCost, inst_id: 9 sta_id: 8 window_id: 4 area_id: 7 ener_type: 4 inst_type: 2 is_heart: 1 cost: 242930496
+TPInstall, inst_id: 9 sta_id: 7
+CalcCost, inst_id: 12 sta_id: 6 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 0 cost: 2097152
+CalcCost, inst_id: 12 sta_id: 7 window_id: 4 area_id: 6 ener_type: 1 inst_type: 0 is_heart: 0 cost: 524288
+TPInstall, inst_id: 12 sta_id: 7
+CalcCost, inst_id: 11 sta_id: 8 window_id: 4 area_id: 6 ener_type: 1 inst_type: 0 is_heart: 0 cost: 262144
+TPInstall, inst_id: 11 sta_id: 8
+CalcCost, inst_id: 0 sta_id: 0 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6525632
+CalcCost, inst_id: 0 sta_id: 0 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22285376
+TPInstall, inst_id: 0 sta_id: 0
+CalcCost, inst_id: 1 sta_id: 1 window_id: 1 area_id: 0 ener_type: 0 inst_type: 1 is_heart: 1 cost: 9306416
+CalcCost, inst_id: 1 sta_id: 1 window_id: 1 area_id: 2 ener_type: 2 inst_type: 1 is_heart: 1 cost: 25705040
+TPInstall, inst_id: 1 sta_id: 1
+CalcCost, inst_id: 6 sta_id: 2 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6312640
+CalcCost, inst_id: 6 sta_id: 2 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22072384
+TPInstall, inst_id: 6 sta_id: 2
+CalcCost, inst_id: 2 sta_id: 2 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 73308864
+CalcCost, inst_id: 2 sta_id: 2 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22324288
+TPInstall, inst_id: 2 sta_id: 2
+CalcCost, inst_id: 7 sta_id: 3 window_id: 1 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 73400624
+CalcCost, inst_id: 7 sta_id: 3 window_id: 1 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22646928
+TPInstall, inst_id: 7 sta_id: 3
+CalcCost, inst_id: 10 sta_id: 2 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 0 cost: 524288
+CalcCost, inst_id: 10 sta_id: 2 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 0 cost: 524288
+CalcCost, inst_id: 10 sta_id: 3 window_id: 1 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 0 cost: 524288
+CalcCost, inst_id: 10 sta_id: 3 window_id: 1 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 0 cost: 524288
+TPInstall, inst_id: 10 sta_id: 2
+CalcCost, inst_id: 4 sta_id: 4 window_id: 2 area_id: 3 ener_type: 1 inst_type: 0 is_heart: 0 cost: 262144
+CalcCost, inst_id: 4 sta_id: 5 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 0 cost: 262144
+TPInstall, inst_id: 4 sta_id: 4
+CalcCost, inst_id: 3 sta_id: 4 window_id: 2 area_id: 4 ener_type: 3 inst_type: 2 is_heart: 0 cost: 851968
+TPInstall, inst_id: 3 sta_id: 4
+CalcCost, inst_id: 8 sta_id: 4 window_id: 2 area_id: 4 ener_type: 3 inst_type: 2 is_heart: 0 cost: 983040
+TPInstall, inst_id: 8 sta_id: 4
+CalcCost, inst_id: 5 sta_id: 5 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6392512
+CalcCost, inst_id: 5 sta_id: 6 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6392512
+TPInstall, inst_id: 5 sta_id: 5
+CalcCost, inst_id: 9 sta_id: 7 window_id: 4 area_id: 7 ener_type: 4 inst_type: 2 is_heart: 1 cost: 242930496
+CalcCost, inst_id: 9 sta_id: 8 window_id: 4 area_id: 7 ener_type: 4 inst_type: 2 is_heart: 1 cost: 242930496
+TPInstall, inst_id: 9 sta_id: 7
+CalcCost, inst_id: 12 sta_id: 6 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 0 cost: 2097152
+CalcCost, inst_id: 12 sta_id: 7 window_id: 4 area_id: 6 ener_type: 1 inst_type: 0 is_heart: 0 cost: 524288
+TPInstall, inst_id: 12 sta_id: 7
+CalcCost, inst_id: 11 sta_id: 8 window_id: 4 area_id: 6 ener_type: 1 inst_type: 0 is_heart: 0 cost: 262144
+TPInstall, inst_id: 11 sta_id: 8
+CalcCost, inst_id: 0 sta_id: 0 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6525632
+CalcCost, inst_id: 0 sta_id: 0 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22285376
+TPInstall, inst_id: 0 sta_id: 0
+CalcCost, inst_id: 1 sta_id: 1 window_id: 1 area_id: 0 ener_type: 0 inst_type: 1 is_heart: 1 cost: 9306416
+CalcCost, inst_id: 1 sta_id: 1 window_id: 1 area_id: 2 ener_type: 2 inst_type: 1 is_heart: 1 cost: 25705040
+TPInstall, inst_id: 1 sta_id: 1
+CalcCost, inst_id: 6 sta_id: 2 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6312640
+CalcCost, inst_id: 6 sta_id: 2 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22072384
+TPInstall, inst_id: 6 sta_id: 2
+CalcCost, inst_id: 2 sta_id: 2 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 73308864
+CalcCost, inst_id: 2 sta_id: 2 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22324288
+TPInstall, inst_id: 2 sta_id: 2
+CalcCost, inst_id: 7 sta_id: 3 window_id: 1 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 73400624
+CalcCost, inst_id: 7 sta_id: 3 window_id: 1 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22646928
+TPInstall, inst_id: 7 sta_id: 3
+CalcCost, inst_id: 10 sta_id: 2 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 0 cost: 524288
+CalcCost, inst_id: 10 sta_id: 2 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 0 cost: 524288
+CalcCost, inst_id: 10 sta_id: 3 window_id: 1 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 0 cost: 524288
+CalcCost, inst_id: 10 sta_id: 3 window_id: 1 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 0 cost: 524288
+TPInstall, inst_id: 10 sta_id: 2
+CalcCost, inst_id: 4 sta_id: 4 window_id: 2 area_id: 3 ener_type: 1 inst_type: 0 is_heart: 0 cost: 262144
+CalcCost, inst_id: 4 sta_id: 5 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 0 cost: 262144
+TPInstall, inst_id: 4 sta_id: 4
+CalcCost, inst_id: 3 sta_id: 4 window_id: 2 area_id: 4 ener_type: 3 inst_type: 2 is_heart: 0 cost: 851968
+TPInstall, inst_id: 3 sta_id: 4
+CalcCost, inst_id: 8 sta_id: 4 window_id: 2 area_id: 4 ener_type: 3 inst_type: 2 is_heart: 0 cost: 983040
+TPInstall, inst_id: 8 sta_id: 4
+CalcCost, inst_id: 5 sta_id: 5 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6392512
+CalcCost, inst_id: 5 sta_id: 6 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6392512
+TPInstall, inst_id: 5 sta_id: 5
+CalcCost, inst_id: 9 sta_id: 7 window_id: 4 area_id: 7 ener_type: 4 inst_type: 2 is_heart: 1 cost: 242930496
+CalcCost, inst_id: 9 sta_id: 8 window_id: 4 area_id: 7 ener_type: 4 inst_type: 2 is_heart: 1 cost: 242930496
+TPInstall, inst_id: 9 sta_id: 7
+CalcCost, inst_id: 12 sta_id: 6 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 0 cost: 2097152
+CalcCost, inst_id: 12 sta_id: 7 window_id: 4 area_id: 6 ener_type: 1 inst_type: 0 is_heart: 0 cost: 524288
+TPInstall, inst_id: 12 sta_id: 7
+CalcCost, inst_id: 11 sta_id: 8 window_id: 4 area_id: 6 ener_type: 1 inst_type: 0 is_heart: 0 cost: 262144
+TPInstall, inst_id: 11 sta_id: 8
+CalcCost, inst_id: 0 sta_id: 0 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6525632
+CalcCost, inst_id: 0 sta_id: 0 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22285376
+TPInstall, inst_id: 0 sta_id: 0
+CalcCost, inst_id: 1 sta_id: 1 window_id: 1 area_id: 0 ener_type: 0 inst_type: 1 is_heart: 1 cost: 9306416
+CalcCost, inst_id: 1 sta_id: 1 window_id: 1 area_id: 2 ener_type: 2 inst_type: 1 is_heart: 1 cost: 25705040
+TPInstall, inst_id: 1 sta_id: 1
+CalcCost, inst_id: 6 sta_id: 2 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6312640
+CalcCost, inst_id: 6 sta_id: 2 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22072384
+TPInstall, inst_id: 6 sta_id: 2
+CalcCost, inst_id: 2 sta_id: 2 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 73308864
+CalcCost, inst_id: 2 sta_id: 2 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22324288
+TPInstall, inst_id: 2 sta_id: 2
+CalcCost, inst_id: 7 sta_id: 3 window_id: 1 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 73400624
+CalcCost, inst_id: 7 sta_id: 3 window_id: 1 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22646928
+TPInstall, inst_id: 7 sta_id: 3
+CalcCost, inst_id: 10 sta_id: 2 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 0 cost: 524288
+CalcCost, inst_id: 10 sta_id: 2 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 0 cost: 524288
+CalcCost, inst_id: 10 sta_id: 3 window_id: 1 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 0 cost: 524288
+CalcCost, inst_id: 10 sta_id: 3 window_id: 1 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 0 cost: 524288
+TPInstall, inst_id: 10 sta_id: 2
+CalcCost, inst_id: 4 sta_id: 4 window_id: 2 area_id: 3 ener_type: 1 inst_type: 0 is_heart: 0 cost: 262144
+CalcCost, inst_id: 4 sta_id: 5 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 0 cost: 262144
+TPInstall, inst_id: 4 sta_id: 4
+CalcCost, inst_id: 3 sta_id: 4 window_id: 2 area_id: 4 ener_type: 3 inst_type: 2 is_heart: 0 cost: 851968
+TPInstall, inst_id: 3 sta_id: 4
+CalcCost, inst_id: 8 sta_id: 4 window_id: 2 area_id: 4 ener_type: 3 inst_type: 2 is_heart: 0 cost: 983040
+TPInstall, inst_id: 8 sta_id: 4
+CalcCost, inst_id: 5 sta_id: 5 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6392512
+CalcCost, inst_id: 5 sta_id: 6 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6392512
+TPInstall, inst_id: 5 sta_id: 5
+CalcCost, inst_id: 9 sta_id: 7 window_id: 4 area_id: 7 ener_type: 4 inst_type: 2 is_heart: 1 cost: 242930496
+CalcCost, inst_id: 9 sta_id: 8 window_id: 4 area_id: 7 ener_type: 4 inst_type: 2 is_heart: 1 cost: 242930496
+TPInstall, inst_id: 9 sta_id: 7
+CalcCost, inst_id: 12 sta_id: 6 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 0 cost: 2097152
+CalcCost, inst_id: 12 sta_id: 7 window_id: 4 area_id: 6 ener_type: 1 inst_type: 0 is_heart: 0 cost: 524288
+TPInstall, inst_id: 12 sta_id: 7
+CalcCost, inst_id: 11 sta_id: 8 window_id: 4 area_id: 6 ener_type: 1 inst_type: 0 is_heart: 0 cost: 262144
+TPInstall, inst_id: 11 sta_id: 8
+CalcCost, inst_id: 0 sta_id: 0 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6525632
+CalcCost, inst_id: 0 sta_id: 0 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22285376
+TPInstall, inst_id: 0 sta_id: 0
+CalcCost, inst_id: 1 sta_id: 1 window_id: 1 area_id: 0 ener_type: 0 inst_type: 1 is_heart: 1 cost: 9306416
+CalcCost, inst_id: 1 sta_id: 1 window_id: 1 area_id: 2 ener_type: 2 inst_type: 1 is_heart: 1 cost: 25705040
+TPInstall, inst_id: 1 sta_id: 1
+CalcCost, inst_id: 6 sta_id: 2 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6312640
+CalcCost, inst_id: 6 sta_id: 2 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22072384
+TPInstall, inst_id: 6 sta_id: 2
+CalcCost, inst_id: 2 sta_id: 2 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 73308864
+CalcCost, inst_id: 2 sta_id: 2 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22324288
+TPInstall, inst_id: 2 sta_id: 2
+CalcCost, inst_id: 7 sta_id: 3 window_id: 1 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 1 cost: 73400624
+CalcCost, inst_id: 7 sta_id: 3 window_id: 1 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 1 cost: 22646928
+TPInstall, inst_id: 7 sta_id: 3
+CalcCost, inst_id: 10 sta_id: 2 window_id: 0 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 0 cost: 524288
+CalcCost, inst_id: 10 sta_id: 2 window_id: 0 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 0 cost: 524288
+CalcCost, inst_id: 10 sta_id: 3 window_id: 1 area_id: 0 ener_type: 0 inst_type: 0 is_heart: 0 cost: 524288
+CalcCost, inst_id: 10 sta_id: 3 window_id: 1 area_id: 1 ener_type: 1 inst_type: 0 is_heart: 0 cost: 524288
+TPInstall, inst_id: 10 sta_id: 2
+CalcCost, inst_id: 4 sta_id: 4 window_id: 2 area_id: 3 ener_type: 1 inst_type: 0 is_heart: 0 cost: 262144
+CalcCost, inst_id: 4 sta_id: 5 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 0 cost: 262144
+TPInstall, inst_id: 4 sta_id: 4
+CalcCost, inst_id: 3 sta_id: 4 window_id: 2 area_id: 4 ener_type: 3 inst_type: 2 is_heart: 0 cost: 851968
+TPInstall, inst_id: 3 sta_id: 4
+CalcCost, inst_id: 8 sta_id: 4 window_id: 2 area_id: 4 ener_type: 3 inst_type: 2 is_heart: 0 cost: 983040
+TPInstall, inst_id: 8 sta_id: 4
+CalcCost, inst_id: 5 sta_id: 5 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6392512
+CalcCost, inst_id: 5 sta_id: 6 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 1 cost: 6392512
+TPInstall, inst_id: 5 sta_id: 5
+CalcCost, inst_id: 9 sta_id: 7 window_id: 4 area_id: 7 ener_type: 4 inst_type: 2 is_heart: 1 cost: 242930496
+CalcCost, inst_id: 9 sta_id: 8 window_id: 4 area_id: 7 ener_type: 4 inst_type: 2 is_heart: 1 cost: 242930496
+TPInstall, inst_id: 9 sta_id: 7
+CalcCost, inst_id: 12 sta_id: 6 window_id: 3 area_id: 5 ener_type: 0 inst_type: 0 is_heart: 0 cost: 2097152
+CalcCost, inst_id: 12 sta_id: 7 window_id: 4 area_id: 6 ener_type: 1 inst_type: 0 is_heart: 0 cost: 524288
+TPInstall, inst_id: 12 sta_id: 7
 CalcCost, inst_id: 11 sta_id: 8 window_id: 4 area_id: 6 ener_type: 1 inst_type: 0 is_heart: 0 cost: 262144
 TPInstall, inst_id: 11 sta_id: 8
 inst_id: 0 sta: 0 0 0 install_cost: 262144

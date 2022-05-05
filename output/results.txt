@@ -68,3 +68,38 @@ info:
 data_file: D:\workspace\cpp_workspace\Huawei-embed2022\data\case3.in
 sum_cost: 11770048767 best_answer: 11770048767 cost_time: 0.213s
 
+
+
+
+info: 
+data_file: D:\workspace\cpp_workspace\Huawei-embed2022\data\case0.in
+sum_cost: 301797152 best_answer: 301797152 cost_time: 0.001s
+
+info: 
+data_file: D:\workspace\cpp_workspace\Huawei-embed2022\data\case1.in
+sum_cost: 6482088846 best_answer: 6482088846 cost_time: 0.115s
+
+info: 
+data_file: D:\workspace\cpp_workspace\Huawei-embed2022\data\case2.in
+sum_cost: 8749271147 best_answer: 8749271147 cost_time: 0.17s
+
+info: 
+data_file: D:\workspace\cpp_workspace\Huawei-embed2022\data\case3.in
+sum_cost: 11809733286 best_answer: 11809733286 cost_time: 0.233s
+
+info: 
+data_file: D:\workspace\cpp_workspace\Huawei-embed2022\data\case0.in
+sum_cost: 301797152 best_answer: 301797152 cost_time: 0.002s
+
+info: 
+data_file: D:\workspace\cpp_workspace\Huawei-embed2022\data\case1.in
+sum_cost: 6740268796 best_answer: 6446471575 cost_time: 1.218s
+
+info: 
+data_file: D:\workspace\cpp_workspace\Huawei-embed2022\data\case2.in
+sum_cost: 8862012396 best_answer: 8730604804 cost_time: 2.083s
+
+info: 
+data_file: D:\workspace\cpp_workspace\Huawei-embed2022\data\case3.in
+sum_cost: 11809575261 best_answer: 11573764117 cost_time: 2.885s
+
