@@ -15,31 +15,52 @@ using namespace std;
 
 int main(int argc, char *argv[]){
 
-    string str;
-    getline(cin, str);
-    char *message = (char *)str.c_str();
+    //freopen("1.in", "r", stdin);
+    //getline(cin, str);
+    //char *message = (char *)str.c_str();
 
     int sockfd;
     struct sockaddr_in servaddr;
     int n;
-    char buf[64];
 
-    sockfd = socket(AF_INET, SOCK_STREAM, 0);
-    
-    memset(&servaddr, '\0', sizeof(struct sockaddr_in));
+    string fstr = "",str;
+    while (getline(cin,str)) {
+        fstr += str;
+        fstr += "\n";
+        if (fstr.length() <= 7) continue;
+        sockfd = socket(AF_INET, SOCK_STREAM, 0);
+        
+        memset(&servaddr, '\0', sizeof(struct sockaddr_in));
 
-    servaddr.sin_family = AF_INET;
-    inet_pton(AF_INET, SERVER_IP, &servaddr.sin_addr);
-    servaddr.sin_port = htons(SERVER_PORT);
+        servaddr.sin_family = AF_INET;
+        inet_pton(AF_INET, SERVER_IP, &servaddr.sin_addr);
+        servaddr.sin_port = htons(SERVER_PORT);
 
-    connect(sockfd, (struct sockaddr *)&servaddr, sizeof(servaddr));
-    
-    write(sockfd, message, strlen(message));
+        connect(sockfd, (struct sockaddr *)&servaddr, sizeof(servaddr));
+        
+        
+        write(sockfd, (char *)fstr.c_str(), fstr.length());
+        fstr = "";
 
-    n = read(sockfd, buf, sizeof(buf)-1);
+        close(sockfd);
+    }
+    if (fstr != "") {
+        sockfd = socket(AF_INET, SOCK_STREAM, 0);
+        
+        memset(&servaddr, '\0', sizeof(struct sockaddr_in));
 
+        servaddr.sin_family = AF_INET;
+        inet_pton(AF_INET, SERVER_IP, &servaddr.sin_addr);
+        servaddr.sin_port = htons(SERVER_PORT);
+
+        connect(sockfd, (struct sockaddr *)&servaddr, sizeof(servaddr));
+        
+        
+        write(sockfd, (char *)fstr.c_str(), fstr.length());
+        fstr = "";
+
+        close(sockfd);    
+    }
     printf("0\n0");
-
-    close(sockfd);
     return 0;
 }
