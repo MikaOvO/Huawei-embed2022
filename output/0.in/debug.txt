@@ -40,16 +40,23 @@ Init, inst_id: 7 vec_size: 2 r_vec_size: 1
 Init, inst_id: 5 vec_size: 2 r_vec_size: 3
 Init, inst_id: 9 vec_size: 0 r_vec_size: 1
 TPInstall, inst_id: 0 l: 0 r: 0 sta_id: 0 cost: 6525632
+next_sta_id: 0
 TPInstall, inst_id: 1 l: 1 r: 1 sta_id: 1 cost: 9306416
+next_sta_id: 0
 TPInstall, inst_id: 6 l: 2 r: 2 sta_id: 2 cost: 6249152
+next_sta_id: 0
 TPInstall, inst_id: 2 l: 2 r: 2 sta_id: 2 cost: 31884032
+next_sta_id: 0
 TPInstall, inst_id: 7 l: 3 r: 3 sta_id: 3 cost: 38155168
+next_sta_id: 0
 TPInstall, inst_id: 10 l: 2 r: 3 sta_id: 2 cost: 524288
 TPInstall, inst_id: 4 l: 4 r: 5 sta_id: 4 cost: 262144
 TPInstall, inst_id: 3 l: 4 r: 4 sta_id: 4 cost: 851968
 TPInstall, inst_id: 8 l: 4 r: 4 sta_id: 4 cost: 983040
 TPInstall, inst_id: 5 l: 5 r: 6 sta_id: 5 cost: 6392512
+next_sta_id: 0
 TPInstall, inst_id: 9 l: 7 r: 8 sta_id: 7 cost: 242930496
+next_sta_id: 0
 TPInstall, inst_id: 12 l: 6 r: 7 sta_id: 7 cost: 524288
 TPInstall, inst_id: 11 l: 8 r: 8 sta_id: 8 cost: 262144
 only_install_cost: 226082816
