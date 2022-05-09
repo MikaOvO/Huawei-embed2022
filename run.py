@@ -10,7 +10,7 @@ os.system('g++ -o main.exe %s' % (main_file))
 for path, dir_list, file_list in os.walk(data_dir):
     for file in file_list:
         ## only run sample
-        ##if dir != '30_10_50_c20000':
+        ##if file != '0.in':
         ##    continue
         data_file = os.path.join(path, file)
         solution_dir = output_dir + '\\' + file

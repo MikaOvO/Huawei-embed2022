@@ -33,17 +33,17 @@ int he[1010];
 int main()
 {
     srand(time(NULL));
-    freopen("./data/case1.in","w",stdout);
-    cout<<100<<endl;
+    freopen("./data/case3.in","w",stdout);
+    cout<<100000<<endl;
     for(int i=0;i<5;i++)
     {
-        cout<<rand()%100<<" ";
+        cout<<rand()%10000<<" ";
     }
     cout<<endl;
     int shop_n=60;
     int area_n=shop_n*3;
     int window_n=100;
-    int cir=8;
+    int cir=10;
     cout<<shop_n<<endl;
     cout<<area_n<<endl;
     for(int i=0;i<area_n;++i)
@@ -51,14 +51,14 @@ int main()
         cout<<rand()%shop_n<<" "<<rand()%5<<endl;
     }
     cout<<cir<<endl;
-    int fcir=20;
+    int fcir=100;
     cout<<fcir<<endl;
     cout<<window_n<<endl;
     for(int i=0;i<window_n;++i)
     {
         int j=0;
         if(i>=fcir) j=rand()%2;
-        cout<<j<<" "<<rand()%shop_n<<" "<<rand()%200<<" ";
+        cout<<j<<" "<<rand()%shop_n<<" "<<rand()%20000<<" ";
         for(int j=0;j<3;j++) p[j]=j;
         random_shuffle(p,p+3);
         v[0]=v[1]=v[2]=0;
@@ -67,8 +67,8 @@ int main()
         for(int j=0;j<3;j++) cout<<v[j]<<" ";
         cout<<endl;
     }   
-    int inst=200;
-    int k=80;
+    int inst=1000;
+    int k=200;
     cout<<inst<<endl;
     for(int i=0;i<inst;i++)
     {
@@ -87,7 +87,7 @@ int main()
             for(int v=u+1;v<=r;v++)
             {
                 if(e2==1000) continue;
-                if(rand()%15==0)
+                if(rand()%100==0)
                 {
                     ++e2;
                     mp[u][v]=1;
@@ -100,9 +100,9 @@ int main()
         for(int j=0;j<inst;j++)
         {
             if(mp[i][j]==0) continue;
-            if(rand()%20==0) tp[i][j]=1;
-            e0++;
+            if(rand()%10==0) tp[i][j]=1;
             if(50<=i&&i<=99&&i+1==j) e1++,he[e1]=e0;
+            e0++;
         }
     cout<<e0<<endl;
     for(int i=0;i<inst;i++)
