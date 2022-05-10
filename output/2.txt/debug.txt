@@ -2910,12 +2910,12 @@ HeartR, inst_id: 702 next_heart: 48 heart_r: 216 inst_type: 0
 dp, cost: 1151344438 sta: 167 ener: 0
  dp, inst_id: 128 cost: 1151344438 sta_id: 167 ener: 0 edge: 0 l: 11 r: 222
  dp, inst_id: 26 cost: 952018671 sta_id: 152 ener: 4 edge: 0 l: 6 r: 219
- dp, inst_id: 632 cost: 787890826 sta_id: 129 ener: 0 edge: 0 l: 5 r: 218
+ dp, inst_id: 632 cost: 787890826 sta_id: 135 ener: 0 edge: 0 l: 5 r: 218
  dp, inst_id: 20 cost: 573338345 sta_id: 86 ener: 0 edge: 1 l: 1 r: 203
  dp, inst_id: 475 cost: 568795718 sta_id: 86 ener: 0 edge: 0 l: 1 r: 195
- dp, inst_id: 175 cost: 363962441 sta_id: 48 ener: 1 edge: 1 l: 0 r: 194
- dp, inst_id: 48 cost: 339219615 sta_id: 48 ener: 0 edge: 1 l: 0 r: 194
- dp, inst_id: 702 cost: 202460830 sta_id: 48 ener: 0 edge: -1 l: 0 r: 187
+ dp, inst_id: 175 cost: 363962441 sta_id: 54 ener: 1 edge: 1 l: 0 r: 194
+ dp, inst_id: 48 cost: 339219615 sta_id: 54 ener: 0 edge: 1 l: 0 r: 194
+ dp, inst_id: 702 cost: 202460830 sta_id: 54 ener: 0 edge: -1 l: 0 r: 187
 only_install_cost: 20981097189
 all_cost: 21956706629
 DP, answer: 21956706629
@@ -3066,7 +3066,7 @@ install_tag: 1 0
 inst_id: 47 sta: 94 243 0 install_cost: 28704664
 Max 2 cost: 28704664 118670328
 install_tag: 1 0
-inst_id: 48 sta: 12 95 0 install_cost: 136758785
+inst_id: 48 sta: 12 95 6 install_cost: 136758785
 Max 2 cost: 136758785 161416301
 install_tag: 1 1
 inst_id: 49 sta: 99 72 0 install_cost: 122912187
@@ -3447,7 +3447,7 @@ install_tag: 1 0
 inst_id: 174 sta: 89 228 0 install_cost: 43839486
 Max 2 cost: 43839486 54315665
 install_tag: 1 0
-inst_id: 175 sta: 12 96 0 install_cost: 1185276
+inst_id: 175 sta: 12 96 6 install_cost: 1185276
 Max 2 cost: 1185276 41758726
 install_tag: 1 1
 inst_id: 176 sta: 92 238 0 install_cost: 1547107
@@ -4818,7 +4818,7 @@ install_tag: 1 0
 inst_id: 631 sta: 95 246 0 install_cost: 502024
 Max 2 cost: 502024 30502752
 install_tag: 1 0
-inst_id: 632 sta: 51 131 0 install_cost: 14229071
+inst_id: 632 sta: 51 131 6 install_cost: 14229071
 Max 2 cost: 9964272 14229071
 install_tag: 0 1
 inst_id: 633 sta: 95 246 0 install_cost: 41605781
@@ -5028,7 +5028,7 @@ install_tag: 1 0
 inst_id: 701 sta: 98 8 0 install_cost: 21222458
 Max 2 cost: 21222458 81996079
 install_tag: 1 0
-inst_id: 702 sta: 12 95 0 install_cost: 6878380
+inst_id: 702 sta: 12 95 6 install_cost: 6878380
 Max 2 cost: 6878380 16866086
 install_tag: 1 1
 inst_id: 703 sta: 98 9 0 install_cost: 15316066
@@ -5883,13 +5883,13 @@ sta: 41 42 43 44 45 46 47
 window_id: 12 cir: 12 one_time: 2000 enter_k: 1 cost_k: 1582 producer_k: 107988 first_cost: 215976000 second_cost: 3164000 cost: 219140000 inst_type: 1 0 1 
 window_ener: 1 1 0 0 1 
 sta: 48 49 50 51 52 53 54 
-Install_inst, 48 edge: 1 cir: 0 inst_type: 0 time_cost: 1785
+Install_inst, 48 edge: 1 cir: 6 inst_type: 0 time_cost: 1785
 1785 2000 1317 1268 1395 
 136758785 161416301 0 0 0 
-Install_inst, 175 edge: 1 cir: 0 inst_type: 0 time_cost: 2000
+Install_inst, 175 edge: 1 cir: 6 inst_type: 0 time_cost: 2000
 1785 2000 1317 1268 1395 
 41758726 1185276 0 0 0 
-Install_inst, 702 edge: -1 cir: 0 inst_type: 0 time_cost: 1785
+Install_inst, 702 edge: -1 cir: 6 inst_type: 0 time_cost: 1785
 1785 2000 1317 1268 1395 
 6878380 16866086 0 0 0 
 
@@ -6054,7 +6054,7 @@ sta: 128
 window_id: 51 cir: 51 one_time: 1785 enter_k: 1 cost_k: 4238 producer_k: 107988 first_cost: 192758580 second_cost: 7564830 cost: 200323410 inst_type: 1 0 0 
 window_ener: 1 0 1 0 1 
 sta: 129 130 131 132 133 134 135 
-Install_inst, 632 edge: 0 cir: 0 inst_type: 0 time_cost: 1785
+Install_inst, 632 edge: 0 cir: 6 inst_type: 0 time_cost: 1785
 1785 2000 1317 1268 1395 
 14229071 9964272 0 0 0 
 

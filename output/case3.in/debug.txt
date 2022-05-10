@@ -3114,63 +3114,63 @@ HeartR, inst_id: 53 next_heart: 54 heart_r: 985 inst_type: 1
 HeartR, inst_id: 52 next_heart: 53 heart_r: 985 inst_type: 1
 HeartR, inst_id: 51 next_heart: 52 heart_r: 984 inst_type: 0
 HeartR, inst_id: 50 next_heart: 51 heart_r: 975 inst_type: 2
-dp, cost: 19204630329 sta: 983 ener: 1
- dp, inst_id: 100 cost: 19204630329 sta_id: 983 ener: 1 edge: 0 l: 118 r: 1096
- dp, inst_id: 99 cost: 19037510850 sta_id: 883 ener: 1 edge: 0 l: 116 r: 1095
- dp, inst_id: 98 cost: 18891415068 sta_id: 827 ener: 2 edge: 1 l: 114 r: 1089
- dp, inst_id: 97 cost: 18867390373 sta_id: 827 ener: 2 edge: 0 l: 114 r: 1089
- dp, inst_id: 96 cost: 18629724054 sta_id: 727 ener: 2 edge: 1 l: 95 r: 1087
- dp, inst_id: 95 cost: 18613087182 sta_id: 727 ener: 3 edge: 0 l: 95 r: 1087
- dp, inst_id: 94 cost: 17830678091 sta_id: 683 ener: 1 edge: 0 l: 93 r: 1085
- dp, inst_id: 93 cost: 17639193286 sta_id: 601 ener: 3 edge: 0 l: 89 r: 1075
- dp, inst_id: 92 cost: 16950993706 sta_id: 574 ener: 2 edge: 0 l: 88 r: 1074
- dp, inst_id: 91 cost: 16670999678 sta_id: 474 ener: 2 edge: 0 l: 80 r: 1073
- dp, inst_id: 90 cost: 16407713733 sta_id: 374 ener: 2 edge: 0 l: 79 r: 1069
- dp, inst_id: 89 cost: 16161205340 sta_id: 301 ener: 3 edge: 0 l: 78 r: 1065
- dp, inst_id: 88 cost: 15441865282 sta_id: 283 ener: 1 edge: 0 l: 77 r: 1064
- dp, inst_id: 87 cost: 15326001083 sta_id: 183 ener: 1 edge: 0 l: 59 r: 1060
- dp, inst_id: 86 cost: 15180080228 sta_id: 174 ener: 2 edge: 0 l: 57 r: 1059
- dp, inst_id: 85 cost: 14891166231 sta_id: 162 ener: 3 edge: 0 l: 55 r: 173
- dp, inst_id: 84 cost: 14129514590 sta_id: 159 ener: 2 edge: 0 l: 54 r: 169
- dp, inst_id: 83 cost: 13861958495 sta_id: 153 ener: 3 edge: 0 l: 51 r: 166
- dp, inst_id: 82 cost: 13095946511 sta_id: 144 ener: 2 edge: 0 l: 50 r: 162
- dp, inst_id: 81 cost: 12832361813 sta_id: 140 ener: 1 edge: 0 l: 49 r: 161
- dp, inst_id: 80 cost: 12719607621 sta_id: 134 ener: 1 edge: 0 l: 48 r: 160
- dp, inst_id: 79 cost: 12594568341 sta_id: 132 ener: 1 edge: 0 l: 46 r: 159
- dp, inst_id: 78 cost: 12441409132 sta_id: 127 ener: 2 edge: 1 l: 44 r: 141
- dp, inst_id: 77 cost: 12396196295 sta_id: 127 ener: 3 edge: 0 l: 44 r: 138
- dp, inst_id: 76 cost: 11609226045 sta_id: 117 ener: 2 edge: 0 l: 41 r: 136
- dp, inst_id: 75 cost: 11296243790 sta_id: 114 ener: 1 edge: 0 l: 40 r: 135
- dp, inst_id: 74 cost: 11132307446 sta_id: 113 ener: 3 edge: 0 l: 37 r: 125
- dp, inst_id: 73 cost: 10422521435 sta_id: 111 ener: 2 edge: 0 l: 36 r: 123
- dp, inst_id: 72 cost: 10151881613 sta_id: 107 ener: 1 edge: 0 l: 35 r: 122
- dp, inst_id: 71 cost: 10043172228 sta_id: 104 ener: 2 edge: 0 l: 34 r: 121
- dp, inst_id: 70 cost: 9783395471 sta_id: 103 ener: 3 edge: 0 l: 33 r: 120
- dp, inst_id: 69 cost: 9062285344 sta_id: 101 ener: 1 edge: 0 l: 31 r: 118
- dp, inst_id: 68 cost: 8964023304 sta_id: 97 ener: 3 edge: 0 l: 28 r: 116
- dp, inst_id: 67 cost: 8191230480 sta_id: 89 ener: 2 edge: 0 l: 27 r: 115
- dp, inst_id: 66 cost: 7911568201 sta_id: 87 ener: 2 edge: 0 l: 23 r: 114
- dp, inst_id: 65 cost: 7636839199 sta_id: 86 ener: 3 edge: 0 l: 21 r: 113
- dp, inst_id: 64 cost: 6939336861 sta_id: 75 ener: 3 edge: 0 l: 20 r: 112
- dp, inst_id: 63 cost: 6211147513 sta_id: 66 ener: 1 edge: 0 l: 18 r: 111
- dp, inst_id: 62 cost: 6065785721 sta_id: 62 ener: 3 edge: 0 l: 16 r: 65
- dp, inst_id: 61 cost: 5322336513 sta_id: 53 ener: 3 edge: 0 l: 15 r: 64
- dp, inst_id: 60 cost: 4562784251 sta_id: 50 ener: 3 edge: 0 l: 13 r: 63
- dp, inst_id: 59 cost: 3796113981 sta_id: 48 ener: 0 edge: 1 l: 12 r: 61
- dp, inst_id: 58 cost: 3745621550 sta_id: 48 ener: 3 edge: 0 l: 12 r: 61
- dp, inst_id: 57 cost: 2975304358 sta_id: 44 ener: 2 edge: 0 l: 11 r: 59
- dp, inst_id: 56 cost: 2721608889 sta_id: 27 ener: 2 edge: 1 l: 10 r: 58
- dp, inst_id: 55 cost: 2715314975 sta_id: 27 ener: 3 edge: 0 l: 8 r: 56
- dp, inst_id: 54 cost: 1929858146 sta_id: 6 ener: 3 edge: 0 l: 6 r: 55
- dp, inst_id: 53 cost: 1276098121 sta_id: 4 ener: 2 edge: 1 l: 4 r: 54
- dp, inst_id: 52 cost: 1209391337 sta_id: 4 ener: 2 edge: 0 l: 4 r: 54
+dp, cost: 18952133375 sta: 1083 ener: 1
+ dp, inst_id: 100 cost: 18952133375 sta_id: 1083 ener: 1 edge: 0 l: 118 r: 1096
+ dp, inst_id: 99 cost: 18784909474 sta_id: 1077 ener: 1 edge: 0 l: 116 r: 1095
+ dp, inst_id: 98 cost: 18633693182 sta_id: 1074 ener: 2 edge: 1 l: 114 r: 1089
+ dp, inst_id: 97 cost: 18609668487 sta_id: 1074 ener: 2 edge: 0 l: 114 r: 1089
+ dp, inst_id: 96 cost: 18371094338 sta_id: 1027 ener: 2 edge: 1 l: 95 r: 1087
+ dp, inst_id: 95 cost: 18354457466 sta_id: 1027 ener: 3 edge: 0 l: 95 r: 1087
+ dp, inst_id: 94 cost: 17572048375 sta_id: 1003 ener: 1 edge: 0 l: 93 r: 1085
+ dp, inst_id: 93 cost: 17379180218 sta_id: 1001 ener: 3 edge: 0 l: 89 r: 1075
+ dp, inst_id: 92 cost: 16690980638 sta_id: 981 ener: 2 edge: 0 l: 88 r: 1074
+ dp, inst_id: 91 cost: 16409753376 sta_id: 974 ener: 2 edge: 0 l: 80 r: 1073
+ dp, inst_id: 90 cost: 16145559601 sta_id: 966 ener: 2 edge: 0 l: 79 r: 1069
+ dp, inst_id: 89 cost: 15897924084 sta_id: 901 ener: 3 edge: 0 l: 78 r: 1065
+ dp, inst_id: 88 cost: 15178584026 sta_id: 883 ener: 1 edge: 0 l: 77 r: 1064
+ dp, inst_id: 87 cost: 15062615405 sta_id: 852 ener: 1 edge: 0 l: 59 r: 1060
+ dp, inst_id: 86 cost: 14916046942 sta_id: 817 ener: 2 edge: 0 l: 57 r: 1059
+ dp, inst_id: 85 cost: 14623685549 sta_id: 806 ener: 3 edge: 0 l: 55 r: 173
+ dp, inst_id: 84 cost: 13910454004 sta_id: 766 ener: 2 edge: 0 l: 54 r: 169
+ dp, inst_id: 83 cost: 13647967609 sta_id: 753 ener: 3 edge: 0 l: 51 r: 166
+ dp, inst_id: 82 cost: 12881955625 sta_id: 744 ener: 2 edge: 0 l: 50 r: 162
+ dp, inst_id: 81 cost: 12618370927 sta_id: 740 ener: 1 edge: 0 l: 49 r: 161
+ dp, inst_id: 80 cost: 12505616735 sta_id: 734 ener: 1 edge: 0 l: 48 r: 160
+ dp, inst_id: 79 cost: 12380577455 sta_id: 732 ener: 1 edge: 0 l: 46 r: 159
+ dp, inst_id: 78 cost: 12227418246 sta_id: 727 ener: 2 edge: 1 l: 44 r: 141
+ dp, inst_id: 77 cost: 12182205409 sta_id: 727 ener: 3 edge: 0 l: 44 r: 138
+ dp, inst_id: 76 cost: 11395235159 sta_id: 717 ener: 2 edge: 0 l: 41 r: 136
+ dp, inst_id: 75 cost: 11082252904 sta_id: 660 ener: 1 edge: 0 l: 40 r: 135
+ dp, inst_id: 74 cost: 10911847186 sta_id: 606 ener: 3 edge: 0 l: 37 r: 125
+ dp, inst_id: 73 cost: 10224148663 sta_id: 517 ener: 2 edge: 0 l: 36 r: 123
+ dp, inst_id: 72 cost: 9975683473 sta_id: 452 ener: 1 edge: 0 l: 35 r: 122
+ dp, inst_id: 71 cost: 9871236230 sta_id: 417 ener: 2 edge: 0 l: 34 r: 121
+ dp, inst_id: 70 cost: 9623096203 sta_id: 406 ener: 3 edge: 0 l: 33 r: 120
+ dp, inst_id: 69 cost: 8902108284 sta_id: 403 ener: 1 edge: 0 l: 31 r: 118
+ dp, inst_id: 68 cost: 8803349042 sta_id: 401 ener: 3 edge: 0 l: 28 r: 116
+ dp, inst_id: 67 cost: 8096419898 sta_id: 399 ener: 2 edge: 0 l: 27 r: 115
+ dp, inst_id: 66 cost: 7809900555 sta_id: 395 ener: 2 edge: 0 l: 23 r: 114
+ dp, inst_id: 65 cost: 7523504169 sta_id: 301 ener: 3 edge: 0 l: 21 r: 113
+ dp, inst_id: 64 cost: 6874351175 sta_id: 201 ener: 3 edge: 0 l: 20 r: 112
+ dp, inst_id: 63 cost: 6188921763 sta_id: 183 ener: 1 edge: 0 l: 18 r: 111
+ dp, inst_id: 62 cost: 6044282303 sta_id: 162 ener: 3 edge: 0 l: 16 r: 65
+ dp, inst_id: 61 cost: 5300833095 sta_id: 153 ener: 3 edge: 0 l: 15 r: 64
+ dp, inst_id: 60 cost: 4541280833 sta_id: 150 ener: 3 edge: 0 l: 13 r: 63
+ dp, inst_id: 59 cost: 3774610563 sta_id: 148 ener: 0 edge: 1 l: 12 r: 61
+ dp, inst_id: 58 cost: 3724118132 sta_id: 148 ener: 3 edge: 0 l: 12 r: 61
+ dp, inst_id: 57 cost: 2953800940 sta_id: 144 ener: 2 edge: 0 l: 11 r: 59
+ dp, inst_id: 56 cost: 2700105471 sta_id: 127 ener: 2 edge: 1 l: 10 r: 58
+ dp, inst_id: 55 cost: 2693811557 sta_id: 127 ener: 3 edge: 0 l: 8 r: 56
+ dp, inst_id: 54 cost: 1970217704 sta_id: 27 ener: 3 edge: 0 l: 6 r: 55
+ dp, inst_id: 53 cost: 1264461391 sta_id: 17 ener: 2 edge: 1 l: 4 r: 54
+ dp, inst_id: 52 cost: 1197754607 sta_id: 17 ener: 2 edge: 0 l: 4 r: 54
  dp, inst_id: 51 cost: 880838941 sta_id: 3 ener: 1 edge: 0 l: 2 r: 52
  dp, inst_id: 50 cost: 724940852 sta_id: 1 ener: 3 edge: -1 l: 1 r: 51
 only_install_cost: 33496478169
-all_cost: 51764765767
-DP, answer: 51764765767
+all_cost: 50030607711
+DP, answer: 50030607711
 only_install_cost: 33496478169
-all_cost: 51764765767
+all_cost: 50030607711
 ******END******
 inst_id: 0 sta: 1 142 0 install_cost: 60194592
 Max 2 cost: 60194592 95562733
