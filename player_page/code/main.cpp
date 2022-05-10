@@ -860,10 +860,10 @@ void TpWork(int qz_type, double qz, int update_best_answer, int only_heart) {
     if (only_heart == 0) Clear(1);
     else Clear(0);
     ll sum_cost = 0;
-    for (int i = 0; i < inst_n; ++i) {
+    for (int i = inst_n - 1; i >= 0; --i) {
         int inst_id = tp_sort_ids[i];
         if (only_heart == 1 && inst[inst_id].is_heart == 0) continue;
-        CalcL(inst_id, 0, 1, 1, 1);
+        CalcR(inst_id, 0, 1, 1, 1);
 
         int l = inst[inst_id].l_sta_id;
         int r = inst[inst_id].r_sta_id;
@@ -877,8 +877,8 @@ void TpWork(int qz_type, double qz, int update_best_answer, int only_heart) {
         int search_next =  (int)((double)(sta_n - l + 1) / (double)inst[inst_id].length * qz);
         if (qz_type == 1) search_next = (double)sta_n * qz / 10.0;
 
-        for (int j = l; j <= r; ++j) {
-            if (min_cost < INF && j > l + search_next) {
+        for (int j = r; j >= l; --j) {
+            if (min_cost < INF && j < r - search_next) {
                 break ;
             }
             tmp = sta[j];
@@ -1225,9 +1225,9 @@ void Work() {
     g.Init();
     g.TpSort(1);
 
-    for (int i = inst_n - 1; i >= 0; --i) {
+    for (int i = 0; i < inst_n; ++i) {
         int inst_id = tp_sort_ids[i];
-        CalcR(inst_id, 0, 0, 1, 1);
+        CalcL(inst_id, 0, 0, 1, 1);
     }
 
     is_ab = 1;
