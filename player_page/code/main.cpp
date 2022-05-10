@@ -242,7 +242,6 @@ struct Inst {
     int next_edge_type; // 核心点下一条边类型
 
     int length;
-    int heart_length;
 
     Inst () {
         inst_type = 0;
@@ -818,10 +817,6 @@ void Init() {
         DFS(i);
     }
 
-    for (int i = 0; i < heart_inst_n; ++i) {
-        inst[heart_inst_ids[i]].heart_length = heart_inst_n - i;
-    }
-
     if (debug_file != nullptr) {
         for (int i = 0; i < area_n; ++i) {
             (*debug_file) << "Init, area_id: " << i
@@ -939,6 +934,7 @@ void PreDPWork(int fb_flag) {
 }
 
 ll dp[MAXHEARTINST][MAXSTATE][MAXENERGY];
+int dp_l[MAXHEARTINST][MAXSTATE][MAXENERGY];
 int dp_lst_state[MAXHEARTINST][MAXSTATE][MAXENERGY];
 int dp_lst_ener[MAXHEARTINST][MAXSTATE][MAXENERGY];
 void DPMainWork() {
@@ -1110,35 +1106,16 @@ void DPWork() {
     DPMainWork();
 }
 
-void TpWork(int qz_type, double qz, int update_best_answer, int heart_nd_equal) {
-    
+void TpWork(int qz_type, double qz, int update_best_answer) {
     Clear(1);
-
     ll sum_cost = 0;
     for (int i = 0; i < inst_n; ++i) {
         int inst_id = tp_sort_ids[i];
 
         CalcL(inst_id, 0, 1, 1, 1);
-        if (inst[inst_id].is_heart == 1 && heart_nd_equal == 0) CalcHeartL(inst_id, 1);
 
         int l = inst[inst_id].l_sta_id;
         int r = inst[inst_id].r_sta_id;
-        int pl, pr;
-        if (inst[inst_id].is_heart == 1 && heart_nd_equal == 0) {
-            pl = l;
-            if (inst[inst_id].last_heart_inst_id != -1) pl = max(pl, inst[inst[inst_id].last_heart_inst_id].sta_id + 1 - inst[inst_id].last_edge_type);
-            pr = r;
-            l = inst[inst_id].heart_l_sta_id;
-            r = inst[inst_id].heart_r_sta_id;
-            if (debug_file != nullptr && is_ab == 1) {
-                (*debug_file) << "Tpwork, inst_id: " << inst_id
-                              << " l: " << l
-                              << " r: " << r
-                              << " pl: " << pl
-                              << " pr: " << pr
-                              << endl;   
-            }
-        }
 
         ll min_cost = INF;
         int min_sta_id = -1;
@@ -1147,7 +1124,6 @@ void TpWork(int qz_type, double qz, int update_best_answer, int heart_nd_equal) 
         ll cost;
         
         int search_next =  (int)((double)(sta_n - l + 1) / (double)inst[inst_id].length * qz);
-        if (inst[inst_id].is_heart) search_next =  (int)((double)(sta_n - l + 1) / (double)inst[inst_id].heart_length * qz);
         if (qz_type == 1) search_next = (double)sta_n * qz / 10.0;
 
         for (int j = l; j <= r; ++j) {
@@ -1161,7 +1137,6 @@ void TpWork(int qz_type, double qz, int update_best_answer, int heart_nd_equal) 
             for (auto &ener_type : inst_type_to_ener_type[inst[inst_id].inst_type]) {
                 tmp.area_id = window[tmp.window_id].GetEnerAreaId(ener_type);
                 if (tmp.area_id == -1) continue;
-                if (inst[inst_id].is_heart == 1 && next_area_sta[tmp.area_id][pl] > pr && heart_nd_equal == 0) continue;
                 cost = CalcCost(inst_id, tmp.window_id, tmp.area_id, tmp.cir);
                 if (cost < min_cost) {
                     min_cost = cost;
@@ -1170,7 +1145,6 @@ void TpWork(int qz_type, double qz, int update_best_answer, int heart_nd_equal) 
                 }
             }
         }
-        if (min_sta_id == -1) return ;
         sum_cost += min_cost;
         if (debug_file != nullptr && is_ab == 1) {
             (*debug_file) << "TPInstall, inst_id: " << inst_id
@@ -1179,22 +1153,11 @@ void TpWork(int qz_type, double qz, int update_best_answer, int heart_nd_equal) 
                         << " sta_id: " << min_sta_id
                         << " cost: " << min_cost
                         << endl;
-            if (inst[inst_id].is_heart)
-                (*debug_file) << "next_sta_id: " << next_area_sta[min_sta.area_id][pl] 
-                              << endl;
         }
-        if (inst[inst_id].is_heart == 1 && heart_nd_equal == 0) {
-            inst[inst_id].heart_sta_id = min_sta_id;
-            inst[inst_id].heart_sta = min_sta;
-            inst[inst_id].sta_id = next_area_sta[min_sta.area_id][pl];
-            inst[inst_id].sta = sta[inst[inst_id].sta_id];
-            inst[inst_id].sta.area_id = inst[inst_id].heart_sta.area_id; 
-        } else {
-            inst[inst_id].sta_id = min_sta_id;
-            inst[inst_id].sta = min_sta;
-            inst[inst_id].heart_sta_id = min_sta_id;
-            inst[inst_id].heart_sta = min_sta;
-        }
+        inst[inst_id].sta_id = min_sta_id;
+        inst[inst_id].heart_sta_id = min_sta_id;
+        inst[inst_id].sta = min_sta;
+        inst[inst_id].heart_sta = min_sta;
         if (inst[inst_id].is_heart == 1) {
             InstallInst(inst_id, inst[inst_id].heart_sta, inst[inst_id].heart_sta_id, 1);
         }
@@ -1202,7 +1165,7 @@ void TpWork(int qz_type, double qz, int update_best_answer, int heart_nd_equal) 
 
     is_ab = 0;
 
-    if (heart_nd_equal == 1) CheckVaild();
+    CheckVaild();
 
     ll answer = GetAnswer();
 
@@ -1232,10 +1195,7 @@ void Work() {
 
     for (int i = inst_n - 1; i >= 0; --i) {
         int inst_id = tp_sort_ids[i];
-        CalcR(inst_id, 0, 0, 0, 1);
-        if (inst[inst_id].is_heart == 1) {
-            CalcHeartR(inst_id, 0);
-        }
+        CalcR(inst_id, 0, 0, 1, 1);
     }
 
     is_ab = 1;
@@ -1243,18 +1203,12 @@ void Work() {
 
     for (int qz_type = 0; qz_type < 2; ++qz_type)
         for (double qz = 0.5; qz <= 10.0; qz += 0.1) {
-            TpWork(qz_type, qz, 1, 0);
+            TpWork(qz_type, qz, 1);
         }
-
+    only_calc_install_cost = 1;
+    TpWork(1, 10.0, 0);
     only_calc_install_cost = 0;
-    // TpWork(1, 10.0, 0, 1);
-
-    // for (int i = inst_n - 1; i >= 0; --i) {
-    //     int inst_id = tp_sort_ids[i];
-    //     CalcR(inst_id, 0, 0, 1, 1);
-    // }
-    // only_calc_install_cost = 0;
-    // DPWork();
+    DPWork();
 }
 
 
