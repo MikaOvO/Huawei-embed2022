@@ -1126,6 +1126,7 @@ void TpWork(int qz_type, double qz, int update_best_answer, int heart_nd_equal) 
         int pl, pr;
         if (inst[inst_id].is_heart == 1 && heart_nd_equal == 0) {
             pl = l;
+            if (inst[inst_id].last_heart_inst_id != -1) pl = max(pl, inst[inst[inst_id].last_heart_inst_id].sta_id + 1 - inst[inst_id].last_edge_type);
             pr = r;
             l = inst[inst_id].heart_l_sta_id;
             r = inst[inst_id].heart_r_sta_id;
@@ -1231,7 +1232,7 @@ void Work() {
 
     for (int i = inst_n - 1; i >= 0; --i) {
         int inst_id = tp_sort_ids[i];
-        CalcR(inst_id, 0, 0, 1, 1);
+        CalcR(inst_id, 0, 0, 0, 1);
         if (inst[inst_id].is_heart == 1) {
             CalcHeartR(inst_id, 0);
         }
@@ -1242,18 +1243,18 @@ void Work() {
 
     for (int qz_type = 0; qz_type < 2; ++qz_type)
         for (double qz = 0.5; qz <= 10.0; qz += 0.1) {
-            TpWork(qz_type, qz, 1, 1);
+            TpWork(qz_type, qz, 1, 0);
         }
 
-    only_calc_install_cost = 1;
-    TpWork(1, 10.0, 0, 1);
-
-    for (int i = inst_n - 1; i >= 0; --i) {
-        int inst_id = tp_sort_ids[i];
-        CalcR(inst_id, 0, 0, 1, 1);
-    }
     only_calc_install_cost = 0;
-    DPWork();
+    // TpWork(1, 10.0, 0, 1);
+
+    // for (int i = inst_n - 1; i >= 0; --i) {
+    //     int inst_id = tp_sort_ids[i];
+    //     CalcR(inst_id, 0, 0, 1, 1);
+    // }
+    // only_calc_install_cost = 0;
+    // DPWork();
 }
 
 

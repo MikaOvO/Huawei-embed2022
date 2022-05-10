@@ -1275,24 +1275,33 @@ Init, inst_id: 850 vec_size: 2 r_vec_size: 1
 Init, inst_id: 506 vec_size: 2 r_vec_size: 1
 Init, inst_id: 591 vec_size: 2 r_vec_size: 1
 Init, inst_id: 782 vec_size: 0 r_vec_size: 1
+Tpwork, inst_id: 714 l: 3 r: 111 pl: 3 pr: 113
 TPInstall, inst_id: 714 l: 3 r: 111 sta_id: 8 cost: 1528409570
-next_sta_id: 0
+next_sta_id: 8
+Tpwork, inst_id: 426 l: 12 r: 114 pl: 12 pr: 122
 TPInstall, inst_id: 426 l: 12 r: 114 sta_id: 12 cost: 1532136857
-next_sta_id: 0
+next_sta_id: 12
+Tpwork, inst_id: 106 l: 14 r: 115 pl: 14 pr: 123
 TPInstall, inst_id: 106 l: 14 r: 115 sta_id: 22 cost: 1614471212
-next_sta_id: 0
+next_sta_id: 22
+Tpwork, inst_id: 33 l: 23 r: 119 pl: 23 pr: 124
 TPInstall, inst_id: 33 l: 23 r: 119 sta_id: 32 cost: 1577435831
-next_sta_id: 0
+next_sta_id: 32
+Tpwork, inst_id: 270 l: 36 r: 122 pl: 36 pr: 129
 TPInstall, inst_id: 270 l: 36 r: 122 sta_id: 36 cost: 1523461689
-next_sta_id: 0
+next_sta_id: 36
+Tpwork, inst_id: 850 l: 38 r: 125 pl: 38 pr: 130
 TPInstall, inst_id: 850 l: 38 r: 125 sta_id: 47 cost: 1531357778
-next_sta_id: 0
+next_sta_id: 47
+Tpwork, inst_id: 506 l: 48 r: 128 pl: 48 pr: 131
 TPInstall, inst_id: 506 l: 48 r: 128 sta_id: 55 cost: 1544098909
-next_sta_id: 0
+next_sta_id: 55
+Tpwork, inst_id: 591 l: 55 r: 128 pl: 55 pr: 131
 TPInstall, inst_id: 591 l: 55 r: 128 sta_id: 55 cost: 127888471
-next_sta_id: 0
+next_sta_id: 55
+Tpwork, inst_id: 782 l: 56 r: 136 pl: 56 pr: 136
 TPInstall, inst_id: 782 l: 56 r: 136 sta_id: 92 cost: 1247132841
-next_sta_id: 0
+next_sta_id: 92
 TPInstall, inst_id: 909 l: 1 r: 131 sta_id: 3 cost: 5073646
 TPInstall, inst_id: 906 l: 0 r: 136 sta_id: 2 cost: 12761331
 TPInstall, inst_id: 901 l: 0 r: 129 sta_id: 0 cost: 96635501
@@ -2770,52 +2779,8 @@ AB_test, qz: 9.9 answer: 31948542419 cal_answer: 31948542419 cost_tag: 1
 only_install_cost: 19876573596
 all_cost: 31948542419
 AB_test, qz: 10 answer: 31948542419 cal_answer: 31948542419 cost_tag: 1
-only_install_cost: 19872227332
-AB_test, qz: 10 answer: 19872227332 cal_answer: 19872227332 cost_tag: 1
-DPWork0, inst_id: 33 l: 0 r: 12
-DPWork0, inst_id: 106 l: 0 r: 11
-DPWork0, inst_id: 270 l: 0 r: 23
-DPWork0, inst_id: 426 l: 0 r: 5
-DPWork0, inst_id: 506 l: 1 r: 31
-DPWork0, inst_id: 591 l: 1 r: 30
-DPWork0, inst_id: 714 l: 0 r: 3
-DPWork0, inst_id: 782 l: 0 r: 136
-DPWork0, inst_id: 850 l: 0 r: 29
-
-DPWork1, inst_id: 33 l: 3 r: 118
-DPWork1, inst_id: 106 l: 2 r: 117
-DPWork1, inst_id: 270 l: 5 r: 126
-DPWork1, inst_id: 426 l: 1 r: 112
-DPWork1, inst_id: 506 l: 7 r: 129
-DPWork1, inst_id: 591 l: 7 r: 131
-DPWork1, inst_id: 714 l: 0 r: 101
-DPWork1, inst_id: 782 l: 8 r: 136
-DPWork1, inst_id: 850 l: 6 r: 127
-
-HeartR, inst_id: 782 next_heart: -1 heart_r: 136 inst_type: 0
-HeartR, inst_id: 591 next_heart: 782 heart_r: 128 inst_type: 1
-HeartR, inst_id: 506 next_heart: 591 heart_r: 128 inst_type: 1
-HeartR, inst_id: 850 next_heart: 506 heart_r: 125 inst_type: 2
-HeartR, inst_id: 270 next_heart: 850 heart_r: 122 inst_type: 2
-HeartR, inst_id: 33 next_heart: 270 heart_r: 119 inst_type: 2
-HeartR, inst_id: 106 next_heart: 33 heart_r: 115 inst_type: 2
-HeartR, inst_id: 426 next_heart: 106 heart_r: 114 inst_type: 2
-HeartR, inst_id: 714 next_heart: 426 heart_r: 111 inst_type: 2
-dp, cost: 12149923312 sta: 115 ener: 1
- dp, inst_id: 782 cost: 12149923312 sta_id: 115 ener: 1 edge: 0 l: 8 r: 136
- dp, inst_id: 591 cost: 10904866927 sta_id: 108 ener: 0 edge: 1 l: 7 r: 128
- dp, inst_id: 506 cost: 10888251534 sta_id: 108 ener: 0 edge: 0 l: 7 r: 128
- dp, inst_id: 850 cost: 9233503221 sta_id: 100 ener: 4 edge: 0 l: 6 r: 125
- dp, inst_id: 270 cost: 7712020539 sta_id: 99 ener: 4 edge: 0 l: 5 r: 122
- dp, inst_id: 33 cost: 6178667815 sta_id: 98 ener: 4 edge: 0 l: 3 r: 118
- dp, inst_id: 106 cost: 4594333939 sta_id: 64 ener: 4 edge: 0 l: 2 r: 115
- dp, inst_id: 426 cost: 3051289410 sta_id: 32 ener: 4 edge: 0 l: 1 r: 112
- dp, inst_id: 714 cost: 1528409570 sta_id: 8 ener: 4 edge: -1 l: 0 r: 101
-only_install_cost: 19872227332
-all_cost: 31914539103
-DP, answer: 31914539103
-only_install_cost: 19872227332
-all_cost: 31914539103
+only_install_cost: 19876573596
+all_cost: 31948542419
 ******END******
 inst_id: 0 sta: 14 41 0 install_cost: 11213266
 Max 2 cost: 11213266 90245768

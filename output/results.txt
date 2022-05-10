@@ -157,3 +157,44 @@ data_file: case1.in sum_cost: 6730607190 best_answer: 6730607190 cost_time: 0.17
 data_file: case2.in sum_cost: 12631478290 best_answer: 12631478290 cost_time: 0.42s
 data_file: case3.in sum_cost: 51764765767 best_answer: 50002556985 cost_time: 4.482s
 
+data_file: 0.in sum_cost: 344851280 best_answer: 344851280 cost_time: 0.005s
+data_file: 1.txt sum_cost: 25472655026 best_answer: 25472655026 cost_time: 0.641s
+data_file: 2.txt sum_cost: 21956706629 best_answer: 21956706629 cost_time: 0.848s
+data_file: 3.txt sum_cost: 19623335099 best_answer: 19623335099 cost_time: 1.019s
+data_file: 4.txt sum_cost: 31914539103 best_answer: 31912803805 cost_time: 0.493s
+data_file: 5.txt sum_cost: 22239369475 best_answer: 22239369475 cost_time: 0.553s
+data_file: 6.txt sum_cost: 32204234670 best_answer: 32204234670 cost_time: 0.525s
+data_file: 7.txt sum_cost: 22273219201 best_answer: 22273219201 cost_time: 0.452s
+data_file: 8.txt sum_cost: 26392231445 best_answer: 26392231445 cost_time: 1.588s
+data_file: 9.txt sum_cost: 19591389619 best_answer: 19591389619 cost_time: 0.628s
+data_file: case1.in sum_cost: 6730607190 best_answer: 6730607190 cost_time: 0.166s
+data_file: case2.in sum_cost: 12631478290 best_answer: 12631478290 cost_time: 0.405s
+data_file: case3.in sum_cost: 51764765767 best_answer: 49997487285 cost_time: 4.427s
+
+data_file: 0.in sum_cost: 344851280 best_answer: 344851280 cost_time: 0.004s
+data_file: 1.txt sum_cost: 25472655026 best_answer: 25472655026 cost_time: 0.615s
+data_file: 2.txt sum_cost: 21956706629 best_answer: 21956706629 cost_time: 0.936s
+data_file: 3.txt sum_cost: 19623335099 best_answer: 19623335099 cost_time: 0.965s
+data_file: 4.txt sum_cost: 31914539103 best_answer: 31912803805 cost_time: 0.502s
+data_file: 5.txt sum_cost: 22239369475 best_answer: 22239369475 cost_time: 0.556s
+data_file: 6.txt sum_cost: 32204234670 best_answer: 32204234670 cost_time: 0.512s
+data_file: 7.txt sum_cost: 22273219201 best_answer: 22273219201 cost_time: 0.449s
+data_file: 8.txt sum_cost: 26392231445 best_answer: 26392231445 cost_time: 1.583s
+data_file: 9.txt sum_cost: 19591389619 best_answer: 19591389619 cost_time: 0.618s
+data_file: case1.in sum_cost: 6730607190 best_answer: 6730607190 cost_time: 0.171s
+data_file: case2.in sum_cost: 12631478290 best_answer: 12631478290 cost_time: 0.398s
+data_file: case3.in sum_cost: 51764765767 best_answer: 49997487285 cost_time: 4.243s
+
+data_file: 0.in sum_cost: 1000000000000000000 best_answer: 344851280 cost_time: 0.001s
+data_file: 1.txt sum_cost: 1000000000000000000 best_answer: 25901880706 cost_time: 0.11s
+data_file: 2.txt sum_cost: 22240839123 best_answer: 21956706629 cost_time: 0.822s
+data_file: 3.txt sum_cost: 20524616270 best_answer: 19623335099 cost_time: 0.914s
+data_file: 4.txt sum_cost: 31948542419 best_answer: 31912803805 cost_time: 0.465s
+data_file: 5.txt sum_cost: 22382330778 best_answer: 22382330778 cost_time: 0.552s
+data_file: 6.txt sum_cost: 35201751253 best_answer: 33505542946 cost_time: 0.523s
+data_file: 7.txt sum_cost: 1000000000000000000 best_answer: 22273242515 cost_time: 0.131s
+data_file: 8.txt sum_cost: 27101461763 best_answer: 26517427592 cost_time: 1.596s
+data_file: 9.txt sum_cost: 1000000000000000000 best_answer: 19627670544 cost_time: 0.079s
+data_file: case1.in sum_cost: 1000000000000000000 best_answer: 6990503382 cost_time: 0.175s
+data_file: case2.in sum_cost: 1000000000000000000 best_answer: 12762504962 cost_time: 0.411s
+data_file: case3.in sum_cost: 52504693183 best_answer: 50002556985 cost_time: 4.451s
