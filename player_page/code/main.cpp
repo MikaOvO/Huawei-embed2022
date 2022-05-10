@@ -856,12 +856,13 @@ void Init() {
     // }
 }
 
-void TpWork(int qz_type, double qz, int update_best_answer) {
-    Clear(1);
+void TpWork(int qz_type, double qz, int update_best_answer, int only_heart) {
+    if (only_heart == 0) Clear(1);
+    else Clear(0);
     ll sum_cost = 0;
     for (int i = 0; i < inst_n; ++i) {
         int inst_id = tp_sort_ids[i];
-
+        if (only_heart == 1 && inst[inst_id].is_heart == 0) continue;
         CalcL(inst_id, 0, 1, 1, 1);
 
         int l = inst[inst_id].l_sta_id;
@@ -1058,18 +1059,20 @@ void DPMainWork() {
                 for (int sta_id = lst_sta_id + 1 - inst[inst_id].last_edge_type; sta_id <= r; ++sta_id) {
                     if (window[sta[sta_id].window_id].can_inst_type[inst[inst_id].inst_type] == 0) continue;
                     for (auto &ener_type : inst_type_to_ener_type[inst[inst_id].inst_type]) {
-                        area_id = window[sta[sta_id].window_id].GetEnerAreaId(ener_type);
-                        if (area_id == -1) continue;
-                        nxt_pos = next_area_sta[area_id][max(pl, dp_l[i-1][lst_sta_id][lst_ener_type] + 1 - inst[inst_id].last_edge_type)];
-                        if (nxt_pos > pr) continue;
-                        cost = dp[i-1][lst_sta_id][lst_ener_type] +
-                               CalcCost(inst_id, sta[sta_id].window_id, ener_type, sta[sta_id].cir, sta[lst_sta_id].window_id, lst_ener_type, sta[lst_sta_id].cir);
-                        if (cost < dp[i][sta_id][ener_type] ||
-                            cost == dp[i][sta_id][ener_type] && nxt_pos < dp[l][sta_id][ener_type]) {
-                            dp[i][sta_id][ener_type] = cost;
-                            dp_l[i][sta_id][ener_type] = nxt_pos;
-                            dp_lst_state[i][sta_id][ener_type] = lst_sta_id;
-                            dp_lst_ener[i][sta_id][ener_type] = lst_ener_type;
+                        // area_id = window[sta[sta_id].window_id].GetEnerAreaId(ener_type);
+                        for (auto area_id : shop[window[sta[sta_id].window_id].shop_id].ener_area_ids[ener_type]) {
+                            if (area_id == -1) continue;
+                            nxt_pos = next_area_sta[area_id][max(pl, dp_l[i-1][lst_sta_id][lst_ener_type] + 1 - inst[inst_id].last_edge_type)];
+                            if (nxt_pos > pr) continue;
+                            cost = dp[i-1][lst_sta_id][lst_ener_type] +
+                                CalcCost(inst_id, sta[sta_id].window_id, ener_type, sta[sta_id].cir, sta[lst_sta_id].window_id, lst_ener_type, sta[lst_sta_id].cir);
+                            if (cost < dp[i][sta_id][ener_type] ||
+                                cost == dp[i][sta_id][ener_type] && nxt_pos < dp[l][sta_id][ener_type]) {
+                                dp[i][sta_id][ener_type] = cost;
+                                dp_l[i][sta_id][ener_type] = nxt_pos;
+                                dp_lst_state[i][sta_id][ener_type] = lst_sta_id;
+                                dp_lst_ener[i][sta_id][ener_type] = lst_ener_type;
+                            }
                         }
                     }
                 }   
@@ -1197,6 +1200,24 @@ void DPWork() {
     }
 
     DPMainWork();
+    
+    for (int i = 0; i < inst_n; ++i) {
+        if (inst[i].is_heart == 0) continue;
+        CalcL(i, 1, 1, 1, 1);
+        CalcR(i, 1, 1, 1, 1);
+    } 
+    for (int j = heart_inst_n - 1; j >= 0; --j) {
+        int i = heart_inst_ids[j];
+        CalcR(i, 2, 0, 1, 0);
+    }
+    for (int j = 0; j < heart_inst_n; ++j) {
+        int i = heart_inst_ids[j];
+        CalcL(i, 2, 0, 1, 0);
+    }
+    for (int qz_type = 0; qz_type < 2; ++qz_type)
+        for (double qz = 0.5; qz <= 10.0; qz += 0.1) {
+            TpWork(qz_type, qz, 1, 1);
+        }
 }
 
 void Work() {
@@ -1213,11 +1234,11 @@ void Work() {
     only_calc_install_cost = 0;
 
     for (int qz_type = 0; qz_type < 2; ++qz_type)
-        for (double qz = 0.5; qz <= 10.0; qz += 0.1) {
-            TpWork(qz_type, qz, 1);
+        for (double qz = 0.1; qz <= 10.0; qz += 0.1) {
+            TpWork(qz_type, qz, 1, 0);
         }
     only_calc_install_cost = 1;
-    TpWork(1, 10.0, 0);
+    TpWork(1, 10.0, 0, 0);
     only_calc_install_cost = 0;
     DPWork();
 }
