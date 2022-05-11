@@ -1538,473 +1538,33 @@ HeartR, inst_id: 53 next_heart: 54 heart_r: 122 inst_type: 2
 HeartR, inst_id: 52 next_heart: 53 heart_r: 122 inst_type: 2
 HeartR, inst_id: 51 next_heart: 52 heart_r: 121 inst_type: 0
 HeartR, inst_id: 50 next_heart: 51 heart_r: 119 inst_type: 0
-dp, cost: 1458881503 sta: 578 ener: 2
- dp, inst_id: 100 cost: 1458881503 sta_id: 578 ener: 2 edge: 0 l: 475 r: 563
- dp, inst_id: 99 cost: 1453693852 sta_id: 507 ener: 1 edge: 1 l: 474 r: 562
- dp, inst_id: 98 cost: 1441568865 sta_id: 507 ener: 1 edge: 0 l: 474 r: 562
- dp, inst_id: 97 cost: 1402609028 sta_id: 506 ener: 1 edge: 0 l: 473 r: 561
- dp, inst_id: 96 cost: 1358103067 sta_id: 497 ener: 2 edge: 0 l: 472 r: 511
- dp, inst_id: 95 cost: 1266810292 sta_id: 487 ener: 0 edge: 0 l: 471 r: 508
- dp, inst_id: 94 cost: 1266279480 sta_id: 478 ener: 4 edge: 0 l: 470 r: 478
- dp, inst_id: 93 cost: 1224729240 sta_id: 457 ener: 0 edge: 0 l: 413 r: 477
- dp, inst_id: 92 cost: 1219087483 sta_id: 456 ener: 0 edge: 0 l: 412 r: 476
- dp, inst_id: 91 cost: 1198776481 sta_id: 455 ener: 4 edge: 0 l: 411 r: 475
- dp, inst_id: 90 cost: 1150373289 sta_id: 454 ener: 0 edge: 0 l: 404 r: 474
- dp, inst_id: 89 cost: 1132763042 sta_id: 448 ener: 2 edge: 0 l: 403 r: 458
- dp, inst_id: 88 cost: 1095119806 sta_id: 447 ener: 2 edge: 0 l: 402 r: 448
- dp, inst_id: 87 cost: 1048539261 sta_id: 446 ener: 1 edge: 0 l: 392 r: 447
- dp, inst_id: 86 cost: 1001009071 sta_id: 445 ener: 2 edge: 0 l: 285 r: 446
- dp, inst_id: 85 cost: 976742377 sta_id: 444 ener: 1 edge: 0 l: 284 r: 445
- dp, inst_id: 84 cost: 965946364 sta_id: 390 ener: 4 edge: 0 l: 283 r: 429
- dp, inst_id: 83 cost: 938878949 sta_id: 369 ener: 2 edge: 0 l: 282 r: 411
- dp, inst_id: 82 cost: 891704387 sta_id: 336 ener: 3 edge: 0 l: 235 r: 401
- dp, inst_id: 81 cost: 875172581 sta_id: 287 ener: 0 edge: 0 l: 234 r: 357
- dp, inst_id: 80 cost: 862938549 sta_id: 286 ener: 0 edge: 0 l: 233 r: 356
- dp, inst_id: 79 cost: 842105436 sta_id: 285 ener: 0 edge: 0 l: 232 r: 327
- dp, inst_id: 78 cost: 829851217 sta_id: 284 ener: 0 edge: 0 l: 222 r: 296
- dp, inst_id: 77 cost: 783079271 sta_id: 240 ener: 3 edge: 0 l: 93 r: 277
- dp, inst_id: 76 cost: 763067456 sta_id: 239 ener: 4 edge: 0 l: 92 r: 276
- dp, inst_id: 75 cost: 755681048 sta_id: 238 ener: 3 edge: 0 l: 91 r: 268
- dp, inst_id: 74 cost: 747476798 sta_id: 222 ener: 1 edge: 0 l: 87 r: 267
- dp, inst_id: 73 cost: 694286686 sta_id: 180 ener: 0 edge: 1 l: 85 r: 220
- dp, inst_id: 72 cost: 665544886 sta_id: 180 ener: 0 edge: 0 l: 54 r: 220
- dp, inst_id: 71 cost: 645972775 sta_id: 171 ener: 3 edge: 0 l: 51 r: 200
- dp, inst_id: 70 cost: 602624796 sta_id: 167 ener: 4 edge: 0 l: 41 r: 173
- dp, inst_id: 69 cost: 596602857 sta_id: 159 ener: 2 edge: 0 l: 40 r: 164
- dp, inst_id: 68 cost: 556598039 sta_id: 139 ener: 2 edge: 0 l: 39 r: 160
- dp, inst_id: 67 cost: 518822354 sta_id: 132 ener: 4 edge: 0 l: 38 r: 153
- dp, inst_id: 66 cost: 506891087 sta_id: 131 ener: 3 edge: 0 l: 31 r: 152
- dp, inst_id: 65 cost: 466647862 sta_id: 111 ener: 1 edge: 0 l: 29 r: 151
- dp, inst_id: 64 cost: 453431811 sta_id: 103 ener: 0 edge: 1 l: 28 r: 149
- dp, inst_id: 63 cost: 432656946 sta_id: 103 ener: 0 edge: 0 l: 28 r: 88
- dp, inst_id: 62 cost: 421365394 sta_id: 102 ener: 3 edge: 0 l: 27 r: 87
- dp, inst_id: 61 cost: 387123841 sta_id: 82 ener: 3 edge: 0 l: 24 r: 84
- dp, inst_id: 60 cost: 364475941 sta_id: 81 ener: 1 edge: 0 l: 23 r: 63
- dp, inst_id: 59 cost: 322738212 sta_id: 78 ener: 0 edge: 0 l: 22 r: 62
- dp, inst_id: 58 cost: 281833794 sta_id: 77 ener: 1 edge: 0 l: 21 r: 61
- dp, inst_id: 57 cost: 230715799 sta_id: 75 ener: 2 edge: 0 l: 19 r: 60
- dp, inst_id: 56 cost: 174478438 sta_id: 68 ener: 3 edge: 0 l: 18 r: 48
- dp, inst_id: 55 cost: 148256492 sta_id: 57 ener: 1 edge: 0 l: 16 r: 47
- dp, inst_id: 54 cost: 139863751 sta_id: 44 ener: 2 edge: 0 l: 14 r: 45
- dp, inst_id: 53 cost: 92342426 sta_id: 24 ener: 4 edge: 1 l: 11 r: 44
- dp, inst_id: 52 cost: 44271063 sta_id: 22 ener: 3 edge: 0 l: 11 r: 44
- dp, inst_id: 51 cost: 30888988 sta_id: 7 ener: 0 edge: 0 l: 7 r: 11
- dp, inst_id: 50 cost: 9361579 sta_id: 3 ener: 0 edge: -1 l: 5 r: 10
-only_install_cost: 6869104867
-all_cost: 6869541052
-DP, answer: 6869541052
-dp, cost: 1515452363 sta: 578 ener: 2
- dp, inst_id: 100 cost: 1515452363 sta_id: 578 ener: 2 edge: 0 l: 475 r: 563
- dp, inst_id: 99 cost: 1510264712 sta_id: 507 ener: 1 edge: 1 l: 474 r: 562
- dp, inst_id: 98 cost: 1496927226 sta_id: 507 ener: 1 edge: 0 l: 474 r: 562
- dp, inst_id: 97 cost: 1454071406 sta_id: 506 ener: 1 edge: 0 l: 473 r: 561
- dp, inst_id: 96 cost: 1409565445 sta_id: 497 ener: 2 edge: 0 l: 472 r: 511
- dp, inst_id: 95 cost: 1318272670 sta_id: 487 ener: 0 edge: 0 l: 471 r: 508
- dp, inst_id: 94 cost: 1317741858 sta_id: 478 ener: 4 edge: 0 l: 470 r: 478
- dp, inst_id: 93 cost: 1276191618 sta_id: 457 ener: 0 edge: 0 l: 413 r: 477
- dp, inst_id: 92 cost: 1269985686 sta_id: 456 ener: 0 edge: 0 l: 412 r: 476
- dp, inst_id: 91 cost: 1247643584 sta_id: 455 ener: 4 edge: 0 l: 411 r: 475
- dp, inst_id: 90 cost: 1194400073 sta_id: 454 ener: 0 edge: 0 l: 404 r: 474
- dp, inst_id: 89 cost: 1176789826 sta_id: 448 ener: 2 edge: 0 l: 403 r: 458
- dp, inst_id: 88 cost: 1135382266 sta_id: 447 ener: 2 edge: 0 l: 402 r: 448
- dp, inst_id: 87 cost: 1084143666 sta_id: 446 ener: 1 edge: 0 l: 392 r: 447
- dp, inst_id: 86 cost: 1031860457 sta_id: 445 ener: 2 edge: 0 l: 285 r: 446
- dp, inst_id: 85 cost: 1005167094 sta_id: 444 ener: 1 edge: 0 l: 284 r: 445
- dp, inst_id: 84 cost: 994371081 sta_id: 390 ener: 4 edge: 0 l: 283 r: 429
- dp, inst_id: 83 cost: 967303666 sta_id: 369 ener: 2 edge: 0 l: 282 r: 411
- dp, inst_id: 82 cost: 920129104 sta_id: 336 ener: 3 edge: 0 l: 235 r: 401
- dp, inst_id: 81 cost: 903597298 sta_id: 287 ener: 0 edge: 0 l: 234 r: 357
- dp, inst_id: 80 cost: 890139863 sta_id: 286 ener: 0 edge: 0 l: 233 r: 356
- dp, inst_id: 79 cost: 867223439 sta_id: 285 ener: 0 edge: 0 l: 232 r: 327
- dp, inst_id: 78 cost: 853743798 sta_id: 284 ener: 0 edge: 0 l: 222 r: 296
- dp, inst_id: 77 cost: 806971852 sta_id: 240 ener: 3 edge: 0 l: 93 r: 277
- dp, inst_id: 76 cost: 784958855 sta_id: 239 ener: 4 edge: 0 l: 92 r: 276
- dp, inst_id: 75 cost: 776833807 sta_id: 238 ener: 3 edge: 0 l: 91 r: 268
- dp, inst_id: 74 cost: 768629557 sta_id: 222 ener: 1 edge: 0 l: 87 r: 267
- dp, inst_id: 73 cost: 715439445 sta_id: 180 ener: 0 edge: 1 l: 85 r: 220
- dp, inst_id: 72 cost: 683823465 sta_id: 180 ener: 0 edge: 0 l: 54 r: 220
- dp, inst_id: 71 cost: 664251354 sta_id: 171 ener: 3 edge: 0 l: 51 r: 200
- dp, inst_id: 70 cost: 620903375 sta_id: 167 ener: 4 edge: 0 l: 41 r: 173
- dp, inst_id: 69 cost: 614881436 sta_id: 159 ener: 2 edge: 0 l: 40 r: 164
- dp, inst_id: 68 cost: 570876136 sta_id: 139 ener: 2 edge: 0 l: 39 r: 160
- dp, inst_id: 67 cost: 533100451 sta_id: 132 ener: 4 edge: 0 l: 38 r: 153
- dp, inst_id: 66 cost: 521169184 sta_id: 131 ener: 3 edge: 0 l: 31 r: 152
- dp, inst_id: 65 cost: 476901637 sta_id: 111 ener: 1 edge: 0 l: 29 r: 151
- dp, inst_id: 64 cost: 463685586 sta_id: 103 ener: 0 edge: 1 l: 28 r: 149
- dp, inst_id: 63 cost: 440833234 sta_id: 103 ener: 0 edge: 0 l: 28 r: 88
- dp, inst_id: 62 cost: 429541682 sta_id: 102 ener: 3 edge: 0 l: 27 r: 87
- dp, inst_id: 61 cost: 391875974 sta_id: 82 ener: 3 edge: 0 l: 24 r: 84
- dp, inst_id: 60 cost: 369228074 sta_id: 81 ener: 1 edge: 0 l: 23 r: 63
- dp, inst_id: 59 cost: 327490345 sta_id: 78 ener: 0 edge: 0 l: 22 r: 62
- dp, inst_id: 58 cost: 286585927 sta_id: 77 ener: 1 edge: 0 l: 21 r: 61
- dp, inst_id: 57 cost: 235467932 sta_id: 75 ener: 2 edge: 0 l: 19 r: 60
- dp, inst_id: 56 cost: 179230571 sta_id: 68 ener: 3 edge: 0 l: 18 r: 48
- dp, inst_id: 55 cost: 153008625 sta_id: 57 ener: 1 edge: 0 l: 16 r: 47
- dp, inst_id: 54 cost: 144615884 sta_id: 44 ener: 2 edge: 0 l: 14 r: 45
- dp, inst_id: 53 cost: 92342426 sta_id: 24 ener: 4 edge: 1 l: 11 r: 44
- dp, inst_id: 52 cost: 44271063 sta_id: 22 ener: 3 edge: 0 l: 11 r: 44
- dp, inst_id: 51 cost: 30888988 sta_id: 7 ener: 0 edge: 0 l: 7 r: 11
- dp, inst_id: 50 cost: 9361579 sta_id: 3 ener: 0 edge: -1 l: 5 r: 10
-only_install_cost: 6869104867
-all_cost: 6869541052
-DP, answer: 6869541052
-dp, cost: 1570430013 sta: 578 ener: 2
- dp, inst_id: 100 cost: 1570430013 sta_id: 578 ener: 2 edge: 0 l: 475 r: 563
- dp, inst_id: 99 cost: 1565242362 sta_id: 507 ener: 1 edge: 1 l: 474 r: 562
- dp, inst_id: 98 cost: 1550692377 sta_id: 507 ener: 1 edge: 0 l: 474 r: 562
- dp, inst_id: 97 cost: 1503940573 sta_id: 506 ener: 1 edge: 0 l: 473 r: 561
- dp, inst_id: 96 cost: 1459434612 sta_id: 497 ener: 2 edge: 0 l: 472 r: 511
- dp, inst_id: 95 cost: 1368141837 sta_id: 487 ener: 0 edge: 0 l: 471 r: 508
- dp, inst_id: 94 cost: 1367611025 sta_id: 478 ener: 4 edge: 0 l: 470 r: 478
- dp, inst_id: 93 cost: 1326060785 sta_id: 457 ener: 0 edge: 0 l: 413 r: 477
- dp, inst_id: 92 cost: 1319290677 sta_id: 456 ener: 0 edge: 0 l: 412 r: 476
- dp, inst_id: 91 cost: 1294917475 sta_id: 455 ener: 4 edge: 0 l: 411 r: 475
- dp, inst_id: 90 cost: 1236833644 sta_id: 454 ener: 0 edge: 0 l: 404 r: 474
- dp, inst_id: 89 cost: 1219223397 sta_id: 411 ener: 0 edge: 0 l: 403 r: 458
- dp, inst_id: 88 cost: 1218483029 sta_id: 410 ener: 2 edge: 0 l: 402 r: 448
- dp, inst_id: 87 cost: 1125321753 sta_id: 392 ener: 0 edge: 0 l: 392 r: 447
- dp, inst_id: 86 cost: 1106472082 sta_id: 369 ener: 2 edge: 0 l: 285 r: 446
- dp, inst_id: 85 cost: 1057935764 sta_id: 359 ener: 1 edge: 0 l: 284 r: 445
- dp, inst_id: 84 cost: 1047147911 sta_id: 358 ener: 4 edge: 0 l: 283 r: 429
- dp, inst_id: 83 cost: 1020067880 sta_id: 356 ener: 0 edge: 0 l: 282 r: 411
- dp, inst_id: 82 cost: 948553822 sta_id: 336 ener: 3 edge: 0 l: 235 r: 401
- dp, inst_id: 81 cost: 932022016 sta_id: 287 ener: 0 edge: 0 l: 234 r: 357
- dp, inst_id: 80 cost: 917341178 sta_id: 286 ener: 0 edge: 0 l: 233 r: 356
- dp, inst_id: 79 cost: 892341442 sta_id: 285 ener: 0 edge: 0 l: 232 r: 327
- dp, inst_id: 78 cost: 877636379 sta_id: 284 ener: 0 edge: 0 l: 222 r: 296
- dp, inst_id: 77 cost: 830864433 sta_id: 240 ener: 3 edge: 0 l: 93 r: 277
- dp, inst_id: 76 cost: 806850255 sta_id: 239 ener: 4 edge: 0 l: 92 r: 276
- dp, inst_id: 75 cost: 797986566 sta_id: 238 ener: 3 edge: 0 l: 91 r: 268
- dp, inst_id: 74 cost: 789782316 sta_id: 222 ener: 1 edge: 0 l: 87 r: 267
- dp, inst_id: 73 cost: 736592204 sta_id: 180 ener: 0 edge: 1 l: 85 r: 220
- dp, inst_id: 72 cost: 702102044 sta_id: 180 ener: 0 edge: 0 l: 54 r: 220
- dp, inst_id: 71 cost: 682529933 sta_id: 171 ener: 3 edge: 0 l: 51 r: 200
- dp, inst_id: 70 cost: 639181954 sta_id: 167 ener: 4 edge: 0 l: 41 r: 173
- dp, inst_id: 69 cost: 633160015 sta_id: 159 ener: 2 edge: 0 l: 40 r: 164
- dp, inst_id: 68 cost: 585154233 sta_id: 139 ener: 2 edge: 0 l: 39 r: 160
- dp, inst_id: 67 cost: 547378548 sta_id: 132 ener: 4 edge: 0 l: 38 r: 153
- dp, inst_id: 66 cost: 535447281 sta_id: 131 ener: 3 edge: 0 l: 31 r: 152
- dp, inst_id: 65 cost: 487155411 sta_id: 111 ener: 1 edge: 0 l: 29 r: 151
- dp, inst_id: 64 cost: 473939360 sta_id: 103 ener: 0 edge: 1 l: 28 r: 149
- dp, inst_id: 63 cost: 449009522 sta_id: 103 ener: 0 edge: 0 l: 28 r: 88
- dp, inst_id: 62 cost: 437717970 sta_id: 102 ener: 3 edge: 0 l: 27 r: 87
- dp, inst_id: 61 cost: 396628106 sta_id: 82 ener: 3 edge: 0 l: 24 r: 84
- dp, inst_id: 60 cost: 373980206 sta_id: 81 ener: 1 edge: 0 l: 23 r: 63
- dp, inst_id: 59 cost: 332242477 sta_id: 78 ener: 0 edge: 0 l: 22 r: 62
- dp, inst_id: 58 cost: 291338059 sta_id: 77 ener: 1 edge: 0 l: 21 r: 61
- dp, inst_id: 57 cost: 240220064 sta_id: 75 ener: 2 edge: 0 l: 19 r: 60
- dp, inst_id: 56 cost: 183982703 sta_id: 68 ener: 3 edge: 0 l: 18 r: 48
- dp, inst_id: 55 cost: 157760757 sta_id: 57 ener: 1 edge: 0 l: 16 r: 47
- dp, inst_id: 54 cost: 149368016 sta_id: 44 ener: 2 edge: 0 l: 14 r: 45
- dp, inst_id: 53 cost: 92342426 sta_id: 24 ener: 4 edge: 1 l: 11 r: 44
- dp, inst_id: 52 cost: 44271063 sta_id: 22 ener: 3 edge: 0 l: 11 r: 44
- dp, inst_id: 51 cost: 30888988 sta_id: 7 ener: 0 edge: 0 l: 7 r: 11
- dp, inst_id: 50 cost: 9361579 sta_id: 3 ener: 0 edge: -1 l: 5 r: 10
-only_install_cost: 6742706013
-all_cost: 6743138265
-DP, answer: 6743138265
-dp, cost: 1611398808 sta: 578 ener: 2
- dp, inst_id: 100 cost: 1611398808 sta_id: 578 ener: 2 edge: 0 l: 475 r: 563
- dp, inst_id: 99 cost: 1606211157 sta_id: 507 ener: 1 edge: 1 l: 474 r: 562
- dp, inst_id: 98 cost: 1590448674 sta_id: 507 ener: 1 edge: 0 l: 474 r: 562
- dp, inst_id: 97 cost: 1539800886 sta_id: 506 ener: 1 edge: 0 l: 473 r: 561
- dp, inst_id: 96 cost: 1495294925 sta_id: 497 ener: 2 edge: 0 l: 472 r: 511
- dp, inst_id: 95 cost: 1404002150 sta_id: 487 ener: 0 edge: 0 l: 471 r: 508
- dp, inst_id: 94 cost: 1403471338 sta_id: 478 ener: 4 edge: 0 l: 470 r: 478
- dp, inst_id: 93 cost: 1361921098 sta_id: 457 ener: 0 edge: 0 l: 413 r: 477
- dp, inst_id: 92 cost: 1354586814 sta_id: 456 ener: 0 edge: 0 l: 412 r: 476
- dp, inst_id: 91 cost: 1328182512 sta_id: 455 ener: 4 edge: 0 l: 411 r: 475
- dp, inst_id: 90 cost: 1265258362 sta_id: 454 ener: 0 edge: 0 l: 404 r: 474
- dp, inst_id: 89 cost: 1247648115 sta_id: 411 ener: 0 edge: 0 l: 403 r: 458
- dp, inst_id: 88 cost: 1246907747 sta_id: 410 ener: 2 edge: 0 l: 402 r: 448
- dp, inst_id: 87 cost: 1153746471 sta_id: 392 ener: 0 edge: 0 l: 392 r: 447
- dp, inst_id: 86 cost: 1134896800 sta_id: 369 ener: 2 edge: 0 l: 285 r: 446
- dp, inst_id: 85 cost: 1086360482 sta_id: 359 ener: 1 edge: 0 l: 284 r: 445
- dp, inst_id: 84 cost: 1075572629 sta_id: 358 ener: 4 edge: 0 l: 283 r: 429
- dp, inst_id: 83 cost: 1048492598 sta_id: 356 ener: 0 edge: 0 l: 282 r: 411
- dp, inst_id: 82 cost: 976978540 sta_id: 336 ener: 3 edge: 0 l: 235 r: 401
- dp, inst_id: 81 cost: 960446734 sta_id: 287 ener: 0 edge: 0 l: 234 r: 357
- dp, inst_id: 80 cost: 944542493 sta_id: 286 ener: 0 edge: 0 l: 233 r: 356
- dp, inst_id: 79 cost: 917459446 sta_id: 285 ener: 0 edge: 0 l: 232 r: 327
- dp, inst_id: 78 cost: 901528961 sta_id: 284 ener: 0 edge: 0 l: 222 r: 296
- dp, inst_id: 77 cost: 854757015 sta_id: 240 ener: 3 edge: 0 l: 93 r: 277
- dp, inst_id: 76 cost: 828741655 sta_id: 239 ener: 4 edge: 0 l: 92 r: 276
- dp, inst_id: 75 cost: 819139325 sta_id: 238 ener: 3 edge: 0 l: 91 r: 268
- dp, inst_id: 74 cost: 810935075 sta_id: 222 ener: 1 edge: 0 l: 87 r: 267
- dp, inst_id: 73 cost: 757744963 sta_id: 180 ener: 0 edge: 1 l: 85 r: 220
- dp, inst_id: 72 cost: 720380623 sta_id: 180 ener: 0 edge: 0 l: 54 r: 220
- dp, inst_id: 71 cost: 700808512 sta_id: 171 ener: 3 edge: 0 l: 51 r: 200
- dp, inst_id: 70 cost: 657460533 sta_id: 167 ener: 4 edge: 0 l: 41 r: 173
- dp, inst_id: 69 cost: 651438594 sta_id: 159 ener: 2 edge: 0 l: 40 r: 164
- dp, inst_id: 68 cost: 599432330 sta_id: 139 ener: 2 edge: 0 l: 39 r: 160
- dp, inst_id: 67 cost: 561656645 sta_id: 132 ener: 4 edge: 0 l: 38 r: 153
- dp, inst_id: 66 cost: 549725378 sta_id: 131 ener: 3 edge: 0 l: 31 r: 152
- dp, inst_id: 65 cost: 497409186 sta_id: 111 ener: 1 edge: 0 l: 29 r: 151
- dp, inst_id: 64 cost: 484193135 sta_id: 103 ener: 0 edge: 1 l: 28 r: 149
- dp, inst_id: 63 cost: 457185810 sta_id: 103 ener: 0 edge: 0 l: 28 r: 88
- dp, inst_id: 62 cost: 445894258 sta_id: 102 ener: 3 edge: 0 l: 27 r: 87
- dp, inst_id: 61 cost: 401380239 sta_id: 82 ener: 3 edge: 0 l: 24 r: 84
- dp, inst_id: 60 cost: 378732339 sta_id: 81 ener: 1 edge: 0 l: 23 r: 63
- dp, inst_id: 59 cost: 336994610 sta_id: 78 ener: 0 edge: 0 l: 22 r: 62
- dp, inst_id: 58 cost: 296090192 sta_id: 77 ener: 1 edge: 0 l: 21 r: 61
- dp, inst_id: 57 cost: 244972197 sta_id: 75 ener: 2 edge: 0 l: 19 r: 60
- dp, inst_id: 56 cost: 188734836 sta_id: 68 ener: 3 edge: 0 l: 18 r: 48
- dp, inst_id: 55 cost: 162512890 sta_id: 57 ener: 1 edge: 0 l: 16 r: 47
- dp, inst_id: 54 cost: 154120149 sta_id: 44 ener: 2 edge: 0 l: 14 r: 45
- dp, inst_id: 53 cost: 92342426 sta_id: 24 ener: 4 edge: 1 l: 11 r: 44
- dp, inst_id: 52 cost: 44271063 sta_id: 22 ener: 3 edge: 0 l: 11 r: 44
- dp, inst_id: 51 cost: 30888988 sta_id: 7 ener: 0 edge: 0 l: 7 r: 11
- dp, inst_id: 50 cost: 9361579 sta_id: 3 ener: 0 edge: -1 l: 5 r: 10
-only_install_cost: 6742706013
-all_cost: 6743138265
-DP, answer: 6743138265
-dp, cost: 1651620765 sta: 509 ener: 2
- dp, inst_id: 100 cost: 1651620765 sta_id: 509 ener: 2 edge: 0 l: 475 r: 563
- dp, inst_id: 99 cost: 1646428344 sta_id: 508 ener: 0 edge: 1 l: 474 r: 562
- dp, inst_id: 98 cost: 1630204966 sta_id: 507 ener: 1 edge: 0 l: 474 r: 562
- dp, inst_id: 97 cost: 1575661195 sta_id: 506 ener: 1 edge: 0 l: 473 r: 561
- dp, inst_id: 96 cost: 1531155234 sta_id: 497 ener: 2 edge: 0 l: 472 r: 511
- dp, inst_id: 95 cost: 1439862459 sta_id: 487 ener: 0 edge: 0 l: 471 r: 508
- dp, inst_id: 94 cost: 1439331647 sta_id: 478 ener: 4 edge: 0 l: 470 r: 478
- dp, inst_id: 93 cost: 1397781407 sta_id: 457 ener: 0 edge: 0 l: 413 r: 477
- dp, inst_id: 92 cost: 1389882948 sta_id: 456 ener: 0 edge: 0 l: 412 r: 476
- dp, inst_id: 91 cost: 1361447546 sta_id: 455 ener: 4 edge: 0 l: 411 r: 475
- dp, inst_id: 90 cost: 1293683077 sta_id: 454 ener: 0 edge: 0 l: 404 r: 474
- dp, inst_id: 89 cost: 1276072830 sta_id: 411 ener: 0 edge: 0 l: 403 r: 458
- dp, inst_id: 88 cost: 1275332462 sta_id: 410 ener: 2 edge: 0 l: 402 r: 448
- dp, inst_id: 87 cost: 1182171186 sta_id: 392 ener: 0 edge: 0 l: 392 r: 447
- dp, inst_id: 86 cost: 1163321515 sta_id: 369 ener: 2 edge: 0 l: 285 r: 446
- dp, inst_id: 85 cost: 1114785197 sta_id: 359 ener: 1 edge: 0 l: 284 r: 445
- dp, inst_id: 84 cost: 1103997344 sta_id: 358 ener: 4 edge: 0 l: 283 r: 429
- dp, inst_id: 83 cost: 1076917313 sta_id: 356 ener: 0 edge: 0 l: 282 r: 411
- dp, inst_id: 82 cost: 1005403255 sta_id: 336 ener: 3 edge: 0 l: 235 r: 401
- dp, inst_id: 81 cost: 988871449 sta_id: 287 ener: 0 edge: 0 l: 234 r: 357
- dp, inst_id: 80 cost: 971743805 sta_id: 286 ener: 0 edge: 0 l: 233 r: 356
- dp, inst_id: 79 cost: 942577447 sta_id: 285 ener: 0 edge: 0 l: 232 r: 327
- dp, inst_id: 78 cost: 925421540 sta_id: 284 ener: 0 edge: 0 l: 222 r: 296
- dp, inst_id: 77 cost: 878649594 sta_id: 240 ener: 3 edge: 0 l: 93 r: 277
- dp, inst_id: 76 cost: 850633053 sta_id: 239 ener: 4 edge: 0 l: 92 r: 276
- dp, inst_id: 75 cost: 840292082 sta_id: 238 ener: 3 edge: 0 l: 91 r: 268
- dp, inst_id: 74 cost: 832087832 sta_id: 222 ener: 1 edge: 0 l: 87 r: 267
- dp, inst_id: 73 cost: 778897720 sta_id: 180 ener: 0 edge: 1 l: 85 r: 220
- dp, inst_id: 72 cost: 738659200 sta_id: 180 ener: 0 edge: 0 l: 54 r: 220
- dp, inst_id: 71 cost: 719087089 sta_id: 171 ener: 3 edge: 0 l: 51 r: 200
- dp, inst_id: 70 cost: 675739110 sta_id: 167 ener: 4 edge: 0 l: 41 r: 173
- dp, inst_id: 69 cost: 669717171 sta_id: 159 ener: 2 edge: 0 l: 40 r: 164
- dp, inst_id: 68 cost: 613710426 sta_id: 139 ener: 2 edge: 0 l: 39 r: 160
- dp, inst_id: 67 cost: 575934741 sta_id: 132 ener: 4 edge: 0 l: 38 r: 153
- dp, inst_id: 66 cost: 564003474 sta_id: 131 ener: 3 edge: 0 l: 31 r: 152
- dp, inst_id: 65 cost: 507662959 sta_id: 111 ener: 1 edge: 0 l: 29 r: 151
- dp, inst_id: 64 cost: 494446908 sta_id: 103 ener: 0 edge: 1 l: 28 r: 149
- dp, inst_id: 63 cost: 465362097 sta_id: 103 ener: 0 edge: 0 l: 28 r: 88
- dp, inst_id: 62 cost: 454070545 sta_id: 102 ener: 3 edge: 0 l: 27 r: 87
- dp, inst_id: 61 cost: 406132371 sta_id: 82 ener: 3 edge: 0 l: 24 r: 84
- dp, inst_id: 60 cost: 383484471 sta_id: 81 ener: 1 edge: 0 l: 23 r: 63
- dp, inst_id: 59 cost: 341746742 sta_id: 78 ener: 0 edge: 0 l: 22 r: 62
- dp, inst_id: 58 cost: 300842324 sta_id: 77 ener: 1 edge: 0 l: 21 r: 61
- dp, inst_id: 57 cost: 249724329 sta_id: 75 ener: 2 edge: 0 l: 19 r: 60
- dp, inst_id: 56 cost: 193486968 sta_id: 68 ener: 3 edge: 0 l: 18 r: 48
- dp, inst_id: 55 cost: 167265022 sta_id: 57 ener: 1 edge: 0 l: 16 r: 47
- dp, inst_id: 54 cost: 158872281 sta_id: 44 ener: 2 edge: 0 l: 14 r: 45
- dp, inst_id: 53 cost: 92342426 sta_id: 24 ener: 4 edge: 1 l: 11 r: 44
- dp, inst_id: 52 cost: 44271063 sta_id: 22 ener: 3 edge: 0 l: 11 r: 44
- dp, inst_id: 51 cost: 30888988 sta_id: 7 ener: 0 edge: 0 l: 7 r: 11
- dp, inst_id: 50 cost: 9361579 sta_id: 3 ener: 0 edge: -1 l: 5 r: 10
-only_install_cost: 6734671954
-all_cost: 6735116438
-DP, answer: 6735116438
-dp, cost: 1691377066 sta: 509 ener: 2
- dp, inst_id: 100 cost: 1691377066 sta_id: 509 ener: 2 edge: 0 l: 475 r: 563
- dp, inst_id: 99 cost: 1686184645 sta_id: 508 ener: 0 edge: 1 l: 474 r: 562
- dp, inst_id: 98 cost: 1669961267 sta_id: 507 ener: 1 edge: 0 l: 474 r: 562
- dp, inst_id: 97 cost: 1611521512 sta_id: 506 ener: 1 edge: 0 l: 473 r: 561
- dp, inst_id: 96 cost: 1567015551 sta_id: 497 ener: 2 edge: 0 l: 472 r: 511
- dp, inst_id: 95 cost: 1475722776 sta_id: 487 ener: 0 edge: 0 l: 471 r: 508
- dp, inst_id: 94 cost: 1475191964 sta_id: 478 ener: 4 edge: 0 l: 470 r: 478
- dp, inst_id: 93 cost: 1433641724 sta_id: 457 ener: 0 edge: 0 l: 413 r: 477
- dp, inst_id: 92 cost: 1425179089 sta_id: 456 ener: 0 edge: 0 l: 412 r: 476
- dp, inst_id: 91 cost: 1394712586 sta_id: 455 ener: 4 edge: 0 l: 411 r: 475
- dp, inst_id: 90 cost: 1322107798 sta_id: 454 ener: 0 edge: 0 l: 404 r: 474
- dp, inst_id: 89 cost: 1304497551 sta_id: 411 ener: 0 edge: 0 l: 403 r: 458
- dp, inst_id: 88 cost: 1303757183 sta_id: 410 ener: 2 edge: 0 l: 402 r: 448
- dp, inst_id: 87 cost: 1210595907 sta_id: 392 ener: 0 edge: 0 l: 392 r: 447
- dp, inst_id: 86 cost: 1191746236 sta_id: 369 ener: 2 edge: 0 l: 285 r: 446
- dp, inst_id: 85 cost: 1143209918 sta_id: 359 ener: 1 edge: 0 l: 284 r: 445
- dp, inst_id: 84 cost: 1132422065 sta_id: 358 ener: 4 edge: 0 l: 283 r: 429
- dp, inst_id: 83 cost: 1105342034 sta_id: 356 ener: 0 edge: 0 l: 282 r: 411
- dp, inst_id: 82 cost: 1033827976 sta_id: 336 ener: 3 edge: 0 l: 235 r: 401
- dp, inst_id: 81 cost: 1017296170 sta_id: 287 ener: 0 edge: 0 l: 234 r: 357
- dp, inst_id: 80 cost: 998945122 sta_id: 286 ener: 0 edge: 0 l: 233 r: 356
- dp, inst_id: 79 cost: 967695452 sta_id: 285 ener: 0 edge: 0 l: 232 r: 327
- dp, inst_id: 78 cost: 949314123 sta_id: 284 ener: 0 edge: 0 l: 222 r: 296
- dp, inst_id: 77 cost: 902542177 sta_id: 240 ener: 3 edge: 0 l: 93 r: 277
- dp, inst_id: 76 cost: 872524454 sta_id: 239 ener: 4 edge: 0 l: 92 r: 276
- dp, inst_id: 75 cost: 861444842 sta_id: 238 ener: 3 edge: 0 l: 91 r: 268
- dp, inst_id: 74 cost: 853240592 sta_id: 222 ener: 1 edge: 0 l: 87 r: 267
- dp, inst_id: 73 cost: 800050480 sta_id: 180 ener: 0 edge: 1 l: 85 r: 220
- dp, inst_id: 72 cost: 756937780 sta_id: 180 ener: 0 edge: 0 l: 54 r: 220
- dp, inst_id: 71 cost: 737365669 sta_id: 171 ener: 3 edge: 0 l: 51 r: 200
- dp, inst_id: 70 cost: 694017690 sta_id: 167 ener: 4 edge: 0 l: 41 r: 173
- dp, inst_id: 69 cost: 687995751 sta_id: 159 ener: 2 edge: 0 l: 40 r: 164
- dp, inst_id: 68 cost: 627988524 sta_id: 139 ener: 2 edge: 0 l: 39 r: 160
- dp, inst_id: 67 cost: 590212839 sta_id: 132 ener: 4 edge: 0 l: 38 r: 153
- dp, inst_id: 66 cost: 578281572 sta_id: 131 ener: 3 edge: 0 l: 31 r: 152
- dp, inst_id: 65 cost: 517916735 sta_id: 111 ener: 1 edge: 0 l: 29 r: 151
- dp, inst_id: 64 cost: 504700684 sta_id: 103 ener: 0 edge: 1 l: 28 r: 149
- dp, inst_id: 63 cost: 473538386 sta_id: 103 ener: 0 edge: 0 l: 28 r: 88
- dp, inst_id: 62 cost: 462246834 sta_id: 102 ener: 3 edge: 0 l: 27 r: 87
- dp, inst_id: 61 cost: 410884504 sta_id: 82 ener: 3 edge: 0 l: 24 r: 84
- dp, inst_id: 60 cost: 388236604 sta_id: 81 ener: 1 edge: 0 l: 23 r: 63
- dp, inst_id: 59 cost: 346498875 sta_id: 78 ener: 0 edge: 0 l: 22 r: 62
- dp, inst_id: 58 cost: 305594457 sta_id: 77 ener: 1 edge: 0 l: 21 r: 61
- dp, inst_id: 57 cost: 254476462 sta_id: 75 ener: 2 edge: 0 l: 19 r: 60
- dp, inst_id: 56 cost: 198239101 sta_id: 68 ener: 3 edge: 0 l: 18 r: 48
- dp, inst_id: 55 cost: 172017155 sta_id: 57 ener: 1 edge: 0 l: 16 r: 47
- dp, inst_id: 54 cost: 163624414 sta_id: 44 ener: 2 edge: 0 l: 14 r: 45
- dp, inst_id: 53 cost: 92342426 sta_id: 24 ener: 4 edge: 1 l: 11 r: 44
- dp, inst_id: 52 cost: 44271063 sta_id: 22 ener: 3 edge: 0 l: 11 r: 44
- dp, inst_id: 51 cost: 30888988 sta_id: 7 ener: 0 edge: 0 l: 7 r: 11
- dp, inst_id: 50 cost: 9361579 sta_id: 3 ener: 0 edge: -1 l: 5 r: 10
-only_install_cost: 6734671954
-all_cost: 6735116438
-DP, answer: 6735116438
-dp, cost: 1731133361 sta: 509 ener: 2
- dp, inst_id: 100 cost: 1731133361 sta_id: 509 ener: 2 edge: 0 l: 475 r: 563
- dp, inst_id: 99 cost: 1725940940 sta_id: 508 ener: 0 edge: 1 l: 474 r: 562
- dp, inst_id: 98 cost: 1709717562 sta_id: 507 ener: 1 edge: 0 l: 474 r: 562
- dp, inst_id: 97 cost: 1647381823 sta_id: 506 ener: 1 edge: 0 l: 473 r: 561
- dp, inst_id: 96 cost: 1602875862 sta_id: 497 ener: 2 edge: 0 l: 472 r: 511
- dp, inst_id: 95 cost: 1511583087 sta_id: 487 ener: 0 edge: 0 l: 471 r: 508
- dp, inst_id: 94 cost: 1511052275 sta_id: 478 ener: 4 edge: 0 l: 470 r: 478
- dp, inst_id: 93 cost: 1469502035 sta_id: 457 ener: 0 edge: 0 l: 413 r: 477
- dp, inst_id: 92 cost: 1460475224 sta_id: 456 ener: 0 edge: 0 l: 412 r: 476
- dp, inst_id: 91 cost: 1427977621 sta_id: 455 ener: 4 edge: 0 l: 411 r: 475
- dp, inst_id: 90 cost: 1350532513 sta_id: 454 ener: 0 edge: 0 l: 404 r: 474
- dp, inst_id: 89 cost: 1332922266 sta_id: 411 ener: 0 edge: 0 l: 403 r: 458
- dp, inst_id: 88 cost: 1332181898 sta_id: 410 ener: 2 edge: 0 l: 402 r: 448
- dp, inst_id: 87 cost: 1239020622 sta_id: 392 ener: 0 edge: 0 l: 392 r: 447
- dp, inst_id: 86 cost: 1220170951 sta_id: 369 ener: 2 edge: 0 l: 285 r: 446
- dp, inst_id: 85 cost: 1171634633 sta_id: 359 ener: 1 edge: 0 l: 284 r: 445
- dp, inst_id: 84 cost: 1160846780 sta_id: 358 ener: 4 edge: 0 l: 283 r: 429
- dp, inst_id: 83 cost: 1133766749 sta_id: 356 ener: 0 edge: 0 l: 282 r: 411
- dp, inst_id: 82 cost: 1062252691 sta_id: 336 ener: 3 edge: 0 l: 235 r: 401
- dp, inst_id: 81 cost: 1045720885 sta_id: 287 ener: 0 edge: 0 l: 234 r: 357
- dp, inst_id: 80 cost: 1026146434 sta_id: 286 ener: 0 edge: 0 l: 233 r: 356
- dp, inst_id: 79 cost: 992813453 sta_id: 285 ener: 0 edge: 0 l: 232 r: 327
- dp, inst_id: 78 cost: 973206702 sta_id: 284 ener: 0 edge: 0 l: 222 r: 296
- dp, inst_id: 77 cost: 926434756 sta_id: 240 ener: 3 edge: 0 l: 93 r: 277
- dp, inst_id: 76 cost: 894415852 sta_id: 239 ener: 4 edge: 0 l: 92 r: 276
- dp, inst_id: 75 cost: 882597600 sta_id: 238 ener: 3 edge: 0 l: 91 r: 268
- dp, inst_id: 74 cost: 874393350 sta_id: 222 ener: 1 edge: 0 l: 87 r: 267
- dp, inst_id: 73 cost: 821203238 sta_id: 180 ener: 0 edge: 1 l: 85 r: 220
- dp, inst_id: 72 cost: 775216358 sta_id: 180 ener: 0 edge: 0 l: 54 r: 220
- dp, inst_id: 71 cost: 755644247 sta_id: 171 ener: 3 edge: 0 l: 51 r: 200
- dp, inst_id: 70 cost: 712296268 sta_id: 167 ener: 4 edge: 0 l: 41 r: 173
- dp, inst_id: 69 cost: 706274329 sta_id: 159 ener: 2 edge: 0 l: 40 r: 164
- dp, inst_id: 68 cost: 642266620 sta_id: 139 ener: 2 edge: 0 l: 39 r: 160
- dp, inst_id: 67 cost: 604490935 sta_id: 132 ener: 4 edge: 0 l: 38 r: 153
- dp, inst_id: 66 cost: 592559668 sta_id: 131 ener: 3 edge: 0 l: 31 r: 152
- dp, inst_id: 65 cost: 528170508 sta_id: 111 ener: 1 edge: 0 l: 29 r: 151
- dp, inst_id: 64 cost: 514954457 sta_id: 103 ener: 0 edge: 1 l: 28 r: 149
- dp, inst_id: 63 cost: 481714673 sta_id: 103 ener: 0 edge: 0 l: 28 r: 88
- dp, inst_id: 62 cost: 470423121 sta_id: 102 ener: 3 edge: 0 l: 27 r: 87
- dp, inst_id: 61 cost: 415636636 sta_id: 82 ener: 3 edge: 0 l: 24 r: 84
- dp, inst_id: 60 cost: 392988736 sta_id: 81 ener: 1 edge: 0 l: 23 r: 63
- dp, inst_id: 59 cost: 351251007 sta_id: 78 ener: 0 edge: 0 l: 22 r: 62
- dp, inst_id: 58 cost: 310346589 sta_id: 77 ener: 1 edge: 0 l: 21 r: 61
- dp, inst_id: 57 cost: 259228594 sta_id: 75 ener: 2 edge: 0 l: 19 r: 60
- dp, inst_id: 56 cost: 202991233 sta_id: 68 ener: 3 edge: 0 l: 18 r: 48
- dp, inst_id: 55 cost: 176769287 sta_id: 57 ener: 1 edge: 0 l: 16 r: 47
- dp, inst_id: 54 cost: 168376546 sta_id: 44 ener: 2 edge: 0 l: 14 r: 45
- dp, inst_id: 53 cost: 92342426 sta_id: 24 ener: 4 edge: 1 l: 11 r: 44
- dp, inst_id: 52 cost: 44271063 sta_id: 22 ener: 3 edge: 0 l: 11 r: 44
- dp, inst_id: 51 cost: 30888988 sta_id: 7 ener: 0 edge: 0 l: 7 r: 11
- dp, inst_id: 50 cost: 9361579 sta_id: 3 ener: 0 edge: -1 l: 5 r: 10
-only_install_cost: 6734671954
-all_cost: 6735116438
-DP, answer: 6735116438
-dp, cost: 1770889656 sta: 509 ener: 2
- dp, inst_id: 100 cost: 1770889656 sta_id: 509 ener: 2 edge: 0 l: 475 r: 563
- dp, inst_id: 99 cost: 1765697235 sta_id: 508 ener: 0 edge: 1 l: 474 r: 562
- dp, inst_id: 98 cost: 1749473857 sta_id: 507 ener: 1 edge: 0 l: 474 r: 562
- dp, inst_id: 97 cost: 1683242135 sta_id: 506 ener: 1 edge: 0 l: 473 r: 561
- dp, inst_id: 96 cost: 1638736174 sta_id: 497 ener: 2 edge: 0 l: 472 r: 511
- dp, inst_id: 95 cost: 1547443399 sta_id: 487 ener: 0 edge: 0 l: 471 r: 508
- dp, inst_id: 94 cost: 1546912587 sta_id: 478 ener: 4 edge: 0 l: 470 r: 478
- dp, inst_id: 93 cost: 1505362347 sta_id: 457 ener: 0 edge: 0 l: 413 r: 477
- dp, inst_id: 92 cost: 1495771361 sta_id: 456 ener: 0 edge: 0 l: 412 r: 476
- dp, inst_id: 91 cost: 1461242658 sta_id: 455 ener: 4 edge: 0 l: 411 r: 475
- dp, inst_id: 90 cost: 1378957231 sta_id: 454 ener: 0 edge: 0 l: 404 r: 474
- dp, inst_id: 89 cost: 1361346984 sta_id: 411 ener: 0 edge: 0 l: 403 r: 458
- dp, inst_id: 88 cost: 1360606616 sta_id: 410 ener: 2 edge: 0 l: 402 r: 448
- dp, inst_id: 87 cost: 1267445340 sta_id: 392 ener: 0 edge: 0 l: 392 r: 447
- dp, inst_id: 86 cost: 1248595669 sta_id: 369 ener: 2 edge: 0 l: 285 r: 446
- dp, inst_id: 85 cost: 1200059351 sta_id: 359 ener: 1 edge: 0 l: 284 r: 445
- dp, inst_id: 84 cost: 1189271498 sta_id: 358 ener: 4 edge: 0 l: 283 r: 429
- dp, inst_id: 83 cost: 1162191467 sta_id: 356 ener: 0 edge: 0 l: 282 r: 411
- dp, inst_id: 82 cost: 1090677409 sta_id: 336 ener: 3 edge: 0 l: 235 r: 401
- dp, inst_id: 81 cost: 1074145603 sta_id: 287 ener: 0 edge: 0 l: 234 r: 357
- dp, inst_id: 80 cost: 1053347749 sta_id: 286 ener: 0 edge: 0 l: 233 r: 356
- dp, inst_id: 79 cost: 1017931457 sta_id: 285 ener: 0 edge: 0 l: 232 r: 327
- dp, inst_id: 78 cost: 997099284 sta_id: 284 ener: 0 edge: 0 l: 222 r: 296
- dp, inst_id: 77 cost: 950327338 sta_id: 240 ener: 3 edge: 0 l: 93 r: 277
- dp, inst_id: 76 cost: 916307252 sta_id: 239 ener: 4 edge: 0 l: 92 r: 276
- dp, inst_id: 75 cost: 903750359 sta_id: 238 ener: 3 edge: 0 l: 91 r: 268
- dp, inst_id: 74 cost: 895546109 sta_id: 222 ener: 1 edge: 0 l: 87 r: 267
- dp, inst_id: 73 cost: 842355997 sta_id: 180 ener: 0 edge: 1 l: 85 r: 220
- dp, inst_id: 72 cost: 793494937 sta_id: 180 ener: 0 edge: 0 l: 54 r: 220
- dp, inst_id: 71 cost: 773922826 sta_id: 171 ener: 3 edge: 0 l: 51 r: 200
- dp, inst_id: 70 cost: 730574847 sta_id: 167 ener: 4 edge: 0 l: 41 r: 173
- dp, inst_id: 69 cost: 724552908 sta_id: 159 ener: 2 edge: 0 l: 40 r: 164
- dp, inst_id: 68 cost: 656544717 sta_id: 139 ener: 2 edge: 0 l: 39 r: 160
- dp, inst_id: 67 cost: 618769032 sta_id: 132 ener: 4 edge: 0 l: 38 r: 153
- dp, inst_id: 66 cost: 606837765 sta_id: 131 ener: 3 edge: 0 l: 31 r: 152
- dp, inst_id: 65 cost: 538424283 sta_id: 111 ener: 1 edge: 0 l: 29 r: 151
- dp, inst_id: 64 cost: 525208232 sta_id: 103 ener: 0 edge: 1 l: 28 r: 149
- dp, inst_id: 63 cost: 489890961 sta_id: 103 ener: 0 edge: 0 l: 28 r: 88
- dp, inst_id: 62 cost: 478599409 sta_id: 102 ener: 3 edge: 0 l: 27 r: 87
- dp, inst_id: 61 cost: 420388769 sta_id: 82 ener: 3 edge: 0 l: 24 r: 84
- dp, inst_id: 60 cost: 397740869 sta_id: 81 ener: 1 edge: 0 l: 23 r: 63
- dp, inst_id: 59 cost: 356003140 sta_id: 78 ener: 0 edge: 0 l: 22 r: 62
- dp, inst_id: 58 cost: 315098722 sta_id: 77 ener: 1 edge: 0 l: 21 r: 61
- dp, inst_id: 57 cost: 263980727 sta_id: 75 ener: 2 edge: 0 l: 19 r: 60
- dp, inst_id: 56 cost: 207743366 sta_id: 68 ener: 3 edge: 0 l: 18 r: 48
- dp, inst_id: 55 cost: 181521420 sta_id: 57 ener: 1 edge: 0 l: 16 r: 47
- dp, inst_id: 54 cost: 173128679 sta_id: 44 ener: 2 edge: 0 l: 14 r: 45
- dp, inst_id: 53 cost: 92342426 sta_id: 24 ener: 4 edge: 1 l: 11 r: 44
- dp, inst_id: 52 cost: 44271063 sta_id: 22 ener: 3 edge: 0 l: 11 r: 44
- dp, inst_id: 51 cost: 30888988 sta_id: 7 ener: 0 edge: 0 l: 7 r: 11
- dp, inst_id: 50 cost: 9361579 sta_id: 3 ener: 0 edge: -1 l: 5 r: 10
-only_install_cost: 6734671954
-all_cost: 6735116438
-DP, answer: 6735116438
 dp, cost: 1810449448 sta: 509 ener: 2
  dp, inst_id: 100 cost: 1810449448 sta_id: 509 ener: 2 edge: 0 l: 475 r: 563
  dp, inst_id: 99 cost: 1805257027 sta_id: 508 ener: 0 edge: 1 l: 474 r: 562
- dp, inst_id: 98 cost: 1789033649 sta_id: 507 ener: 1 edge: 0 l: 474 r: 562
- dp, inst_id: 97 cost: 1718905943 sta_id: 506 ener: 1 edge: 0 l: 473 r: 561
+ dp, inst_id: 98 cost: 1789033649 sta_id: 500 ener: 1 edge: 0 l: 474 r: 562
+ dp, inst_id: 97 cost: 1718905943 sta_id: 499 ener: 1 edge: 0 l: 473 r: 561
  dp, inst_id: 96 cost: 1674399982 sta_id: 497 ener: 2 edge: 0 l: 472 r: 511
- dp, inst_id: 95 cost: 1583107207 sta_id: 487 ener: 0 edge: 0 l: 471 r: 508
+ dp, inst_id: 95 cost: 1583107207 sta_id: 479 ener: 0 edge: 0 l: 471 r: 508
  dp, inst_id: 94 cost: 1582576395 sta_id: 478 ener: 4 edge: 0 l: 470 r: 478
- dp, inst_id: 93 cost: 1541026155 sta_id: 457 ener: 0 edge: 0 l: 413 r: 477
- dp, inst_id: 92 cost: 1530870993 sta_id: 456 ener: 0 edge: 0 l: 412 r: 476
- dp, inst_id: 91 cost: 1494311190 sta_id: 455 ener: 4 edge: 0 l: 411 r: 475
- dp, inst_id: 90 cost: 1407185444 sta_id: 454 ener: 0 edge: 0 l: 404 r: 474
+ dp, inst_id: 93 cost: 1541026155 sta_id: 452 ener: 0 edge: 0 l: 413 r: 477
+ dp, inst_id: 92 cost: 1530870993 sta_id: 451 ener: 0 edge: 0 l: 412 r: 476
+ dp, inst_id: 91 cost: 1494311190 sta_id: 450 ener: 4 edge: 0 l: 411 r: 475
+ dp, inst_id: 90 cost: 1407185444 sta_id: 449 ener: 0 edge: 0 l: 404 r: 474
  dp, inst_id: 89 cost: 1389575197 sta_id: 411 ener: 0 edge: 0 l: 403 r: 458
- dp, inst_id: 88 cost: 1388834829 sta_id: 410 ener: 2 edge: 0 l: 402 r: 448
+ dp, inst_id: 88 cost: 1388834829 sta_id: 402 ener: 2 edge: 0 l: 402 r: 448
  dp, inst_id: 87 cost: 1295673553 sta_id: 392 ener: 0 edge: 0 l: 392 r: 447
  dp, inst_id: 86 cost: 1276823882 sta_id: 369 ener: 2 edge: 0 l: 285 r: 446
  dp, inst_id: 85 cost: 1228287564 sta_id: 359 ener: 1 edge: 0 l: 284 r: 445
  dp, inst_id: 84 cost: 1217499711 sta_id: 358 ener: 4 edge: 0 l: 283 r: 429
  dp, inst_id: 83 cost: 1190419680 sta_id: 356 ener: 0 edge: 0 l: 282 r: 411
- dp, inst_id: 82 cost: 1118905622 sta_id: 336 ener: 3 edge: 0 l: 235 r: 401
- dp, inst_id: 81 cost: 1102373816 sta_id: 287 ener: 0 edge: 0 l: 234 r: 357
- dp, inst_id: 80 cost: 1080352559 sta_id: 286 ener: 0 edge: 0 l: 233 r: 356
- dp, inst_id: 79 cost: 1042852955 sta_id: 285 ener: 0 edge: 0 l: 232 r: 327
- dp, inst_id: 78 cost: 1020795360 sta_id: 284 ener: 0 edge: 0 l: 222 r: 296
- dp, inst_id: 77 cost: 974023414 sta_id: 240 ener: 3 edge: 0 l: 93 r: 277
- dp, inst_id: 76 cost: 938002147 sta_id: 239 ener: 4 edge: 0 l: 92 r: 276
- dp, inst_id: 75 cost: 924706613 sta_id: 238 ener: 3 edge: 0 l: 91 r: 268
+ dp, inst_id: 82 cost: 1118905622 sta_id: 328 ener: 3 edge: 0 l: 235 r: 401
+ dp, inst_id: 81 cost: 1102373816 sta_id: 282 ener: 0 edge: 0 l: 234 r: 357
+ dp, inst_id: 80 cost: 1080352559 sta_id: 281 ener: 0 edge: 0 l: 233 r: 356
+ dp, inst_id: 79 cost: 1042852955 sta_id: 280 ener: 0 edge: 0 l: 232 r: 327
+ dp, inst_id: 78 cost: 1020795360 sta_id: 279 ener: 0 edge: 0 l: 222 r: 296
+ dp, inst_id: 77 cost: 974023414 sta_id: 234 ener: 3 edge: 0 l: 93 r: 277
+ dp, inst_id: 76 cost: 938002147 sta_id: 233 ener: 4 edge: 0 l: 92 r: 276
+ dp, inst_id: 75 cost: 924706613 sta_id: 232 ener: 3 edge: 0 l: 91 r: 268
  dp, inst_id: 74 cost: 916502363 sta_id: 222 ener: 1 edge: 0 l: 87 r: 267
  dp, inst_id: 73 cost: 863312251 sta_id: 180 ener: 0 edge: 1 l: 85 r: 220
  dp, inst_id: 72 cost: 811577011 sta_id: 180 ener: 0 edge: 0 l: 54 r: 220
@@ -2033,54 +1593,219 @@ dp, cost: 1810449448 sta: 509 ener: 2
 only_install_cost: 6730193761
 all_cost: 6730641685
 DP, answer: 6730641685
-dp, cost: 1848070199 sta: 509 ener: 2
- dp, inst_id: 100 cost: 1848070199 sta_id: 509 ener: 2 edge: 0 l: 475 r: 563
- dp, inst_id: 99 cost: 1842877778 sta_id: 508 ener: 0 edge: 1 l: 474 r: 562
- dp, inst_id: 98 cost: 1826654400 sta_id: 507 ener: 1 edge: 0 l: 474 r: 562
- dp, inst_id: 97 cost: 1752630710 sta_id: 506 ener: 1 edge: 0 l: 473 r: 561
- dp, inst_id: 96 cost: 1708124749 sta_id: 497 ener: 2 edge: 0 l: 472 r: 511
- dp, inst_id: 95 cost: 1616831974 sta_id: 487 ener: 0 edge: 0 l: 471 r: 508
- dp, inst_id: 94 cost: 1616301162 sta_id: 478 ener: 4 edge: 0 l: 470 r: 478
- dp, inst_id: 93 cost: 1574750922 sta_id: 457 ener: 0 edge: 0 l: 413 r: 477
- dp, inst_id: 92 cost: 1564031584 sta_id: 456 ener: 0 edge: 0 l: 412 r: 476
- dp, inst_id: 91 cost: 1525440681 sta_id: 455 ener: 4 edge: 0 l: 411 r: 475
- dp, inst_id: 90 cost: 1433474616 sta_id: 454 ener: 0 edge: 0 l: 404 r: 474
- dp, inst_id: 89 cost: 1415864369 sta_id: 411 ener: 0 edge: 0 l: 403 r: 458
- dp, inst_id: 88 cost: 1415124001 sta_id: 410 ener: 2 edge: 0 l: 402 r: 448
- dp, inst_id: 87 cost: 1321962725 sta_id: 392 ener: 0 edge: 0 l: 392 r: 447
- dp, inst_id: 86 cost: 1303113054 sta_id: 369 ener: 2 edge: 0 l: 285 r: 446
- dp, inst_id: 85 cost: 1254576736 sta_id: 359 ener: 1 edge: 0 l: 284 r: 445
- dp, inst_id: 84 cost: 1243788883 sta_id: 358 ener: 4 edge: 0 l: 283 r: 429
- dp, inst_id: 83 cost: 1216708852 sta_id: 356 ener: 0 edge: 0 l: 282 r: 411
- dp, inst_id: 82 cost: 1145194794 sta_id: 336 ener: 3 edge: 0 l: 235 r: 401
- dp, inst_id: 81 cost: 1128662988 sta_id: 287 ener: 0 edge: 0 l: 234 r: 357
- dp, inst_id: 80 cost: 1105418328 sta_id: 286 ener: 0 edge: 0 l: 233 r: 356
- dp, inst_id: 79 cost: 1065835413 sta_id: 285 ener: 0 edge: 0 l: 232 r: 327
- dp, inst_id: 78 cost: 1042552396 sta_id: 284 ener: 0 edge: 0 l: 222 r: 296
- dp, inst_id: 77 cost: 995780450 sta_id: 240 ener: 3 edge: 0 l: 93 r: 277
- dp, inst_id: 76 cost: 957758001 sta_id: 239 ener: 4 edge: 0 l: 92 r: 276
- dp, inst_id: 75 cost: 943723826 sta_id: 238 ener: 3 edge: 0 l: 91 r: 268
- dp, inst_id: 74 cost: 935519576 sta_id: 222 ener: 1 edge: 0 l: 87 r: 267
- dp, inst_id: 73 cost: 882329464 sta_id: 180 ener: 0 edge: 1 l: 85 r: 220
- dp, inst_id: 72 cost: 827720044 sta_id: 180 ener: 0 edge: 0 l: 54 r: 220
- dp, inst_id: 71 cost: 808147933 sta_id: 171 ener: 3 edge: 0 l: 51 r: 200
- dp, inst_id: 70 cost: 764799954 sta_id: 167 ener: 4 edge: 0 l: 41 r: 173
- dp, inst_id: 69 cost: 758778015 sta_id: 164 ener: 2 edge: 0 l: 40 r: 164
- dp, inst_id: 68 cost: 682768860 sta_id: 144 ener: 2 edge: 0 l: 39 r: 160
- dp, inst_id: 67 cost: 646882112 sta_id: 124 ener: 4 edge: 0 l: 38 r: 153
- dp, inst_id: 66 cost: 634943209 sta_id: 112 ener: 4 edge: 0 l: 31 r: 152
- dp, inst_id: 65 cost: 558931832 sta_id: 111 ener: 1 edge: 0 l: 29 r: 151
- dp, inst_id: 64 cost: 545715781 sta_id: 103 ener: 0 edge: 1 l: 28 r: 149
- dp, inst_id: 63 cost: 506243537 sta_id: 103 ener: 0 edge: 0 l: 28 r: 88
- dp, inst_id: 62 cost: 494951985 sta_id: 102 ener: 3 edge: 0 l: 27 r: 87
- dp, inst_id: 61 cost: 429893034 sta_id: 82 ener: 3 edge: 0 l: 24 r: 84
- dp, inst_id: 60 cost: 407245134 sta_id: 81 ener: 1 edge: 0 l: 23 r: 63
- dp, inst_id: 59 cost: 365507405 sta_id: 78 ener: 0 edge: 0 l: 22 r: 62
- dp, inst_id: 58 cost: 324602987 sta_id: 77 ener: 1 edge: 0 l: 21 r: 61
- dp, inst_id: 57 cost: 273484992 sta_id: 75 ener: 2 edge: 0 l: 19 r: 60
- dp, inst_id: 56 cost: 217247631 sta_id: 68 ener: 3 edge: 0 l: 18 r: 48
- dp, inst_id: 55 cost: 191025685 sta_id: 57 ener: 1 edge: 0 l: 16 r: 47
- dp, inst_id: 54 cost: 182632944 sta_id: 44 ener: 2 edge: 0 l: 14 r: 45
+dp, cost: 1825497748 sta: 509 ener: 2
+ dp, inst_id: 100 cost: 1825497748 sta_id: 509 ener: 2 edge: 0 l: 475 r: 563
+ dp, inst_id: 99 cost: 1820305327 sta_id: 508 ener: 0 edge: 1 l: 474 r: 562
+ dp, inst_id: 98 cost: 1804081949 sta_id: 500 ener: 1 edge: 0 l: 474 r: 562
+ dp, inst_id: 97 cost: 1732395849 sta_id: 499 ener: 1 edge: 0 l: 473 r: 561
+ dp, inst_id: 96 cost: 1687889888 sta_id: 497 ener: 2 edge: 0 l: 472 r: 511
+ dp, inst_id: 95 cost: 1596597113 sta_id: 479 ener: 0 edge: 0 l: 471 r: 508
+ dp, inst_id: 94 cost: 1596066301 sta_id: 478 ener: 4 edge: 0 l: 470 r: 478
+ dp, inst_id: 93 cost: 1554516061 sta_id: 452 ener: 0 edge: 0 l: 413 r: 477
+ dp, inst_id: 92 cost: 1544135229 sta_id: 451 ener: 0 edge: 0 l: 412 r: 476
+ dp, inst_id: 91 cost: 1506762986 sta_id: 450 ener: 4 edge: 0 l: 411 r: 475
+ dp, inst_id: 90 cost: 1417701112 sta_id: 449 ener: 0 edge: 0 l: 404 r: 474
+ dp, inst_id: 89 cost: 1400090865 sta_id: 411 ener: 0 edge: 0 l: 403 r: 458
+ dp, inst_id: 88 cost: 1399350497 sta_id: 402 ener: 2 edge: 0 l: 402 r: 448
+ dp, inst_id: 87 cost: 1306189221 sta_id: 392 ener: 0 edge: 0 l: 392 r: 447
+ dp, inst_id: 86 cost: 1287339550 sta_id: 369 ener: 2 edge: 0 l: 285 r: 446
+ dp, inst_id: 85 cost: 1238803232 sta_id: 359 ener: 1 edge: 0 l: 284 r: 445
+ dp, inst_id: 84 cost: 1228015379 sta_id: 358 ener: 4 edge: 0 l: 283 r: 429
+ dp, inst_id: 83 cost: 1200935348 sta_id: 356 ener: 0 edge: 0 l: 282 r: 411
+ dp, inst_id: 82 cost: 1129421290 sta_id: 328 ener: 3 edge: 0 l: 235 r: 401
+ dp, inst_id: 81 cost: 1112889484 sta_id: 282 ener: 0 edge: 0 l: 234 r: 357
+ dp, inst_id: 80 cost: 1090378866 sta_id: 281 ener: 0 edge: 0 l: 233 r: 356
+ dp, inst_id: 79 cost: 1052045938 sta_id: 280 ener: 0 edge: 0 l: 232 r: 327
+ dp, inst_id: 78 cost: 1029498175 sta_id: 279 ener: 0 edge: 0 l: 222 r: 296
+ dp, inst_id: 77 cost: 982726229 sta_id: 234 ener: 3 edge: 0 l: 93 r: 277
+ dp, inst_id: 76 cost: 945904489 sta_id: 233 ener: 4 edge: 0 l: 92 r: 276
+ dp, inst_id: 75 cost: 932313499 sta_id: 232 ener: 3 edge: 0 l: 91 r: 268
+ dp, inst_id: 74 cost: 924109249 sta_id: 222 ener: 1 edge: 0 l: 87 r: 267
+ dp, inst_id: 73 cost: 870919137 sta_id: 180 ener: 0 edge: 1 l: 85 r: 220
+ dp, inst_id: 72 cost: 818034225 sta_id: 180 ener: 0 edge: 0 l: 54 r: 220
+ dp, inst_id: 71 cost: 798462114 sta_id: 171 ener: 3 edge: 0 l: 51 r: 200
+ dp, inst_id: 70 cost: 755114135 sta_id: 167 ener: 4 edge: 0 l: 41 r: 173
+ dp, inst_id: 69 cost: 749092196 sta_id: 164 ener: 2 edge: 0 l: 40 r: 164
+ dp, inst_id: 68 cost: 675483330 sta_id: 144 ener: 2 edge: 0 l: 39 r: 160
+ dp, inst_id: 67 cost: 640729847 sta_id: 124 ener: 4 edge: 0 l: 38 r: 153
+ dp, inst_id: 66 cost: 628790944 sta_id: 112 ener: 4 edge: 0 l: 31 r: 152
+ dp, inst_id: 65 cost: 552779567 sta_id: 111 ener: 1 edge: 0 l: 29 r: 151
+ dp, inst_id: 64 cost: 539563516 sta_id: 103 ener: 0 edge: 1 l: 28 r: 149
+ dp, inst_id: 63 cost: 501337764 sta_id: 103 ener: 0 edge: 0 l: 28 r: 88
+ dp, inst_id: 62 cost: 490046212 sta_id: 102 ener: 3 edge: 0 l: 27 r: 87
+ dp, inst_id: 61 cost: 427041754 sta_id: 82 ener: 3 edge: 0 l: 24 r: 84
+ dp, inst_id: 60 cost: 404393854 sta_id: 81 ener: 1 edge: 0 l: 23 r: 63
+ dp, inst_id: 59 cost: 362656125 sta_id: 78 ener: 0 edge: 0 l: 22 r: 62
+ dp, inst_id: 58 cost: 321751707 sta_id: 77 ener: 1 edge: 0 l: 21 r: 61
+ dp, inst_id: 57 cost: 270633712 sta_id: 75 ener: 2 edge: 0 l: 19 r: 60
+ dp, inst_id: 56 cost: 214396351 sta_id: 68 ener: 3 edge: 0 l: 18 r: 48
+ dp, inst_id: 55 cost: 188174405 sta_id: 57 ener: 1 edge: 0 l: 16 r: 47
+ dp, inst_id: 54 cost: 179781664 sta_id: 44 ener: 2 edge: 0 l: 14 r: 45
+ dp, inst_id: 53 cost: 92342426 sta_id: 24 ener: 4 edge: 1 l: 11 r: 44
+ dp, inst_id: 52 cost: 44271063 sta_id: 22 ener: 3 edge: 0 l: 11 r: 44
+ dp, inst_id: 51 cost: 30888988 sta_id: 7 ener: 0 edge: 0 l: 7 r: 11
+ dp, inst_id: 50 cost: 9361579 sta_id: 3 ener: 0 edge: -1 l: 5 r: 10
+only_install_cost: 6730193761
+all_cost: 6730641685
+DP, answer: 6730641685
+dp, cost: 1840546049 sta: 509 ener: 2
+ dp, inst_id: 100 cost: 1840546049 sta_id: 509 ener: 2 edge: 0 l: 475 r: 563
+ dp, inst_id: 99 cost: 1835353628 sta_id: 508 ener: 0 edge: 1 l: 474 r: 562
+ dp, inst_id: 98 cost: 1819130250 sta_id: 500 ener: 1 edge: 0 l: 474 r: 562
+ dp, inst_id: 97 cost: 1745885757 sta_id: 499 ener: 1 edge: 0 l: 473 r: 561
+ dp, inst_id: 96 cost: 1701379796 sta_id: 497 ener: 2 edge: 0 l: 472 r: 511
+ dp, inst_id: 95 cost: 1610087021 sta_id: 479 ener: 0 edge: 0 l: 471 r: 508
+ dp, inst_id: 94 cost: 1609556209 sta_id: 478 ener: 4 edge: 0 l: 470 r: 478
+ dp, inst_id: 93 cost: 1568005969 sta_id: 452 ener: 0 edge: 0 l: 413 r: 477
+ dp, inst_id: 92 cost: 1557399466 sta_id: 451 ener: 0 edge: 0 l: 412 r: 476
+ dp, inst_id: 91 cost: 1519214783 sta_id: 450 ener: 4 edge: 0 l: 411 r: 475
+ dp, inst_id: 90 cost: 1428216782 sta_id: 449 ener: 0 edge: 0 l: 404 r: 474
+ dp, inst_id: 89 cost: 1410606535 sta_id: 411 ener: 0 edge: 0 l: 403 r: 458
+ dp, inst_id: 88 cost: 1409866167 sta_id: 402 ener: 2 edge: 0 l: 402 r: 448
+ dp, inst_id: 87 cost: 1316704891 sta_id: 392 ener: 0 edge: 0 l: 392 r: 447
+ dp, inst_id: 86 cost: 1297855220 sta_id: 369 ener: 2 edge: 0 l: 285 r: 446
+ dp, inst_id: 85 cost: 1249318902 sta_id: 359 ener: 1 edge: 0 l: 284 r: 445
+ dp, inst_id: 84 cost: 1238531049 sta_id: 358 ener: 4 edge: 0 l: 283 r: 429
+ dp, inst_id: 83 cost: 1211451018 sta_id: 356 ener: 0 edge: 0 l: 282 r: 411
+ dp, inst_id: 82 cost: 1139936960 sta_id: 328 ener: 3 edge: 0 l: 235 r: 401
+ dp, inst_id: 81 cost: 1123405154 sta_id: 282 ener: 0 edge: 0 l: 234 r: 357
+ dp, inst_id: 80 cost: 1100405174 sta_id: 281 ener: 0 edge: 0 l: 233 r: 356
+ dp, inst_id: 79 cost: 1061238921 sta_id: 280 ener: 0 edge: 0 l: 232 r: 327
+ dp, inst_id: 78 cost: 1038200989 sta_id: 279 ener: 0 edge: 0 l: 222 r: 296
+ dp, inst_id: 77 cost: 991429043 sta_id: 234 ener: 3 edge: 0 l: 93 r: 277
+ dp, inst_id: 76 cost: 953806830 sta_id: 233 ener: 4 edge: 0 l: 92 r: 276
+ dp, inst_id: 75 cost: 939920383 sta_id: 232 ener: 3 edge: 0 l: 91 r: 268
+ dp, inst_id: 74 cost: 931716133 sta_id: 222 ener: 1 edge: 0 l: 87 r: 267
+ dp, inst_id: 73 cost: 878526021 sta_id: 180 ener: 0 edge: 1 l: 85 r: 220
+ dp, inst_id: 72 cost: 824491437 sta_id: 180 ener: 0 edge: 0 l: 54 r: 220
+ dp, inst_id: 71 cost: 804919326 sta_id: 171 ener: 3 edge: 0 l: 51 r: 200
+ dp, inst_id: 70 cost: 761571347 sta_id: 167 ener: 4 edge: 0 l: 41 r: 173
+ dp, inst_id: 69 cost: 755549408 sta_id: 164 ener: 2 edge: 0 l: 40 r: 164
+ dp, inst_id: 68 cost: 680340350 sta_id: 144 ener: 2 edge: 0 l: 39 r: 160
+ dp, inst_id: 67 cost: 644831357 sta_id: 124 ener: 4 edge: 0 l: 38 r: 153
+ dp, inst_id: 66 cost: 632892454 sta_id: 112 ener: 4 edge: 0 l: 31 r: 152
+ dp, inst_id: 65 cost: 556881077 sta_id: 111 ener: 1 edge: 0 l: 29 r: 151
+ dp, inst_id: 64 cost: 543665026 sta_id: 103 ener: 0 edge: 1 l: 28 r: 149
+ dp, inst_id: 63 cost: 504608279 sta_id: 103 ener: 0 edge: 0 l: 28 r: 88
+ dp, inst_id: 62 cost: 493316727 sta_id: 102 ener: 3 edge: 0 l: 27 r: 87
+ dp, inst_id: 61 cost: 428942607 sta_id: 82 ener: 3 edge: 0 l: 24 r: 84
+ dp, inst_id: 60 cost: 406294707 sta_id: 81 ener: 1 edge: 0 l: 23 r: 63
+ dp, inst_id: 59 cost: 364556978 sta_id: 78 ener: 0 edge: 0 l: 22 r: 62
+ dp, inst_id: 58 cost: 323652560 sta_id: 77 ener: 1 edge: 0 l: 21 r: 61
+ dp, inst_id: 57 cost: 272534565 sta_id: 75 ener: 2 edge: 0 l: 19 r: 60
+ dp, inst_id: 56 cost: 216297204 sta_id: 68 ener: 3 edge: 0 l: 18 r: 48
+ dp, inst_id: 55 cost: 190075258 sta_id: 57 ener: 1 edge: 0 l: 16 r: 47
+ dp, inst_id: 54 cost: 181682517 sta_id: 44 ener: 2 edge: 0 l: 14 r: 45
+ dp, inst_id: 53 cost: 92342426 sta_id: 24 ener: 4 edge: 1 l: 11 r: 44
+ dp, inst_id: 52 cost: 44271063 sta_id: 22 ener: 3 edge: 0 l: 11 r: 44
+ dp, inst_id: 51 cost: 30888988 sta_id: 7 ener: 0 edge: 0 l: 7 r: 11
+ dp, inst_id: 50 cost: 9361579 sta_id: 3 ener: 0 edge: -1 l: 5 r: 10
+only_install_cost: 6730193761
+all_cost: 6730641685
+DP, answer: 6730641685
+dp, cost: 1855594348 sta: 509 ener: 2
+ dp, inst_id: 100 cost: 1855594348 sta_id: 509 ener: 2 edge: 0 l: 475 r: 563
+ dp, inst_id: 99 cost: 1850401927 sta_id: 508 ener: 0 edge: 1 l: 474 r: 562
+ dp, inst_id: 98 cost: 1834178549 sta_id: 500 ener: 1 edge: 0 l: 474 r: 562
+ dp, inst_id: 97 cost: 1759375662 sta_id: 499 ener: 1 edge: 0 l: 473 r: 561
+ dp, inst_id: 96 cost: 1714869701 sta_id: 497 ener: 2 edge: 0 l: 472 r: 511
+ dp, inst_id: 95 cost: 1623576926 sta_id: 479 ener: 0 edge: 0 l: 471 r: 508
+ dp, inst_id: 94 cost: 1623046114 sta_id: 478 ener: 4 edge: 0 l: 470 r: 478
+ dp, inst_id: 93 cost: 1581495874 sta_id: 452 ener: 0 edge: 0 l: 413 r: 477
+ dp, inst_id: 92 cost: 1570663701 sta_id: 451 ener: 0 edge: 0 l: 412 r: 476
+ dp, inst_id: 91 cost: 1531666578 sta_id: 450 ener: 4 edge: 0 l: 411 r: 475
+ dp, inst_id: 90 cost: 1438732449 sta_id: 449 ener: 0 edge: 0 l: 404 r: 474
+ dp, inst_id: 89 cost: 1421122202 sta_id: 411 ener: 0 edge: 0 l: 403 r: 458
+ dp, inst_id: 88 cost: 1420381834 sta_id: 402 ener: 2 edge: 0 l: 402 r: 448
+ dp, inst_id: 87 cost: 1327220558 sta_id: 392 ener: 0 edge: 0 l: 392 r: 447
+ dp, inst_id: 86 cost: 1308370887 sta_id: 369 ener: 2 edge: 0 l: 285 r: 446
+ dp, inst_id: 85 cost: 1259834569 sta_id: 359 ener: 1 edge: 0 l: 284 r: 445
+ dp, inst_id: 84 cost: 1249046716 sta_id: 358 ener: 4 edge: 0 l: 283 r: 429
+ dp, inst_id: 83 cost: 1221966685 sta_id: 356 ener: 0 edge: 0 l: 282 r: 411
+ dp, inst_id: 82 cost: 1150452627 sta_id: 328 ener: 3 edge: 0 l: 235 r: 401
+ dp, inst_id: 81 cost: 1133920821 sta_id: 282 ener: 0 edge: 0 l: 234 r: 357
+ dp, inst_id: 80 cost: 1110431480 sta_id: 281 ener: 0 edge: 0 l: 233 r: 356
+ dp, inst_id: 79 cost: 1070431903 sta_id: 280 ener: 0 edge: 0 l: 232 r: 327
+ dp, inst_id: 78 cost: 1046903802 sta_id: 279 ener: 0 edge: 0 l: 222 r: 296
+ dp, inst_id: 77 cost: 1000131856 sta_id: 234 ener: 3 edge: 0 l: 93 r: 277
+ dp, inst_id: 76 cost: 961709171 sta_id: 233 ener: 4 edge: 0 l: 92 r: 276
+ dp, inst_id: 75 cost: 947527268 sta_id: 232 ener: 3 edge: 0 l: 91 r: 268
+ dp, inst_id: 74 cost: 939323018 sta_id: 222 ener: 1 edge: 0 l: 87 r: 267
+ dp, inst_id: 73 cost: 886132906 sta_id: 180 ener: 0 edge: 1 l: 85 r: 220
+ dp, inst_id: 72 cost: 830948650 sta_id: 180 ener: 0 edge: 0 l: 54 r: 220
+ dp, inst_id: 71 cost: 811376539 sta_id: 171 ener: 3 edge: 0 l: 51 r: 200
+ dp, inst_id: 70 cost: 768028560 sta_id: 167 ener: 4 edge: 0 l: 41 r: 173
+ dp, inst_id: 69 cost: 762006621 sta_id: 164 ener: 2 edge: 0 l: 40 r: 164
+ dp, inst_id: 68 cost: 685197370 sta_id: 144 ener: 2 edge: 0 l: 39 r: 160
+ dp, inst_id: 67 cost: 648932866 sta_id: 124 ener: 4 edge: 0 l: 38 r: 153
+ dp, inst_id: 66 cost: 636993963 sta_id: 112 ener: 4 edge: 0 l: 31 r: 152
+ dp, inst_id: 65 cost: 560982586 sta_id: 111 ener: 1 edge: 0 l: 29 r: 151
+ dp, inst_id: 64 cost: 547766535 sta_id: 103 ener: 0 edge: 1 l: 28 r: 149
+ dp, inst_id: 63 cost: 507878794 sta_id: 103 ener: 0 edge: 0 l: 28 r: 88
+ dp, inst_id: 62 cost: 496587242 sta_id: 102 ener: 3 edge: 0 l: 27 r: 87
+ dp, inst_id: 61 cost: 430843460 sta_id: 82 ener: 3 edge: 0 l: 24 r: 84
+ dp, inst_id: 60 cost: 408195560 sta_id: 81 ener: 1 edge: 0 l: 23 r: 63
+ dp, inst_id: 59 cost: 366457831 sta_id: 78 ener: 0 edge: 0 l: 22 r: 62
+ dp, inst_id: 58 cost: 325553413 sta_id: 77 ener: 1 edge: 0 l: 21 r: 61
+ dp, inst_id: 57 cost: 274435418 sta_id: 75 ener: 2 edge: 0 l: 19 r: 60
+ dp, inst_id: 56 cost: 218198057 sta_id: 68 ener: 3 edge: 0 l: 18 r: 48
+ dp, inst_id: 55 cost: 191976111 sta_id: 57 ener: 1 edge: 0 l: 16 r: 47
+ dp, inst_id: 54 cost: 183583370 sta_id: 44 ener: 2 edge: 0 l: 14 r: 45
+ dp, inst_id: 53 cost: 92342426 sta_id: 24 ener: 4 edge: 1 l: 11 r: 44
+ dp, inst_id: 52 cost: 44271063 sta_id: 22 ener: 3 edge: 0 l: 11 r: 44
+ dp, inst_id: 51 cost: 30888988 sta_id: 7 ener: 0 edge: 0 l: 7 r: 11
+ dp, inst_id: 50 cost: 9361579 sta_id: 3 ener: 0 edge: -1 l: 5 r: 10
+only_install_cost: 6730193761
+all_cost: 6730641685
+DP, answer: 6730641685
+dp, cost: 1870642648 sta: 509 ener: 2
+ dp, inst_id: 100 cost: 1870642648 sta_id: 509 ener: 2 edge: 0 l: 475 r: 563
+ dp, inst_id: 99 cost: 1865450227 sta_id: 508 ener: 0 edge: 1 l: 474 r: 562
+ dp, inst_id: 98 cost: 1849226849 sta_id: 500 ener: 1 edge: 0 l: 474 r: 562
+ dp, inst_id: 97 cost: 1772865569 sta_id: 499 ener: 1 edge: 0 l: 473 r: 561
+ dp, inst_id: 96 cost: 1728359608 sta_id: 497 ener: 2 edge: 0 l: 472 r: 511
+ dp, inst_id: 95 cost: 1637066833 sta_id: 479 ener: 0 edge: 0 l: 471 r: 508
+ dp, inst_id: 94 cost: 1636536021 sta_id: 478 ener: 4 edge: 0 l: 470 r: 478
+ dp, inst_id: 93 cost: 1594985781 sta_id: 452 ener: 0 edge: 0 l: 413 r: 477
+ dp, inst_id: 92 cost: 1583927938 sta_id: 451 ener: 0 edge: 0 l: 412 r: 476
+ dp, inst_id: 91 cost: 1544118375 sta_id: 450 ener: 4 edge: 0 l: 411 r: 475
+ dp, inst_id: 90 cost: 1449248118 sta_id: 449 ener: 0 edge: 0 l: 404 r: 474
+ dp, inst_id: 89 cost: 1431637871 sta_id: 411 ener: 0 edge: 0 l: 403 r: 458
+ dp, inst_id: 88 cost: 1430897503 sta_id: 402 ener: 2 edge: 0 l: 402 r: 448
+ dp, inst_id: 87 cost: 1337736227 sta_id: 392 ener: 0 edge: 0 l: 392 r: 447
+ dp, inst_id: 86 cost: 1318886556 sta_id: 369 ener: 2 edge: 0 l: 285 r: 446
+ dp, inst_id: 85 cost: 1270350238 sta_id: 359 ener: 1 edge: 0 l: 284 r: 445
+ dp, inst_id: 84 cost: 1259562385 sta_id: 358 ener: 4 edge: 0 l: 283 r: 429
+ dp, inst_id: 83 cost: 1232482354 sta_id: 356 ener: 0 edge: 0 l: 282 r: 411
+ dp, inst_id: 82 cost: 1160968296 sta_id: 328 ener: 3 edge: 0 l: 235 r: 401
+ dp, inst_id: 81 cost: 1144436490 sta_id: 282 ener: 0 edge: 0 l: 234 r: 357
+ dp, inst_id: 80 cost: 1120457788 sta_id: 281 ener: 0 edge: 0 l: 233 r: 356
+ dp, inst_id: 79 cost: 1079624886 sta_id: 280 ener: 0 edge: 0 l: 232 r: 327
+ dp, inst_id: 78 cost: 1055606616 sta_id: 279 ener: 0 edge: 0 l: 222 r: 296
+ dp, inst_id: 77 cost: 1008834670 sta_id: 234 ener: 3 edge: 0 l: 93 r: 277
+ dp, inst_id: 76 cost: 969611512 sta_id: 233 ener: 4 edge: 0 l: 92 r: 276
+ dp, inst_id: 75 cost: 955134153 sta_id: 232 ener: 3 edge: 0 l: 91 r: 268
+ dp, inst_id: 74 cost: 946929903 sta_id: 222 ener: 1 edge: 0 l: 87 r: 267
+ dp, inst_id: 73 cost: 893739791 sta_id: 180 ener: 0 edge: 1 l: 85 r: 220
+ dp, inst_id: 72 cost: 837405863 sta_id: 180 ener: 0 edge: 0 l: 54 r: 220
+ dp, inst_id: 71 cost: 817833752 sta_id: 171 ener: 3 edge: 0 l: 51 r: 200
+ dp, inst_id: 70 cost: 774485773 sta_id: 167 ener: 4 edge: 0 l: 41 r: 173
+ dp, inst_id: 69 cost: 768463834 sta_id: 164 ener: 2 edge: 0 l: 40 r: 164
+ dp, inst_id: 68 cost: 690054390 sta_id: 144 ener: 2 edge: 0 l: 39 r: 160
+ dp, inst_id: 67 cost: 653034376 sta_id: 124 ener: 4 edge: 0 l: 38 r: 153
+ dp, inst_id: 66 cost: 641095473 sta_id: 112 ener: 4 edge: 0 l: 31 r: 152
+ dp, inst_id: 65 cost: 565084096 sta_id: 111 ener: 1 edge: 0 l: 29 r: 151
+ dp, inst_id: 64 cost: 551868045 sta_id: 103 ener: 0 edge: 1 l: 28 r: 149
+ dp, inst_id: 63 cost: 511149309 sta_id: 103 ener: 0 edge: 0 l: 28 r: 88
+ dp, inst_id: 62 cost: 499857757 sta_id: 102 ener: 3 edge: 0 l: 27 r: 87
+ dp, inst_id: 61 cost: 432744313 sta_id: 82 ener: 3 edge: 0 l: 24 r: 84
+ dp, inst_id: 60 cost: 410096413 sta_id: 81 ener: 1 edge: 0 l: 23 r: 63
+ dp, inst_id: 59 cost: 368358684 sta_id: 78 ener: 0 edge: 0 l: 22 r: 62
+ dp, inst_id: 58 cost: 327454266 sta_id: 77 ener: 1 edge: 0 l: 21 r: 61
+ dp, inst_id: 57 cost: 276336271 sta_id: 75 ener: 2 edge: 0 l: 19 r: 60
+ dp, inst_id: 56 cost: 220098910 sta_id: 68 ener: 3 edge: 0 l: 18 r: 48
+ dp, inst_id: 55 cost: 193876964 sta_id: 57 ener: 1 edge: 0 l: 16 r: 47
+ dp, inst_id: 54 cost: 185484223 sta_id: 44 ener: 2 edge: 0 l: 14 r: 45
  dp, inst_id: 53 cost: 92342426 sta_id: 24 ener: 4 edge: 1 l: 11 r: 44
  dp, inst_id: 52 cost: 44271063 sta_id: 22 ener: 3 edge: 0 l: 11 r: 44
  dp, inst_id: 51 cost: 30888988 sta_id: 7 ener: 0 edge: 0 l: 7 r: 11
@@ -2091,30 +1816,30 @@ DP, answer: 6730641685
 dp, cost: 1885660973 sta: 509 ener: 2
  dp, inst_id: 100 cost: 1885660973 sta_id: 509 ener: 2 edge: 0 l: 475 r: 563
  dp, inst_id: 99 cost: 1880468552 sta_id: 508 ener: 0 edge: 1 l: 474 r: 562
- dp, inst_id: 98 cost: 1864245174 sta_id: 507 ener: 1 edge: 0 l: 474 r: 562
- dp, inst_id: 97 cost: 1786325500 sta_id: 506 ener: 1 edge: 0 l: 473 r: 561
+ dp, inst_id: 98 cost: 1864245174 sta_id: 500 ener: 1 edge: 0 l: 474 r: 562
+ dp, inst_id: 97 cost: 1786325500 sta_id: 499 ener: 1 edge: 0 l: 473 r: 561
  dp, inst_id: 96 cost: 1741819539 sta_id: 497 ener: 2 edge: 0 l: 472 r: 511
- dp, inst_id: 95 cost: 1650526764 sta_id: 487 ener: 0 edge: 0 l: 471 r: 508
+ dp, inst_id: 95 cost: 1650526764 sta_id: 479 ener: 0 edge: 0 l: 471 r: 508
  dp, inst_id: 94 cost: 1649995952 sta_id: 478 ener: 4 edge: 0 l: 470 r: 478
- dp, inst_id: 93 cost: 1608445712 sta_id: 457 ener: 0 edge: 0 l: 413 r: 477
- dp, inst_id: 92 cost: 1597162198 sta_id: 456 ener: 0 edge: 0 l: 412 r: 476
- dp, inst_id: 91 cost: 1556540194 sta_id: 455 ener: 4 edge: 0 l: 411 r: 475
+ dp, inst_id: 93 cost: 1608445712 sta_id: 451 ener: 0 edge: 0 l: 413 r: 477
+ dp, inst_id: 92 cost: 1597162198 sta_id: 450 ener: 0 edge: 0 l: 412 r: 476
+ dp, inst_id: 91 cost: 1556540194 sta_id: 449 ener: 4 edge: 0 l: 411 r: 475
  dp, inst_id: 90 cost: 1459736259 sta_id: 439 ener: 0 edge: 0 l: 404 r: 474
  dp, inst_id: 89 cost: 1442127260 sta_id: 411 ener: 0 edge: 0 l: 403 r: 458
- dp, inst_id: 88 cost: 1441386892 sta_id: 410 ener: 2 edge: 0 l: 402 r: 448
+ dp, inst_id: 88 cost: 1441386892 sta_id: 402 ener: 2 edge: 0 l: 402 r: 448
  dp, inst_id: 87 cost: 1348225616 sta_id: 392 ener: 0 edge: 0 l: 392 r: 447
  dp, inst_id: 86 cost: 1329375945 sta_id: 369 ener: 2 edge: 0 l: 285 r: 446
  dp, inst_id: 85 cost: 1280839627 sta_id: 359 ener: 1 edge: 0 l: 284 r: 445
  dp, inst_id: 84 cost: 1270051774 sta_id: 358 ener: 4 edge: 0 l: 283 r: 429
  dp, inst_id: 83 cost: 1242971743 sta_id: 356 ener: 0 edge: 0 l: 282 r: 411
- dp, inst_id: 82 cost: 1171457685 sta_id: 336 ener: 3 edge: 0 l: 235 r: 401
- dp, inst_id: 81 cost: 1154925879 sta_id: 287 ener: 0 edge: 0 l: 234 r: 357
- dp, inst_id: 80 cost: 1130457815 sta_id: 286 ener: 0 edge: 0 l: 233 r: 356
- dp, inst_id: 79 cost: 1088791588 sta_id: 285 ener: 0 edge: 0 l: 232 r: 327
- dp, inst_id: 78 cost: 1064283149 sta_id: 284 ener: 0 edge: 0 l: 222 r: 296
- dp, inst_id: 77 cost: 1017511203 sta_id: 240 ener: 3 edge: 0 l: 93 r: 277
- dp, inst_id: 76 cost: 977487572 sta_id: 239 ener: 4 edge: 0 l: 92 r: 276
- dp, inst_id: 75 cost: 962714756 sta_id: 238 ener: 3 edge: 0 l: 91 r: 268
+ dp, inst_id: 82 cost: 1171457685 sta_id: 328 ener: 3 edge: 0 l: 235 r: 401
+ dp, inst_id: 81 cost: 1154925879 sta_id: 282 ener: 0 edge: 0 l: 234 r: 357
+ dp, inst_id: 80 cost: 1130457815 sta_id: 281 ener: 0 edge: 0 l: 233 r: 356
+ dp, inst_id: 79 cost: 1088791588 sta_id: 280 ener: 0 edge: 0 l: 232 r: 327
+ dp, inst_id: 78 cost: 1064283149 sta_id: 279 ener: 0 edge: 0 l: 222 r: 296
+ dp, inst_id: 77 cost: 1017511203 sta_id: 234 ener: 3 edge: 0 l: 93 r: 277
+ dp, inst_id: 76 cost: 977487572 sta_id: 233 ener: 4 edge: 0 l: 92 r: 276
+ dp, inst_id: 75 cost: 962714756 sta_id: 232 ener: 3 edge: 0 l: 91 r: 268
  dp, inst_id: 74 cost: 954510506 sta_id: 222 ener: 1 edge: 0 l: 87 r: 267
  dp, inst_id: 73 cost: 901320394 sta_id: 180 ener: 0 edge: 1 l: 85 r: 220
  dp, inst_id: 72 cost: 843836793 sta_id: 180 ener: 0 edge: 0 l: 54 r: 220
@@ -2143,33 +1868,33 @@ dp, cost: 1885660973 sta: 509 ener: 2
 only_install_cost: 6730193761
 all_cost: 6730608884
 DP, answer: 6730608884
-dp, cost: 1888300042 sta: 509 ener: 2
- dp, inst_id: 100 cost: 1888300042 sta_id: 509 ener: 2 edge: 0 l: 475 r: 563
- dp, inst_id: 99 cost: 1883107621 sta_id: 508 ener: 0 edge: 1 l: 474 r: 562
- dp, inst_id: 98 cost: 1866884243 sta_id: 507 ener: 1 edge: 0 l: 474 r: 562
- dp, inst_id: 97 cost: 1788962529 sta_id: 498 ener: 1 edge: 0 l: 473 r: 561
- dp, inst_id: 96 cost: 1744455973 sta_id: 497 ener: 2 edge: 0 l: 472 r: 511
- dp, inst_id: 95 cost: 1653163198 sta_id: 487 ener: 0 edge: 0 l: 471 r: 508
- dp, inst_id: 94 cost: 1652632386 sta_id: 478 ener: 4 edge: 0 l: 470 r: 478
- dp, inst_id: 93 cost: 1611082146 sta_id: 457 ener: 0 edge: 0 l: 413 r: 477
- dp, inst_id: 92 cost: 1599234457 sta_id: 456 ener: 0 edge: 0 l: 412 r: 476
- dp, inst_id: 91 cost: 1556581353 sta_id: 455 ener: 4 edge: 0 l: 411 r: 475
+dp, cost: 1886742877 sta: 509 ener: 2
+ dp, inst_id: 100 cost: 1886742877 sta_id: 509 ener: 2 edge: 0 l: 475 r: 563
+ dp, inst_id: 99 cost: 1881550456 sta_id: 508 ener: 0 edge: 1 l: 474 r: 562
+ dp, inst_id: 98 cost: 1865327078 sta_id: 499 ener: 1 edge: 0 l: 474 r: 562
+ dp, inst_id: 97 cost: 1787405364 sta_id: 498 ener: 1 edge: 0 l: 473 r: 561
+ dp, inst_id: 96 cost: 1742898808 sta_id: 497 ener: 2 edge: 0 l: 472 r: 511
+ dp, inst_id: 95 cost: 1651606033 sta_id: 479 ener: 0 edge: 0 l: 471 r: 508
+ dp, inst_id: 94 cost: 1651075221 sta_id: 478 ener: 4 edge: 0 l: 470 r: 478
+ dp, inst_id: 93 cost: 1609524981 sta_id: 451 ener: 0 edge: 0 l: 413 r: 477
+ dp, inst_id: 92 cost: 1598015797 sta_id: 450 ener: 0 edge: 0 l: 412 r: 476
+ dp, inst_id: 91 cost: 1556581353 sta_id: 449 ener: 4 edge: 0 l: 411 r: 475
  dp, inst_id: 90 cost: 1459777418 sta_id: 439 ener: 0 edge: 0 l: 404 r: 474
  dp, inst_id: 89 cost: 1442168419 sta_id: 411 ener: 0 edge: 0 l: 403 r: 458
- dp, inst_id: 88 cost: 1441428051 sta_id: 410 ener: 2 edge: 0 l: 402 r: 448
+ dp, inst_id: 88 cost: 1441428051 sta_id: 402 ener: 2 edge: 0 l: 402 r: 448
  dp, inst_id: 87 cost: 1348266775 sta_id: 392 ener: 0 edge: 0 l: 392 r: 447
  dp, inst_id: 86 cost: 1329417104 sta_id: 369 ener: 2 edge: 0 l: 285 r: 446
  dp, inst_id: 85 cost: 1280880786 sta_id: 359 ener: 1 edge: 0 l: 284 r: 445
  dp, inst_id: 84 cost: 1270092933 sta_id: 358 ener: 4 edge: 0 l: 283 r: 429
  dp, inst_id: 83 cost: 1243012902 sta_id: 356 ener: 0 edge: 0 l: 282 r: 411
- dp, inst_id: 82 cost: 1171498844 sta_id: 336 ener: 3 edge: 0 l: 235 r: 401
- dp, inst_id: 81 cost: 1154967038 sta_id: 327 ener: 0 edge: 0 l: 234 r: 357
+ dp, inst_id: 82 cost: 1171498844 sta_id: 328 ener: 3 edge: 0 l: 235 r: 401
+ dp, inst_id: 81 cost: 1154967038 sta_id: 319 ener: 0 edge: 0 l: 234 r: 357
  dp, inst_id: 80 cost: 1130495308 sta_id: 317 ener: 0 edge: 0 l: 233 r: 356
- dp, inst_id: 79 cost: 1088823907 sta_id: 296 ener: 0 edge: 0 l: 232 r: 327
- dp, inst_id: 78 cost: 1064310996 sta_id: 287 ener: 0 edge: 0 l: 222 r: 296
- dp, inst_id: 77 cost: 1017539050 sta_id: 277 ener: 3 edge: 0 l: 93 r: 277
- dp, inst_id: 76 cost: 977511469 sta_id: 250 ener: 4 edge: 0 l: 92 r: 276
- dp, inst_id: 75 cost: 962733442 sta_id: 240 ener: 3 edge: 0 l: 91 r: 268
+ dp, inst_id: 79 cost: 1088823907 sta_id: 288 ener: 0 edge: 0 l: 232 r: 327
+ dp, inst_id: 78 cost: 1064310996 sta_id: 279 ener: 0 edge: 0 l: 222 r: 296
+ dp, inst_id: 77 cost: 1017539050 sta_id: 269 ener: 3 edge: 0 l: 93 r: 277
+ dp, inst_id: 76 cost: 977511469 sta_id: 242 ener: 4 edge: 0 l: 92 r: 276
+ dp, inst_id: 75 cost: 962733442 sta_id: 232 ener: 3 edge: 0 l: 91 r: 268
  dp, inst_id: 74 cost: 954529192 sta_id: 222 ener: 1 edge: 0 l: 87 r: 267
  dp, inst_id: 73 cost: 901339080 sta_id: 211 ener: 0 edge: 1 l: 85 r: 220
  dp, inst_id: 72 cost: 843849421 sta_id: 180 ener: 0 edge: 0 l: 54 r: 220
@@ -2182,8 +1907,173 @@ dp, cost: 1888300042 sta: 509 ener: 2
  dp, inst_id: 65 cost: 569174536 sta_id: 117 ener: 1 edge: 0 l: 29 r: 151
  dp, inst_id: 64 cost: 555960695 sta_id: 107 ener: 0 edge: 1 l: 28 r: 149
  dp, inst_id: 63 cost: 514406986 sta_id: 103 ener: 0 edge: 0 l: 28 r: 88
- dp, inst_id: 62 cost: 503115434 sta_id: 102 ener: 3 edge: 0 l: 27 r: 87
- dp, inst_id: 61 cost: 434630727 sta_id: 91 ener: 3 edge: 0 l: 24 r: 84
+ dp, inst_id: 62 cost: 503115434 sta_id: 91 ener: 3 edge: 0 l: 27 r: 87
+ dp, inst_id: 61 cost: 434629677 sta_id: 82 ener: 3 edge: 0 l: 24 r: 84
+ dp, inst_id: 60 cost: 411981777 sta_id: 77 ener: 1 edge: 0 l: 23 r: 63
+ dp, inst_id: 59 cost: 370246938 sta_id: 63 ener: 0 edge: 0 l: 22 r: 62
+ dp, inst_id: 58 cost: 329345354 sta_id: 57 ener: 1 edge: 0 l: 21 r: 61
+ dp, inst_id: 57 cost: 278227359 sta_id: 44 ener: 2 edge: 0 l: 19 r: 60
+ dp, inst_id: 56 cost: 221991438 sta_id: 42 ener: 3 edge: 0 l: 18 r: 48
+ dp, inst_id: 55 cost: 195771392 sta_id: 37 ener: 1 edge: 0 l: 16 r: 47
+ dp, inst_id: 54 cost: 187378651 sta_id: 19 ener: 2 edge: 0 l: 14 r: 45
+ dp, inst_id: 53 cost: 92335840 sta_id: 12 ener: 4 edge: 1 l: 11 r: 44
+ dp, inst_id: 52 cost: 44272113 sta_id: 11 ener: 3 edge: 0 l: 11 r: 44
+ dp, inst_id: 51 cost: 30888988 sta_id: 7 ener: 0 edge: 0 l: 7 r: 11
+ dp, inst_id: 50 cost: 9361579 sta_id: 3 ener: 0 edge: -1 l: 5 r: 10
+only_install_cost: 6730193761
+all_cost: 6730639495
+DP, answer: 6730639495
+dp, cost: 1887780987 sta: 509 ener: 2
+ dp, inst_id: 100 cost: 1887780987 sta_id: 509 ener: 2 edge: 0 l: 475 r: 563
+ dp, inst_id: 99 cost: 1882588566 sta_id: 508 ener: 0 edge: 1 l: 474 r: 562
+ dp, inst_id: 98 cost: 1866365188 sta_id: 499 ener: 1 edge: 0 l: 474 r: 562
+ dp, inst_id: 97 cost: 1788443474 sta_id: 498 ener: 1 edge: 0 l: 473 r: 561
+ dp, inst_id: 96 cost: 1743936918 sta_id: 497 ener: 2 edge: 0 l: 472 r: 511
+ dp, inst_id: 95 cost: 1652644143 sta_id: 479 ener: 0 edge: 0 l: 471 r: 508
+ dp, inst_id: 94 cost: 1652113331 sta_id: 478 ener: 4 edge: 0 l: 470 r: 478
+ dp, inst_id: 93 cost: 1610563091 sta_id: 451 ener: 0 edge: 0 l: 413 r: 477
+ dp, inst_id: 92 cost: 1598828237 sta_id: 450 ener: 0 edge: 0 l: 412 r: 476
+ dp, inst_id: 91 cost: 1556581353 sta_id: 449 ener: 4 edge: 0 l: 411 r: 475
+ dp, inst_id: 90 cost: 1459777418 sta_id: 439 ener: 0 edge: 0 l: 404 r: 474
+ dp, inst_id: 89 cost: 1442168419 sta_id: 411 ener: 0 edge: 0 l: 403 r: 458
+ dp, inst_id: 88 cost: 1441428051 sta_id: 402 ener: 2 edge: 0 l: 402 r: 448
+ dp, inst_id: 87 cost: 1348266775 sta_id: 392 ener: 0 edge: 0 l: 392 r: 447
+ dp, inst_id: 86 cost: 1329417104 sta_id: 369 ener: 2 edge: 0 l: 285 r: 446
+ dp, inst_id: 85 cost: 1280880786 sta_id: 359 ener: 1 edge: 0 l: 284 r: 445
+ dp, inst_id: 84 cost: 1270092933 sta_id: 358 ener: 4 edge: 0 l: 283 r: 429
+ dp, inst_id: 83 cost: 1243012902 sta_id: 356 ener: 0 edge: 0 l: 282 r: 411
+ dp, inst_id: 82 cost: 1171498844 sta_id: 328 ener: 3 edge: 0 l: 235 r: 401
+ dp, inst_id: 81 cost: 1154967038 sta_id: 319 ener: 0 edge: 0 l: 234 r: 357
+ dp, inst_id: 80 cost: 1130495308 sta_id: 317 ener: 0 edge: 0 l: 233 r: 356
+ dp, inst_id: 79 cost: 1088823907 sta_id: 288 ener: 0 edge: 0 l: 232 r: 327
+ dp, inst_id: 78 cost: 1064310996 sta_id: 279 ener: 0 edge: 0 l: 222 r: 296
+ dp, inst_id: 77 cost: 1017539050 sta_id: 269 ener: 3 edge: 0 l: 93 r: 277
+ dp, inst_id: 76 cost: 977511469 sta_id: 242 ener: 4 edge: 0 l: 92 r: 276
+ dp, inst_id: 75 cost: 962733442 sta_id: 232 ener: 3 edge: 0 l: 91 r: 268
+ dp, inst_id: 74 cost: 954529192 sta_id: 222 ener: 1 edge: 0 l: 87 r: 267
+ dp, inst_id: 73 cost: 901339080 sta_id: 211 ener: 0 edge: 1 l: 85 r: 220
+ dp, inst_id: 72 cost: 843849421 sta_id: 180 ener: 0 edge: 0 l: 54 r: 220
+ dp, inst_id: 71 cost: 824277310 sta_id: 162 ener: 3 edge: 0 l: 51 r: 200
+ dp, inst_id: 70 cost: 780930381 sta_id: 152 ener: 4 edge: 0 l: 41 r: 173
+ dp, inst_id: 69 cost: 774909521 sta_id: 144 ener: 2 edge: 0 l: 40 r: 164
+ dp, inst_id: 68 cost: 694893944 sta_id: 139 ener: 2 edge: 0 l: 39 r: 160
+ dp, inst_id: 67 cost: 657118259 sta_id: 132 ener: 4 edge: 0 l: 38 r: 153
+ dp, inst_id: 66 cost: 645186992 sta_id: 127 ener: 4 edge: 0 l: 31 r: 152
+ dp, inst_id: 65 cost: 569174536 sta_id: 117 ener: 1 edge: 0 l: 29 r: 151
+ dp, inst_id: 64 cost: 555960695 sta_id: 107 ener: 0 edge: 1 l: 28 r: 149
+ dp, inst_id: 63 cost: 514406986 sta_id: 103 ener: 0 edge: 0 l: 28 r: 88
+ dp, inst_id: 62 cost: 503115434 sta_id: 91 ener: 3 edge: 0 l: 27 r: 87
+ dp, inst_id: 61 cost: 434629677 sta_id: 82 ener: 3 edge: 0 l: 24 r: 84
+ dp, inst_id: 60 cost: 411981777 sta_id: 77 ener: 1 edge: 0 l: 23 r: 63
+ dp, inst_id: 59 cost: 370246938 sta_id: 63 ener: 0 edge: 0 l: 22 r: 62
+ dp, inst_id: 58 cost: 329345354 sta_id: 57 ener: 1 edge: 0 l: 21 r: 61
+ dp, inst_id: 57 cost: 278227359 sta_id: 44 ener: 2 edge: 0 l: 19 r: 60
+ dp, inst_id: 56 cost: 221991438 sta_id: 42 ener: 3 edge: 0 l: 18 r: 48
+ dp, inst_id: 55 cost: 195771392 sta_id: 37 ener: 1 edge: 0 l: 16 r: 47
+ dp, inst_id: 54 cost: 187378651 sta_id: 19 ener: 2 edge: 0 l: 14 r: 45
+ dp, inst_id: 53 cost: 92335840 sta_id: 12 ener: 4 edge: 1 l: 11 r: 44
+ dp, inst_id: 52 cost: 44272113 sta_id: 11 ener: 3 edge: 0 l: 11 r: 44
+ dp, inst_id: 51 cost: 30888988 sta_id: 7 ener: 0 edge: 0 l: 7 r: 11
+ dp, inst_id: 50 cost: 9361579 sta_id: 3 ener: 0 edge: -1 l: 5 r: 10
+only_install_cost: 6730193761
+all_cost: 6730639495
+DP, answer: 6730639495
+dp, cost: 1888819097 sta: 509 ener: 2
+ dp, inst_id: 100 cost: 1888819097 sta_id: 509 ener: 2 edge: 0 l: 475 r: 563
+ dp, inst_id: 99 cost: 1883626676 sta_id: 508 ener: 0 edge: 1 l: 474 r: 562
+ dp, inst_id: 98 cost: 1867403298 sta_id: 499 ener: 1 edge: 0 l: 474 r: 562
+ dp, inst_id: 97 cost: 1789481584 sta_id: 498 ener: 1 edge: 0 l: 473 r: 561
+ dp, inst_id: 96 cost: 1744975028 sta_id: 497 ener: 2 edge: 0 l: 472 r: 511
+ dp, inst_id: 95 cost: 1653682253 sta_id: 479 ener: 0 edge: 0 l: 471 r: 508
+ dp, inst_id: 94 cost: 1653151441 sta_id: 478 ener: 4 edge: 0 l: 470 r: 478
+ dp, inst_id: 93 cost: 1611601201 sta_id: 451 ener: 0 edge: 0 l: 413 r: 477
+ dp, inst_id: 92 cost: 1599640677 sta_id: 450 ener: 0 edge: 0 l: 412 r: 476
+ dp, inst_id: 91 cost: 1556581353 sta_id: 449 ener: 4 edge: 0 l: 411 r: 475
+ dp, inst_id: 90 cost: 1459777418 sta_id: 439 ener: 0 edge: 0 l: 404 r: 474
+ dp, inst_id: 89 cost: 1442168419 sta_id: 411 ener: 0 edge: 0 l: 403 r: 458
+ dp, inst_id: 88 cost: 1441428051 sta_id: 402 ener: 2 edge: 0 l: 402 r: 448
+ dp, inst_id: 87 cost: 1348266775 sta_id: 392 ener: 0 edge: 0 l: 392 r: 447
+ dp, inst_id: 86 cost: 1329417104 sta_id: 369 ener: 2 edge: 0 l: 285 r: 446
+ dp, inst_id: 85 cost: 1280880786 sta_id: 359 ener: 1 edge: 0 l: 284 r: 445
+ dp, inst_id: 84 cost: 1270092933 sta_id: 358 ener: 4 edge: 0 l: 283 r: 429
+ dp, inst_id: 83 cost: 1243012902 sta_id: 356 ener: 0 edge: 0 l: 282 r: 411
+ dp, inst_id: 82 cost: 1171498844 sta_id: 328 ener: 3 edge: 0 l: 235 r: 401
+ dp, inst_id: 81 cost: 1154967038 sta_id: 319 ener: 0 edge: 0 l: 234 r: 357
+ dp, inst_id: 80 cost: 1130495308 sta_id: 317 ener: 0 edge: 0 l: 233 r: 356
+ dp, inst_id: 79 cost: 1088823907 sta_id: 288 ener: 0 edge: 0 l: 232 r: 327
+ dp, inst_id: 78 cost: 1064310996 sta_id: 279 ener: 0 edge: 0 l: 222 r: 296
+ dp, inst_id: 77 cost: 1017539050 sta_id: 269 ener: 3 edge: 0 l: 93 r: 277
+ dp, inst_id: 76 cost: 977511469 sta_id: 242 ener: 4 edge: 0 l: 92 r: 276
+ dp, inst_id: 75 cost: 962733442 sta_id: 232 ener: 3 edge: 0 l: 91 r: 268
+ dp, inst_id: 74 cost: 954529192 sta_id: 222 ener: 1 edge: 0 l: 87 r: 267
+ dp, inst_id: 73 cost: 901339080 sta_id: 211 ener: 0 edge: 1 l: 85 r: 220
+ dp, inst_id: 72 cost: 843849421 sta_id: 180 ener: 0 edge: 0 l: 54 r: 220
+ dp, inst_id: 71 cost: 824277310 sta_id: 162 ener: 3 edge: 0 l: 51 r: 200
+ dp, inst_id: 70 cost: 780930381 sta_id: 152 ener: 4 edge: 0 l: 41 r: 173
+ dp, inst_id: 69 cost: 774909521 sta_id: 144 ener: 2 edge: 0 l: 40 r: 164
+ dp, inst_id: 68 cost: 694893944 sta_id: 139 ener: 2 edge: 0 l: 39 r: 160
+ dp, inst_id: 67 cost: 657118259 sta_id: 132 ener: 4 edge: 0 l: 38 r: 153
+ dp, inst_id: 66 cost: 645186992 sta_id: 127 ener: 4 edge: 0 l: 31 r: 152
+ dp, inst_id: 65 cost: 569174536 sta_id: 117 ener: 1 edge: 0 l: 29 r: 151
+ dp, inst_id: 64 cost: 555960695 sta_id: 107 ener: 0 edge: 1 l: 28 r: 149
+ dp, inst_id: 63 cost: 514406986 sta_id: 103 ener: 0 edge: 0 l: 28 r: 88
+ dp, inst_id: 62 cost: 503115434 sta_id: 91 ener: 3 edge: 0 l: 27 r: 87
+ dp, inst_id: 61 cost: 434629677 sta_id: 82 ener: 3 edge: 0 l: 24 r: 84
+ dp, inst_id: 60 cost: 411981777 sta_id: 77 ener: 1 edge: 0 l: 23 r: 63
+ dp, inst_id: 59 cost: 370246938 sta_id: 63 ener: 0 edge: 0 l: 22 r: 62
+ dp, inst_id: 58 cost: 329345354 sta_id: 57 ener: 1 edge: 0 l: 21 r: 61
+ dp, inst_id: 57 cost: 278227359 sta_id: 44 ener: 2 edge: 0 l: 19 r: 60
+ dp, inst_id: 56 cost: 221991438 sta_id: 42 ener: 3 edge: 0 l: 18 r: 48
+ dp, inst_id: 55 cost: 195771392 sta_id: 37 ener: 1 edge: 0 l: 16 r: 47
+ dp, inst_id: 54 cost: 187378651 sta_id: 19 ener: 2 edge: 0 l: 14 r: 45
+ dp, inst_id: 53 cost: 92335840 sta_id: 12 ener: 4 edge: 1 l: 11 r: 44
+ dp, inst_id: 52 cost: 44272113 sta_id: 11 ener: 3 edge: 0 l: 11 r: 44
+ dp, inst_id: 51 cost: 30888988 sta_id: 7 ener: 0 edge: 0 l: 7 r: 11
+ dp, inst_id: 50 cost: 9361579 sta_id: 3 ener: 0 edge: -1 l: 5 r: 10
+only_install_cost: 6730193761
+all_cost: 6730639495
+DP, answer: 6730639495
+dp, cost: 1889857208 sta: 509 ener: 2
+ dp, inst_id: 100 cost: 1889857208 sta_id: 509 ener: 2 edge: 0 l: 475 r: 563
+ dp, inst_id: 99 cost: 1884664787 sta_id: 508 ener: 0 edge: 1 l: 474 r: 562
+ dp, inst_id: 98 cost: 1868441409 sta_id: 499 ener: 1 edge: 0 l: 474 r: 562
+ dp, inst_id: 97 cost: 1790519695 sta_id: 498 ener: 1 edge: 0 l: 473 r: 561
+ dp, inst_id: 96 cost: 1746013139 sta_id: 497 ener: 2 edge: 0 l: 472 r: 511
+ dp, inst_id: 95 cost: 1654720364 sta_id: 479 ener: 0 edge: 0 l: 471 r: 508
+ dp, inst_id: 94 cost: 1654189552 sta_id: 478 ener: 4 edge: 0 l: 470 r: 478
+ dp, inst_id: 93 cost: 1612639312 sta_id: 451 ener: 0 edge: 0 l: 413 r: 477
+ dp, inst_id: 92 cost: 1600453117 sta_id: 450 ener: 0 edge: 0 l: 412 r: 476
+ dp, inst_id: 91 cost: 1556581353 sta_id: 449 ener: 4 edge: 0 l: 411 r: 475
+ dp, inst_id: 90 cost: 1459777418 sta_id: 439 ener: 0 edge: 0 l: 404 r: 474
+ dp, inst_id: 89 cost: 1442168419 sta_id: 411 ener: 0 edge: 0 l: 403 r: 458
+ dp, inst_id: 88 cost: 1441428051 sta_id: 402 ener: 2 edge: 0 l: 402 r: 448
+ dp, inst_id: 87 cost: 1348266775 sta_id: 392 ener: 0 edge: 0 l: 392 r: 447
+ dp, inst_id: 86 cost: 1329417104 sta_id: 369 ener: 2 edge: 0 l: 285 r: 446
+ dp, inst_id: 85 cost: 1280880786 sta_id: 359 ener: 1 edge: 0 l: 284 r: 445
+ dp, inst_id: 84 cost: 1270092933 sta_id: 358 ener: 4 edge: 0 l: 283 r: 429
+ dp, inst_id: 83 cost: 1243012902 sta_id: 356 ener: 0 edge: 0 l: 282 r: 411
+ dp, inst_id: 82 cost: 1171498844 sta_id: 328 ener: 3 edge: 0 l: 235 r: 401
+ dp, inst_id: 81 cost: 1154967038 sta_id: 319 ener: 0 edge: 0 l: 234 r: 357
+ dp, inst_id: 80 cost: 1130495308 sta_id: 317 ener: 0 edge: 0 l: 233 r: 356
+ dp, inst_id: 79 cost: 1088823907 sta_id: 288 ener: 0 edge: 0 l: 232 r: 327
+ dp, inst_id: 78 cost: 1064310996 sta_id: 279 ener: 0 edge: 0 l: 222 r: 296
+ dp, inst_id: 77 cost: 1017539050 sta_id: 269 ener: 3 edge: 0 l: 93 r: 277
+ dp, inst_id: 76 cost: 977511469 sta_id: 242 ener: 4 edge: 0 l: 92 r: 276
+ dp, inst_id: 75 cost: 962733442 sta_id: 232 ener: 3 edge: 0 l: 91 r: 268
+ dp, inst_id: 74 cost: 954529192 sta_id: 222 ener: 1 edge: 0 l: 87 r: 267
+ dp, inst_id: 73 cost: 901339080 sta_id: 211 ener: 0 edge: 1 l: 85 r: 220
+ dp, inst_id: 72 cost: 843849421 sta_id: 180 ener: 0 edge: 0 l: 54 r: 220
+ dp, inst_id: 71 cost: 824277310 sta_id: 162 ener: 3 edge: 0 l: 51 r: 200
+ dp, inst_id: 70 cost: 780930381 sta_id: 152 ener: 4 edge: 0 l: 41 r: 173
+ dp, inst_id: 69 cost: 774909521 sta_id: 144 ener: 2 edge: 0 l: 40 r: 164
+ dp, inst_id: 68 cost: 694893944 sta_id: 139 ener: 2 edge: 0 l: 39 r: 160
+ dp, inst_id: 67 cost: 657118259 sta_id: 132 ener: 4 edge: 0 l: 38 r: 153
+ dp, inst_id: 66 cost: 645186992 sta_id: 127 ener: 4 edge: 0 l: 31 r: 152
+ dp, inst_id: 65 cost: 569174536 sta_id: 117 ener: 1 edge: 0 l: 29 r: 151
+ dp, inst_id: 64 cost: 555960695 sta_id: 107 ener: 0 edge: 1 l: 28 r: 149
+ dp, inst_id: 63 cost: 514406986 sta_id: 103 ener: 0 edge: 0 l: 28 r: 88
+ dp, inst_id: 62 cost: 503115434 sta_id: 91 ener: 3 edge: 0 l: 27 r: 87
+ dp, inst_id: 61 cost: 434629677 sta_id: 82 ener: 3 edge: 0 l: 24 r: 84
  dp, inst_id: 60 cost: 411981777 sta_id: 77 ener: 1 edge: 0 l: 23 r: 63
  dp, inst_id: 59 cost: 370246938 sta_id: 63 ener: 0 edge: 0 l: 22 r: 62
  dp, inst_id: 58 cost: 329345354 sta_id: 57 ener: 1 edge: 0 l: 21 r: 61
@@ -2201,30 +2091,30 @@ DP, answer: 6730639495
 dp, cost: 1890895318 sta: 509 ener: 2
  dp, inst_id: 100 cost: 1890895318 sta_id: 509 ener: 2 edge: 0 l: 475 r: 563
  dp, inst_id: 99 cost: 1885702897 sta_id: 508 ener: 0 edge: 1 l: 474 r: 562
- dp, inst_id: 98 cost: 1869479519 sta_id: 507 ener: 1 edge: 0 l: 474 r: 562
+ dp, inst_id: 98 cost: 1869479519 sta_id: 499 ener: 1 edge: 0 l: 474 r: 562
  dp, inst_id: 97 cost: 1791557805 sta_id: 498 ener: 1 edge: 0 l: 473 r: 561
  dp, inst_id: 96 cost: 1747051249 sta_id: 497 ener: 2 edge: 0 l: 472 r: 511
- dp, inst_id: 95 cost: 1655758474 sta_id: 487 ener: 0 edge: 0 l: 471 r: 508
+ dp, inst_id: 95 cost: 1655758474 sta_id: 479 ener: 0 edge: 0 l: 471 r: 508
  dp, inst_id: 94 cost: 1655227662 sta_id: 478 ener: 4 edge: 0 l: 470 r: 478
- dp, inst_id: 93 cost: 1613677422 sta_id: 457 ener: 0 edge: 0 l: 413 r: 477
- dp, inst_id: 92 cost: 1601265557 sta_id: 456 ener: 0 edge: 0 l: 412 r: 476
- dp, inst_id: 91 cost: 1556581353 sta_id: 455 ener: 4 edge: 0 l: 411 r: 475
+ dp, inst_id: 93 cost: 1613677422 sta_id: 451 ener: 0 edge: 0 l: 413 r: 477
+ dp, inst_id: 92 cost: 1601265557 sta_id: 450 ener: 0 edge: 0 l: 412 r: 476
+ dp, inst_id: 91 cost: 1556581353 sta_id: 449 ener: 4 edge: 0 l: 411 r: 475
  dp, inst_id: 90 cost: 1459777418 sta_id: 439 ener: 0 edge: 0 l: 404 r: 474
  dp, inst_id: 89 cost: 1442168419 sta_id: 411 ener: 0 edge: 0 l: 403 r: 458
- dp, inst_id: 88 cost: 1441428051 sta_id: 410 ener: 2 edge: 0 l: 402 r: 448
+ dp, inst_id: 88 cost: 1441428051 sta_id: 402 ener: 2 edge: 0 l: 402 r: 448
  dp, inst_id: 87 cost: 1348266775 sta_id: 392 ener: 0 edge: 0 l: 392 r: 447
  dp, inst_id: 86 cost: 1329417104 sta_id: 369 ener: 2 edge: 0 l: 285 r: 446
  dp, inst_id: 85 cost: 1280880786 sta_id: 359 ener: 1 edge: 0 l: 284 r: 445
  dp, inst_id: 84 cost: 1270092933 sta_id: 358 ener: 4 edge: 0 l: 283 r: 429
  dp, inst_id: 83 cost: 1243012902 sta_id: 356 ener: 0 edge: 0 l: 282 r: 411
- dp, inst_id: 82 cost: 1171498844 sta_id: 336 ener: 3 edge: 0 l: 235 r: 401
- dp, inst_id: 81 cost: 1154967038 sta_id: 327 ener: 0 edge: 0 l: 234 r: 357
+ dp, inst_id: 82 cost: 1171498844 sta_id: 328 ener: 3 edge: 0 l: 235 r: 401
+ dp, inst_id: 81 cost: 1154967038 sta_id: 319 ener: 0 edge: 0 l: 234 r: 357
  dp, inst_id: 80 cost: 1130495308 sta_id: 317 ener: 0 edge: 0 l: 233 r: 356
- dp, inst_id: 79 cost: 1088823907 sta_id: 296 ener: 0 edge: 0 l: 232 r: 327
- dp, inst_id: 78 cost: 1064310996 sta_id: 287 ener: 0 edge: 0 l: 222 r: 296
- dp, inst_id: 77 cost: 1017539050 sta_id: 277 ener: 3 edge: 0 l: 93 r: 277
- dp, inst_id: 76 cost: 977511469 sta_id: 250 ener: 4 edge: 0 l: 92 r: 276
- dp, inst_id: 75 cost: 962733442 sta_id: 240 ener: 3 edge: 0 l: 91 r: 268
+ dp, inst_id: 79 cost: 1088823907 sta_id: 288 ener: 0 edge: 0 l: 232 r: 327
+ dp, inst_id: 78 cost: 1064310996 sta_id: 279 ener: 0 edge: 0 l: 222 r: 296
+ dp, inst_id: 77 cost: 1017539050 sta_id: 269 ener: 3 edge: 0 l: 93 r: 277
+ dp, inst_id: 76 cost: 977511469 sta_id: 242 ener: 4 edge: 0 l: 92 r: 276
+ dp, inst_id: 75 cost: 962733442 sta_id: 232 ener: 3 edge: 0 l: 91 r: 268
  dp, inst_id: 74 cost: 954529192 sta_id: 222 ener: 1 edge: 0 l: 87 r: 267
  dp, inst_id: 73 cost: 901339080 sta_id: 211 ener: 0 edge: 1 l: 85 r: 220
  dp, inst_id: 72 cost: 843849421 sta_id: 180 ener: 0 edge: 0 l: 54 r: 220
@@ -2237,448 +2127,8 @@ dp, cost: 1890895318 sta: 509 ener: 2
  dp, inst_id: 65 cost: 569174536 sta_id: 117 ener: 1 edge: 0 l: 29 r: 151
  dp, inst_id: 64 cost: 555960695 sta_id: 107 ener: 0 edge: 1 l: 28 r: 149
  dp, inst_id: 63 cost: 514406986 sta_id: 103 ener: 0 edge: 0 l: 28 r: 88
- dp, inst_id: 62 cost: 503115434 sta_id: 102 ener: 3 edge: 0 l: 27 r: 87
- dp, inst_id: 61 cost: 434630727 sta_id: 91 ener: 3 edge: 0 l: 24 r: 84
- dp, inst_id: 60 cost: 411981777 sta_id: 77 ener: 1 edge: 0 l: 23 r: 63
- dp, inst_id: 59 cost: 370246938 sta_id: 63 ener: 0 edge: 0 l: 22 r: 62
- dp, inst_id: 58 cost: 329345354 sta_id: 57 ener: 1 edge: 0 l: 21 r: 61
- dp, inst_id: 57 cost: 278227359 sta_id: 44 ener: 2 edge: 0 l: 19 r: 60
- dp, inst_id: 56 cost: 221991438 sta_id: 42 ener: 3 edge: 0 l: 18 r: 48
- dp, inst_id: 55 cost: 195771392 sta_id: 37 ener: 1 edge: 0 l: 16 r: 47
- dp, inst_id: 54 cost: 187378651 sta_id: 19 ener: 2 edge: 0 l: 14 r: 45
- dp, inst_id: 53 cost: 92335840 sta_id: 12 ener: 4 edge: 1 l: 11 r: 44
- dp, inst_id: 52 cost: 44272113 sta_id: 11 ener: 3 edge: 0 l: 11 r: 44
- dp, inst_id: 51 cost: 30888988 sta_id: 7 ener: 0 edge: 0 l: 7 r: 11
- dp, inst_id: 50 cost: 9361579 sta_id: 3 ener: 0 edge: -1 l: 5 r: 10
-only_install_cost: 6730193761
-all_cost: 6730639495
-DP, answer: 6730639495
-dp, cost: 1893490594 sta: 509 ener: 2
- dp, inst_id: 100 cost: 1893490594 sta_id: 509 ener: 2 edge: 0 l: 475 r: 563
- dp, inst_id: 99 cost: 1888298173 sta_id: 508 ener: 0 edge: 1 l: 474 r: 562
- dp, inst_id: 98 cost: 1872074795 sta_id: 507 ener: 1 edge: 0 l: 474 r: 562
- dp, inst_id: 97 cost: 1794153081 sta_id: 498 ener: 1 edge: 0 l: 473 r: 561
- dp, inst_id: 96 cost: 1749646525 sta_id: 497 ener: 2 edge: 0 l: 472 r: 511
- dp, inst_id: 95 cost: 1658353750 sta_id: 487 ener: 0 edge: 0 l: 471 r: 508
- dp, inst_id: 94 cost: 1657822938 sta_id: 478 ener: 4 edge: 0 l: 470 r: 478
- dp, inst_id: 93 cost: 1616272698 sta_id: 457 ener: 0 edge: 0 l: 413 r: 477
- dp, inst_id: 92 cost: 1603296657 sta_id: 456 ener: 0 edge: 0 l: 412 r: 476
- dp, inst_id: 91 cost: 1556581353 sta_id: 455 ener: 4 edge: 0 l: 411 r: 475
- dp, inst_id: 90 cost: 1459777418 sta_id: 439 ener: 0 edge: 0 l: 404 r: 474
- dp, inst_id: 89 cost: 1442168419 sta_id: 411 ener: 0 edge: 0 l: 403 r: 458
- dp, inst_id: 88 cost: 1441428051 sta_id: 410 ener: 2 edge: 0 l: 402 r: 448
- dp, inst_id: 87 cost: 1348266775 sta_id: 392 ener: 0 edge: 0 l: 392 r: 447
- dp, inst_id: 86 cost: 1329417104 sta_id: 369 ener: 2 edge: 0 l: 285 r: 446
- dp, inst_id: 85 cost: 1280880786 sta_id: 359 ener: 1 edge: 0 l: 284 r: 445
- dp, inst_id: 84 cost: 1270092933 sta_id: 358 ener: 4 edge: 0 l: 283 r: 429
- dp, inst_id: 83 cost: 1243012902 sta_id: 356 ener: 0 edge: 0 l: 282 r: 411
- dp, inst_id: 82 cost: 1171498844 sta_id: 336 ener: 3 edge: 0 l: 235 r: 401
- dp, inst_id: 81 cost: 1154967038 sta_id: 327 ener: 0 edge: 0 l: 234 r: 357
- dp, inst_id: 80 cost: 1130495308 sta_id: 317 ener: 0 edge: 0 l: 233 r: 356
- dp, inst_id: 79 cost: 1088823907 sta_id: 296 ener: 0 edge: 0 l: 232 r: 327
- dp, inst_id: 78 cost: 1064310996 sta_id: 287 ener: 0 edge: 0 l: 222 r: 296
- dp, inst_id: 77 cost: 1017539050 sta_id: 277 ener: 3 edge: 0 l: 93 r: 277
- dp, inst_id: 76 cost: 977511469 sta_id: 250 ener: 4 edge: 0 l: 92 r: 276
- dp, inst_id: 75 cost: 962733442 sta_id: 240 ener: 3 edge: 0 l: 91 r: 268
- dp, inst_id: 74 cost: 954529192 sta_id: 222 ener: 1 edge: 0 l: 87 r: 267
- dp, inst_id: 73 cost: 901339080 sta_id: 211 ener: 0 edge: 1 l: 85 r: 220
- dp, inst_id: 72 cost: 843849421 sta_id: 180 ener: 0 edge: 0 l: 54 r: 220
- dp, inst_id: 71 cost: 824277310 sta_id: 162 ener: 3 edge: 0 l: 51 r: 200
- dp, inst_id: 70 cost: 780930381 sta_id: 152 ener: 4 edge: 0 l: 41 r: 173
- dp, inst_id: 69 cost: 774909521 sta_id: 144 ener: 2 edge: 0 l: 40 r: 164
- dp, inst_id: 68 cost: 694893944 sta_id: 139 ener: 2 edge: 0 l: 39 r: 160
- dp, inst_id: 67 cost: 657118259 sta_id: 132 ener: 4 edge: 0 l: 38 r: 153
- dp, inst_id: 66 cost: 645186992 sta_id: 127 ener: 4 edge: 0 l: 31 r: 152
- dp, inst_id: 65 cost: 569174536 sta_id: 117 ener: 1 edge: 0 l: 29 r: 151
- dp, inst_id: 64 cost: 555960695 sta_id: 107 ener: 0 edge: 1 l: 28 r: 149
- dp, inst_id: 63 cost: 514406986 sta_id: 103 ener: 0 edge: 0 l: 28 r: 88
- dp, inst_id: 62 cost: 503115434 sta_id: 102 ener: 3 edge: 0 l: 27 r: 87
- dp, inst_id: 61 cost: 434630727 sta_id: 91 ener: 3 edge: 0 l: 24 r: 84
- dp, inst_id: 60 cost: 411981777 sta_id: 77 ener: 1 edge: 0 l: 23 r: 63
- dp, inst_id: 59 cost: 370246938 sta_id: 63 ener: 0 edge: 0 l: 22 r: 62
- dp, inst_id: 58 cost: 329345354 sta_id: 57 ener: 1 edge: 0 l: 21 r: 61
- dp, inst_id: 57 cost: 278227359 sta_id: 44 ener: 2 edge: 0 l: 19 r: 60
- dp, inst_id: 56 cost: 221991438 sta_id: 42 ener: 3 edge: 0 l: 18 r: 48
- dp, inst_id: 55 cost: 195771392 sta_id: 37 ener: 1 edge: 0 l: 16 r: 47
- dp, inst_id: 54 cost: 187378651 sta_id: 19 ener: 2 edge: 0 l: 14 r: 45
- dp, inst_id: 53 cost: 92335840 sta_id: 12 ener: 4 edge: 1 l: 11 r: 44
- dp, inst_id: 52 cost: 44272113 sta_id: 11 ener: 3 edge: 0 l: 11 r: 44
- dp, inst_id: 51 cost: 30888988 sta_id: 7 ener: 0 edge: 0 l: 7 r: 11
- dp, inst_id: 50 cost: 9361579 sta_id: 3 ener: 0 edge: -1 l: 5 r: 10
-only_install_cost: 6730193761
-all_cost: 6730639495
-DP, answer: 6730639495
-dp, cost: 1896085869 sta: 509 ener: 2
- dp, inst_id: 100 cost: 1896085869 sta_id: 509 ener: 2 edge: 0 l: 475 r: 563
- dp, inst_id: 99 cost: 1890893448 sta_id: 508 ener: 0 edge: 1 l: 474 r: 562
- dp, inst_id: 98 cost: 1874670070 sta_id: 507 ener: 1 edge: 0 l: 474 r: 562
- dp, inst_id: 97 cost: 1796748356 sta_id: 498 ener: 1 edge: 0 l: 473 r: 561
- dp, inst_id: 96 cost: 1752241800 sta_id: 497 ener: 2 edge: 0 l: 472 r: 511
- dp, inst_id: 95 cost: 1660949025 sta_id: 487 ener: 0 edge: 0 l: 471 r: 508
- dp, inst_id: 94 cost: 1660418213 sta_id: 478 ener: 4 edge: 0 l: 470 r: 478
- dp, inst_id: 93 cost: 1618867973 sta_id: 457 ener: 0 edge: 0 l: 413 r: 477
- dp, inst_id: 92 cost: 1605327757 sta_id: 456 ener: 0 edge: 0 l: 412 r: 476
- dp, inst_id: 91 cost: 1556581353 sta_id: 455 ener: 4 edge: 0 l: 411 r: 475
- dp, inst_id: 90 cost: 1459777418 sta_id: 439 ener: 0 edge: 0 l: 404 r: 474
- dp, inst_id: 89 cost: 1442168419 sta_id: 411 ener: 0 edge: 0 l: 403 r: 458
- dp, inst_id: 88 cost: 1441428051 sta_id: 410 ener: 2 edge: 0 l: 402 r: 448
- dp, inst_id: 87 cost: 1348266775 sta_id: 392 ener: 0 edge: 0 l: 392 r: 447
- dp, inst_id: 86 cost: 1329417104 sta_id: 369 ener: 2 edge: 0 l: 285 r: 446
- dp, inst_id: 85 cost: 1280880786 sta_id: 359 ener: 1 edge: 0 l: 284 r: 445
- dp, inst_id: 84 cost: 1270092933 sta_id: 358 ener: 4 edge: 0 l: 283 r: 429
- dp, inst_id: 83 cost: 1243012902 sta_id: 356 ener: 0 edge: 0 l: 282 r: 411
- dp, inst_id: 82 cost: 1171498844 sta_id: 336 ener: 3 edge: 0 l: 235 r: 401
- dp, inst_id: 81 cost: 1154967038 sta_id: 327 ener: 0 edge: 0 l: 234 r: 357
- dp, inst_id: 80 cost: 1130495308 sta_id: 317 ener: 0 edge: 0 l: 233 r: 356
- dp, inst_id: 79 cost: 1088823907 sta_id: 296 ener: 0 edge: 0 l: 232 r: 327
- dp, inst_id: 78 cost: 1064310996 sta_id: 287 ener: 0 edge: 0 l: 222 r: 296
- dp, inst_id: 77 cost: 1017539050 sta_id: 277 ener: 3 edge: 0 l: 93 r: 277
- dp, inst_id: 76 cost: 977511469 sta_id: 250 ener: 4 edge: 0 l: 92 r: 276
- dp, inst_id: 75 cost: 962733442 sta_id: 240 ener: 3 edge: 0 l: 91 r: 268
- dp, inst_id: 74 cost: 954529192 sta_id: 222 ener: 1 edge: 0 l: 87 r: 267
- dp, inst_id: 73 cost: 901339080 sta_id: 211 ener: 0 edge: 1 l: 85 r: 220
- dp, inst_id: 72 cost: 843849421 sta_id: 180 ener: 0 edge: 0 l: 54 r: 220
- dp, inst_id: 71 cost: 824277310 sta_id: 162 ener: 3 edge: 0 l: 51 r: 200
- dp, inst_id: 70 cost: 780930381 sta_id: 152 ener: 4 edge: 0 l: 41 r: 173
- dp, inst_id: 69 cost: 774909521 sta_id: 144 ener: 2 edge: 0 l: 40 r: 164
- dp, inst_id: 68 cost: 694893944 sta_id: 139 ener: 2 edge: 0 l: 39 r: 160
- dp, inst_id: 67 cost: 657118259 sta_id: 132 ener: 4 edge: 0 l: 38 r: 153
- dp, inst_id: 66 cost: 645186992 sta_id: 127 ener: 4 edge: 0 l: 31 r: 152
- dp, inst_id: 65 cost: 569174536 sta_id: 117 ener: 1 edge: 0 l: 29 r: 151
- dp, inst_id: 64 cost: 555960695 sta_id: 107 ener: 0 edge: 1 l: 28 r: 149
- dp, inst_id: 63 cost: 514406986 sta_id: 103 ener: 0 edge: 0 l: 28 r: 88
- dp, inst_id: 62 cost: 503115434 sta_id: 102 ener: 3 edge: 0 l: 27 r: 87
- dp, inst_id: 61 cost: 434630727 sta_id: 91 ener: 3 edge: 0 l: 24 r: 84
- dp, inst_id: 60 cost: 411981777 sta_id: 77 ener: 1 edge: 0 l: 23 r: 63
- dp, inst_id: 59 cost: 370246938 sta_id: 63 ener: 0 edge: 0 l: 22 r: 62
- dp, inst_id: 58 cost: 329345354 sta_id: 57 ener: 1 edge: 0 l: 21 r: 61
- dp, inst_id: 57 cost: 278227359 sta_id: 44 ener: 2 edge: 0 l: 19 r: 60
- dp, inst_id: 56 cost: 221991438 sta_id: 42 ener: 3 edge: 0 l: 18 r: 48
- dp, inst_id: 55 cost: 195771392 sta_id: 37 ener: 1 edge: 0 l: 16 r: 47
- dp, inst_id: 54 cost: 187378651 sta_id: 19 ener: 2 edge: 0 l: 14 r: 45
- dp, inst_id: 53 cost: 92335840 sta_id: 12 ener: 4 edge: 1 l: 11 r: 44
- dp, inst_id: 52 cost: 44272113 sta_id: 11 ener: 3 edge: 0 l: 11 r: 44
- dp, inst_id: 51 cost: 30888988 sta_id: 7 ener: 0 edge: 0 l: 7 r: 11
- dp, inst_id: 50 cost: 9361579 sta_id: 3 ener: 0 edge: -1 l: 5 r: 10
-only_install_cost: 6730193761
-all_cost: 6730639495
-DP, answer: 6730639495
-dp, cost: 1898681146 sta: 509 ener: 2
- dp, inst_id: 100 cost: 1898681146 sta_id: 509 ener: 2 edge: 0 l: 475 r: 563
- dp, inst_id: 99 cost: 1893488725 sta_id: 508 ener: 0 edge: 1 l: 474 r: 562
- dp, inst_id: 98 cost: 1877265347 sta_id: 507 ener: 1 edge: 0 l: 474 r: 562
- dp, inst_id: 97 cost: 1799343633 sta_id: 498 ener: 1 edge: 0 l: 473 r: 561
- dp, inst_id: 96 cost: 1754837077 sta_id: 497 ener: 2 edge: 0 l: 472 r: 511
- dp, inst_id: 95 cost: 1663544302 sta_id: 487 ener: 0 edge: 0 l: 471 r: 508
- dp, inst_id: 94 cost: 1663013490 sta_id: 478 ener: 4 edge: 0 l: 470 r: 478
- dp, inst_id: 93 cost: 1621463250 sta_id: 457 ener: 0 edge: 0 l: 413 r: 477
- dp, inst_id: 92 cost: 1607358858 sta_id: 456 ener: 0 edge: 0 l: 412 r: 476
- dp, inst_id: 91 cost: 1556581353 sta_id: 455 ener: 4 edge: 0 l: 411 r: 475
- dp, inst_id: 90 cost: 1459777418 sta_id: 439 ener: 0 edge: 0 l: 404 r: 474
- dp, inst_id: 89 cost: 1442168419 sta_id: 411 ener: 0 edge: 0 l: 403 r: 458
- dp, inst_id: 88 cost: 1441428051 sta_id: 410 ener: 2 edge: 0 l: 402 r: 448
- dp, inst_id: 87 cost: 1348266775 sta_id: 392 ener: 0 edge: 0 l: 392 r: 447
- dp, inst_id: 86 cost: 1329417104 sta_id: 369 ener: 2 edge: 0 l: 285 r: 446
- dp, inst_id: 85 cost: 1280880786 sta_id: 359 ener: 1 edge: 0 l: 284 r: 445
- dp, inst_id: 84 cost: 1270092933 sta_id: 358 ener: 4 edge: 0 l: 283 r: 429
- dp, inst_id: 83 cost: 1243012902 sta_id: 356 ener: 0 edge: 0 l: 282 r: 411
- dp, inst_id: 82 cost: 1171498844 sta_id: 336 ener: 3 edge: 0 l: 235 r: 401
- dp, inst_id: 81 cost: 1154967038 sta_id: 327 ener: 0 edge: 0 l: 234 r: 357
- dp, inst_id: 80 cost: 1130495308 sta_id: 317 ener: 0 edge: 0 l: 233 r: 356
- dp, inst_id: 79 cost: 1088823907 sta_id: 296 ener: 0 edge: 0 l: 232 r: 327
- dp, inst_id: 78 cost: 1064310996 sta_id: 287 ener: 0 edge: 0 l: 222 r: 296
- dp, inst_id: 77 cost: 1017539050 sta_id: 277 ener: 3 edge: 0 l: 93 r: 277
- dp, inst_id: 76 cost: 977511469 sta_id: 250 ener: 4 edge: 0 l: 92 r: 276
- dp, inst_id: 75 cost: 962733442 sta_id: 240 ener: 3 edge: 0 l: 91 r: 268
- dp, inst_id: 74 cost: 954529192 sta_id: 222 ener: 1 edge: 0 l: 87 r: 267
- dp, inst_id: 73 cost: 901339080 sta_id: 211 ener: 0 edge: 1 l: 85 r: 220
- dp, inst_id: 72 cost: 843849421 sta_id: 180 ener: 0 edge: 0 l: 54 r: 220
- dp, inst_id: 71 cost: 824277310 sta_id: 162 ener: 3 edge: 0 l: 51 r: 200
- dp, inst_id: 70 cost: 780930381 sta_id: 152 ener: 4 edge: 0 l: 41 r: 173
- dp, inst_id: 69 cost: 774909521 sta_id: 144 ener: 2 edge: 0 l: 40 r: 164
- dp, inst_id: 68 cost: 694893944 sta_id: 139 ener: 2 edge: 0 l: 39 r: 160
- dp, inst_id: 67 cost: 657118259 sta_id: 132 ener: 4 edge: 0 l: 38 r: 153
- dp, inst_id: 66 cost: 645186992 sta_id: 127 ener: 4 edge: 0 l: 31 r: 152
- dp, inst_id: 65 cost: 569174536 sta_id: 117 ener: 1 edge: 0 l: 29 r: 151
- dp, inst_id: 64 cost: 555960695 sta_id: 107 ener: 0 edge: 1 l: 28 r: 149
- dp, inst_id: 63 cost: 514406986 sta_id: 103 ener: 0 edge: 0 l: 28 r: 88
- dp, inst_id: 62 cost: 503115434 sta_id: 102 ener: 3 edge: 0 l: 27 r: 87
- dp, inst_id: 61 cost: 434630727 sta_id: 91 ener: 3 edge: 0 l: 24 r: 84
- dp, inst_id: 60 cost: 411981777 sta_id: 77 ener: 1 edge: 0 l: 23 r: 63
- dp, inst_id: 59 cost: 370246938 sta_id: 63 ener: 0 edge: 0 l: 22 r: 62
- dp, inst_id: 58 cost: 329345354 sta_id: 57 ener: 1 edge: 0 l: 21 r: 61
- dp, inst_id: 57 cost: 278227359 sta_id: 44 ener: 2 edge: 0 l: 19 r: 60
- dp, inst_id: 56 cost: 221991438 sta_id: 42 ener: 3 edge: 0 l: 18 r: 48
- dp, inst_id: 55 cost: 195771392 sta_id: 37 ener: 1 edge: 0 l: 16 r: 47
- dp, inst_id: 54 cost: 187378651 sta_id: 19 ener: 2 edge: 0 l: 14 r: 45
- dp, inst_id: 53 cost: 92335840 sta_id: 12 ener: 4 edge: 1 l: 11 r: 44
- dp, inst_id: 52 cost: 44272113 sta_id: 11 ener: 3 edge: 0 l: 11 r: 44
- dp, inst_id: 51 cost: 30888988 sta_id: 7 ener: 0 edge: 0 l: 7 r: 11
- dp, inst_id: 50 cost: 9361579 sta_id: 3 ener: 0 edge: -1 l: 5 r: 10
-only_install_cost: 6730193761
-all_cost: 6730639495
-DP, answer: 6730639495
-dp, cost: 1901276422 sta: 509 ener: 2
- dp, inst_id: 100 cost: 1901276422 sta_id: 509 ener: 2 edge: 0 l: 475 r: 563
- dp, inst_id: 99 cost: 1896084001 sta_id: 508 ener: 0 edge: 1 l: 474 r: 562
- dp, inst_id: 98 cost: 1879860623 sta_id: 507 ener: 1 edge: 0 l: 474 r: 562
- dp, inst_id: 97 cost: 1801938909 sta_id: 498 ener: 1 edge: 0 l: 473 r: 561
- dp, inst_id: 96 cost: 1757432353 sta_id: 497 ener: 2 edge: 0 l: 472 r: 511
- dp, inst_id: 95 cost: 1666139578 sta_id: 487 ener: 0 edge: 0 l: 471 r: 508
- dp, inst_id: 94 cost: 1665608766 sta_id: 478 ener: 4 edge: 0 l: 470 r: 478
- dp, inst_id: 93 cost: 1624058526 sta_id: 457 ener: 0 edge: 0 l: 413 r: 477
- dp, inst_id: 92 cost: 1609389958 sta_id: 456 ener: 0 edge: 0 l: 412 r: 476
- dp, inst_id: 91 cost: 1556581353 sta_id: 455 ener: 4 edge: 0 l: 411 r: 475
- dp, inst_id: 90 cost: 1459777418 sta_id: 439 ener: 0 edge: 0 l: 404 r: 474
- dp, inst_id: 89 cost: 1442168419 sta_id: 411 ener: 0 edge: 0 l: 403 r: 458
- dp, inst_id: 88 cost: 1441428051 sta_id: 410 ener: 2 edge: 0 l: 402 r: 448
- dp, inst_id: 87 cost: 1348266775 sta_id: 392 ener: 0 edge: 0 l: 392 r: 447
- dp, inst_id: 86 cost: 1329417104 sta_id: 369 ener: 2 edge: 0 l: 285 r: 446
- dp, inst_id: 85 cost: 1280880786 sta_id: 359 ener: 1 edge: 0 l: 284 r: 445
- dp, inst_id: 84 cost: 1270092933 sta_id: 358 ener: 4 edge: 0 l: 283 r: 429
- dp, inst_id: 83 cost: 1243012902 sta_id: 356 ener: 0 edge: 0 l: 282 r: 411
- dp, inst_id: 82 cost: 1171498844 sta_id: 336 ener: 3 edge: 0 l: 235 r: 401
- dp, inst_id: 81 cost: 1154967038 sta_id: 327 ener: 0 edge: 0 l: 234 r: 357
- dp, inst_id: 80 cost: 1130495308 sta_id: 317 ener: 0 edge: 0 l: 233 r: 356
- dp, inst_id: 79 cost: 1088823907 sta_id: 296 ener: 0 edge: 0 l: 232 r: 327
- dp, inst_id: 78 cost: 1064310996 sta_id: 287 ener: 0 edge: 0 l: 222 r: 296
- dp, inst_id: 77 cost: 1017539050 sta_id: 277 ener: 3 edge: 0 l: 93 r: 277
- dp, inst_id: 76 cost: 977511469 sta_id: 250 ener: 4 edge: 0 l: 92 r: 276
- dp, inst_id: 75 cost: 962733442 sta_id: 240 ener: 3 edge: 0 l: 91 r: 268
- dp, inst_id: 74 cost: 954529192 sta_id: 222 ener: 1 edge: 0 l: 87 r: 267
- dp, inst_id: 73 cost: 901339080 sta_id: 211 ener: 0 edge: 1 l: 85 r: 220
- dp, inst_id: 72 cost: 843849421 sta_id: 180 ener: 0 edge: 0 l: 54 r: 220
- dp, inst_id: 71 cost: 824277310 sta_id: 162 ener: 3 edge: 0 l: 51 r: 200
- dp, inst_id: 70 cost: 780930381 sta_id: 152 ener: 4 edge: 0 l: 41 r: 173
- dp, inst_id: 69 cost: 774909521 sta_id: 144 ener: 2 edge: 0 l: 40 r: 164
- dp, inst_id: 68 cost: 694893944 sta_id: 139 ener: 2 edge: 0 l: 39 r: 160
- dp, inst_id: 67 cost: 657118259 sta_id: 132 ener: 4 edge: 0 l: 38 r: 153
- dp, inst_id: 66 cost: 645186992 sta_id: 127 ener: 4 edge: 0 l: 31 r: 152
- dp, inst_id: 65 cost: 569174536 sta_id: 117 ener: 1 edge: 0 l: 29 r: 151
- dp, inst_id: 64 cost: 555960695 sta_id: 107 ener: 0 edge: 1 l: 28 r: 149
- dp, inst_id: 63 cost: 514406986 sta_id: 103 ener: 0 edge: 0 l: 28 r: 88
- dp, inst_id: 62 cost: 503115434 sta_id: 102 ener: 3 edge: 0 l: 27 r: 87
- dp, inst_id: 61 cost: 434630727 sta_id: 91 ener: 3 edge: 0 l: 24 r: 84
- dp, inst_id: 60 cost: 411981777 sta_id: 77 ener: 1 edge: 0 l: 23 r: 63
- dp, inst_id: 59 cost: 370246938 sta_id: 63 ener: 0 edge: 0 l: 22 r: 62
- dp, inst_id: 58 cost: 329345354 sta_id: 57 ener: 1 edge: 0 l: 21 r: 61
- dp, inst_id: 57 cost: 278227359 sta_id: 44 ener: 2 edge: 0 l: 19 r: 60
- dp, inst_id: 56 cost: 221991438 sta_id: 42 ener: 3 edge: 0 l: 18 r: 48
- dp, inst_id: 55 cost: 195771392 sta_id: 37 ener: 1 edge: 0 l: 16 r: 47
- dp, inst_id: 54 cost: 187378651 sta_id: 19 ener: 2 edge: 0 l: 14 r: 45
- dp, inst_id: 53 cost: 92335840 sta_id: 12 ener: 4 edge: 1 l: 11 r: 44
- dp, inst_id: 52 cost: 44272113 sta_id: 11 ener: 3 edge: 0 l: 11 r: 44
- dp, inst_id: 51 cost: 30888988 sta_id: 7 ener: 0 edge: 0 l: 7 r: 11
- dp, inst_id: 50 cost: 9361579 sta_id: 3 ener: 0 edge: -1 l: 5 r: 10
-only_install_cost: 6730193761
-all_cost: 6730639495
-DP, answer: 6730639495
-dp, cost: 1903871697 sta: 509 ener: 2
- dp, inst_id: 100 cost: 1903871697 sta_id: 509 ener: 2 edge: 0 l: 475 r: 563
- dp, inst_id: 99 cost: 1898679276 sta_id: 508 ener: 0 edge: 1 l: 474 r: 562
- dp, inst_id: 98 cost: 1882455898 sta_id: 507 ener: 1 edge: 0 l: 474 r: 562
- dp, inst_id: 97 cost: 1804534184 sta_id: 498 ener: 1 edge: 0 l: 473 r: 561
- dp, inst_id: 96 cost: 1760027628 sta_id: 497 ener: 2 edge: 0 l: 472 r: 511
- dp, inst_id: 95 cost: 1668734853 sta_id: 487 ener: 0 edge: 0 l: 471 r: 508
- dp, inst_id: 94 cost: 1668204041 sta_id: 478 ener: 4 edge: 0 l: 470 r: 478
- dp, inst_id: 93 cost: 1626653801 sta_id: 457 ener: 0 edge: 0 l: 413 r: 477
- dp, inst_id: 92 cost: 1611421058 sta_id: 456 ener: 0 edge: 0 l: 412 r: 476
- dp, inst_id: 91 cost: 1556581353 sta_id: 455 ener: 4 edge: 0 l: 411 r: 475
- dp, inst_id: 90 cost: 1459777418 sta_id: 439 ener: 0 edge: 0 l: 404 r: 474
- dp, inst_id: 89 cost: 1442168419 sta_id: 411 ener: 0 edge: 0 l: 403 r: 458
- dp, inst_id: 88 cost: 1441428051 sta_id: 410 ener: 2 edge: 0 l: 402 r: 448
- dp, inst_id: 87 cost: 1348266775 sta_id: 392 ener: 0 edge: 0 l: 392 r: 447
- dp, inst_id: 86 cost: 1329417104 sta_id: 369 ener: 2 edge: 0 l: 285 r: 446
- dp, inst_id: 85 cost: 1280880786 sta_id: 359 ener: 1 edge: 0 l: 284 r: 445
- dp, inst_id: 84 cost: 1270092933 sta_id: 358 ener: 4 edge: 0 l: 283 r: 429
- dp, inst_id: 83 cost: 1243012902 sta_id: 356 ener: 0 edge: 0 l: 282 r: 411
- dp, inst_id: 82 cost: 1171498844 sta_id: 336 ener: 3 edge: 0 l: 235 r: 401
- dp, inst_id: 81 cost: 1154967038 sta_id: 327 ener: 0 edge: 0 l: 234 r: 357
- dp, inst_id: 80 cost: 1130495308 sta_id: 317 ener: 0 edge: 0 l: 233 r: 356
- dp, inst_id: 79 cost: 1088823907 sta_id: 296 ener: 0 edge: 0 l: 232 r: 327
- dp, inst_id: 78 cost: 1064310996 sta_id: 287 ener: 0 edge: 0 l: 222 r: 296
- dp, inst_id: 77 cost: 1017539050 sta_id: 277 ener: 3 edge: 0 l: 93 r: 277
- dp, inst_id: 76 cost: 977511469 sta_id: 250 ener: 4 edge: 0 l: 92 r: 276
- dp, inst_id: 75 cost: 962733442 sta_id: 240 ener: 3 edge: 0 l: 91 r: 268
- dp, inst_id: 74 cost: 954529192 sta_id: 222 ener: 1 edge: 0 l: 87 r: 267
- dp, inst_id: 73 cost: 901339080 sta_id: 211 ener: 0 edge: 1 l: 85 r: 220
- dp, inst_id: 72 cost: 843849421 sta_id: 180 ener: 0 edge: 0 l: 54 r: 220
- dp, inst_id: 71 cost: 824277310 sta_id: 162 ener: 3 edge: 0 l: 51 r: 200
- dp, inst_id: 70 cost: 780930381 sta_id: 152 ener: 4 edge: 0 l: 41 r: 173
- dp, inst_id: 69 cost: 774909521 sta_id: 144 ener: 2 edge: 0 l: 40 r: 164
- dp, inst_id: 68 cost: 694893944 sta_id: 139 ener: 2 edge: 0 l: 39 r: 160
- dp, inst_id: 67 cost: 657118259 sta_id: 132 ener: 4 edge: 0 l: 38 r: 153
- dp, inst_id: 66 cost: 645186992 sta_id: 127 ener: 4 edge: 0 l: 31 r: 152
- dp, inst_id: 65 cost: 569174536 sta_id: 117 ener: 1 edge: 0 l: 29 r: 151
- dp, inst_id: 64 cost: 555960695 sta_id: 107 ener: 0 edge: 1 l: 28 r: 149
- dp, inst_id: 63 cost: 514406986 sta_id: 103 ener: 0 edge: 0 l: 28 r: 88
- dp, inst_id: 62 cost: 503115434 sta_id: 102 ener: 3 edge: 0 l: 27 r: 87
- dp, inst_id: 61 cost: 434630727 sta_id: 91 ener: 3 edge: 0 l: 24 r: 84
- dp, inst_id: 60 cost: 411981777 sta_id: 77 ener: 1 edge: 0 l: 23 r: 63
- dp, inst_id: 59 cost: 370246938 sta_id: 63 ener: 0 edge: 0 l: 22 r: 62
- dp, inst_id: 58 cost: 329345354 sta_id: 57 ener: 1 edge: 0 l: 21 r: 61
- dp, inst_id: 57 cost: 278227359 sta_id: 44 ener: 2 edge: 0 l: 19 r: 60
- dp, inst_id: 56 cost: 221991438 sta_id: 42 ener: 3 edge: 0 l: 18 r: 48
- dp, inst_id: 55 cost: 195771392 sta_id: 37 ener: 1 edge: 0 l: 16 r: 47
- dp, inst_id: 54 cost: 187378651 sta_id: 19 ener: 2 edge: 0 l: 14 r: 45
- dp, inst_id: 53 cost: 92335840 sta_id: 12 ener: 4 edge: 1 l: 11 r: 44
- dp, inst_id: 52 cost: 44272113 sta_id: 11 ener: 3 edge: 0 l: 11 r: 44
- dp, inst_id: 51 cost: 30888988 sta_id: 7 ener: 0 edge: 0 l: 7 r: 11
- dp, inst_id: 50 cost: 9361579 sta_id: 3 ener: 0 edge: -1 l: 5 r: 10
-only_install_cost: 6730193761
-all_cost: 6730639495
-DP, answer: 6730639495
-dp, cost: 1906466973 sta: 509 ener: 2
- dp, inst_id: 100 cost: 1906466973 sta_id: 509 ener: 2 edge: 0 l: 475 r: 563
- dp, inst_id: 99 cost: 1901274552 sta_id: 508 ener: 0 edge: 1 l: 474 r: 562
- dp, inst_id: 98 cost: 1885051174 sta_id: 507 ener: 1 edge: 0 l: 474 r: 562
- dp, inst_id: 97 cost: 1807129460 sta_id: 498 ener: 1 edge: 0 l: 473 r: 561
- dp, inst_id: 96 cost: 1762622904 sta_id: 497 ener: 2 edge: 0 l: 472 r: 511
- dp, inst_id: 95 cost: 1671330129 sta_id: 487 ener: 0 edge: 0 l: 471 r: 508
- dp, inst_id: 94 cost: 1670799317 sta_id: 478 ener: 4 edge: 0 l: 470 r: 478
- dp, inst_id: 93 cost: 1629249077 sta_id: 457 ener: 0 edge: 0 l: 413 r: 477
- dp, inst_id: 92 cost: 1613452158 sta_id: 456 ener: 0 edge: 0 l: 412 r: 476
- dp, inst_id: 91 cost: 1556581353 sta_id: 455 ener: 4 edge: 0 l: 411 r: 475
- dp, inst_id: 90 cost: 1459777418 sta_id: 439 ener: 0 edge: 0 l: 404 r: 474
- dp, inst_id: 89 cost: 1442168419 sta_id: 411 ener: 0 edge: 0 l: 403 r: 458
- dp, inst_id: 88 cost: 1441428051 sta_id: 410 ener: 2 edge: 0 l: 402 r: 448
- dp, inst_id: 87 cost: 1348266775 sta_id: 392 ener: 0 edge: 0 l: 392 r: 447
- dp, inst_id: 86 cost: 1329417104 sta_id: 369 ener: 2 edge: 0 l: 285 r: 446
- dp, inst_id: 85 cost: 1280880786 sta_id: 359 ener: 1 edge: 0 l: 284 r: 445
- dp, inst_id: 84 cost: 1270092933 sta_id: 358 ener: 4 edge: 0 l: 283 r: 429
- dp, inst_id: 83 cost: 1243012902 sta_id: 356 ener: 0 edge: 0 l: 282 r: 411
- dp, inst_id: 82 cost: 1171498844 sta_id: 336 ener: 3 edge: 0 l: 235 r: 401
- dp, inst_id: 81 cost: 1154967038 sta_id: 327 ener: 0 edge: 0 l: 234 r: 357
- dp, inst_id: 80 cost: 1130495308 sta_id: 317 ener: 0 edge: 0 l: 233 r: 356
- dp, inst_id: 79 cost: 1088823907 sta_id: 296 ener: 0 edge: 0 l: 232 r: 327
- dp, inst_id: 78 cost: 1064310996 sta_id: 287 ener: 0 edge: 0 l: 222 r: 296
- dp, inst_id: 77 cost: 1017539050 sta_id: 277 ener: 3 edge: 0 l: 93 r: 277
- dp, inst_id: 76 cost: 977511469 sta_id: 250 ener: 4 edge: 0 l: 92 r: 276
- dp, inst_id: 75 cost: 962733442 sta_id: 240 ener: 3 edge: 0 l: 91 r: 268
- dp, inst_id: 74 cost: 954529192 sta_id: 222 ener: 1 edge: 0 l: 87 r: 267
- dp, inst_id: 73 cost: 901339080 sta_id: 211 ener: 0 edge: 1 l: 85 r: 220
- dp, inst_id: 72 cost: 843849421 sta_id: 180 ener: 0 edge: 0 l: 54 r: 220
- dp, inst_id: 71 cost: 824277310 sta_id: 162 ener: 3 edge: 0 l: 51 r: 200
- dp, inst_id: 70 cost: 780930381 sta_id: 152 ener: 4 edge: 0 l: 41 r: 173
- dp, inst_id: 69 cost: 774909521 sta_id: 144 ener: 2 edge: 0 l: 40 r: 164
- dp, inst_id: 68 cost: 694893944 sta_id: 139 ener: 2 edge: 0 l: 39 r: 160
- dp, inst_id: 67 cost: 657118259 sta_id: 132 ener: 4 edge: 0 l: 38 r: 153
- dp, inst_id: 66 cost: 645186992 sta_id: 127 ener: 4 edge: 0 l: 31 r: 152
- dp, inst_id: 65 cost: 569174536 sta_id: 117 ener: 1 edge: 0 l: 29 r: 151
- dp, inst_id: 64 cost: 555960695 sta_id: 107 ener: 0 edge: 1 l: 28 r: 149
- dp, inst_id: 63 cost: 514406986 sta_id: 103 ener: 0 edge: 0 l: 28 r: 88
- dp, inst_id: 62 cost: 503115434 sta_id: 102 ener: 3 edge: 0 l: 27 r: 87
- dp, inst_id: 61 cost: 434630727 sta_id: 91 ener: 3 edge: 0 l: 24 r: 84
- dp, inst_id: 60 cost: 411981777 sta_id: 77 ener: 1 edge: 0 l: 23 r: 63
- dp, inst_id: 59 cost: 370246938 sta_id: 63 ener: 0 edge: 0 l: 22 r: 62
- dp, inst_id: 58 cost: 329345354 sta_id: 57 ener: 1 edge: 0 l: 21 r: 61
- dp, inst_id: 57 cost: 278227359 sta_id: 44 ener: 2 edge: 0 l: 19 r: 60
- dp, inst_id: 56 cost: 221991438 sta_id: 42 ener: 3 edge: 0 l: 18 r: 48
- dp, inst_id: 55 cost: 195771392 sta_id: 37 ener: 1 edge: 0 l: 16 r: 47
- dp, inst_id: 54 cost: 187378651 sta_id: 19 ener: 2 edge: 0 l: 14 r: 45
- dp, inst_id: 53 cost: 92335840 sta_id: 12 ener: 4 edge: 1 l: 11 r: 44
- dp, inst_id: 52 cost: 44272113 sta_id: 11 ener: 3 edge: 0 l: 11 r: 44
- dp, inst_id: 51 cost: 30888988 sta_id: 7 ener: 0 edge: 0 l: 7 r: 11
- dp, inst_id: 50 cost: 9361579 sta_id: 3 ener: 0 edge: -1 l: 5 r: 10
-only_install_cost: 6730193761
-all_cost: 6730639495
-DP, answer: 6730639495
-dp, cost: 1909062249 sta: 509 ener: 2
- dp, inst_id: 100 cost: 1909062249 sta_id: 509 ener: 2 edge: 0 l: 475 r: 563
- dp, inst_id: 99 cost: 1903869828 sta_id: 508 ener: 0 edge: 1 l: 474 r: 562
- dp, inst_id: 98 cost: 1887646450 sta_id: 507 ener: 1 edge: 0 l: 474 r: 562
- dp, inst_id: 97 cost: 1809724736 sta_id: 498 ener: 1 edge: 0 l: 473 r: 561
- dp, inst_id: 96 cost: 1765218180 sta_id: 497 ener: 2 edge: 0 l: 472 r: 511
- dp, inst_id: 95 cost: 1673925405 sta_id: 487 ener: 0 edge: 0 l: 471 r: 508
- dp, inst_id: 94 cost: 1673394593 sta_id: 478 ener: 4 edge: 0 l: 470 r: 478
- dp, inst_id: 93 cost: 1631844353 sta_id: 457 ener: 0 edge: 0 l: 413 r: 477
- dp, inst_id: 92 cost: 1615483258 sta_id: 456 ener: 0 edge: 0 l: 412 r: 476
- dp, inst_id: 91 cost: 1556581353 sta_id: 455 ener: 4 edge: 0 l: 411 r: 475
- dp, inst_id: 90 cost: 1459777418 sta_id: 439 ener: 0 edge: 0 l: 404 r: 474
- dp, inst_id: 89 cost: 1442168419 sta_id: 411 ener: 0 edge: 0 l: 403 r: 458
- dp, inst_id: 88 cost: 1441428051 sta_id: 410 ener: 2 edge: 0 l: 402 r: 448
- dp, inst_id: 87 cost: 1348266775 sta_id: 392 ener: 0 edge: 0 l: 392 r: 447
- dp, inst_id: 86 cost: 1329417104 sta_id: 369 ener: 2 edge: 0 l: 285 r: 446
- dp, inst_id: 85 cost: 1280880786 sta_id: 359 ener: 1 edge: 0 l: 284 r: 445
- dp, inst_id: 84 cost: 1270092933 sta_id: 358 ener: 4 edge: 0 l: 283 r: 429
- dp, inst_id: 83 cost: 1243012902 sta_id: 356 ener: 0 edge: 0 l: 282 r: 411
- dp, inst_id: 82 cost: 1171498844 sta_id: 336 ener: 3 edge: 0 l: 235 r: 401
- dp, inst_id: 81 cost: 1154967038 sta_id: 327 ener: 0 edge: 0 l: 234 r: 357
- dp, inst_id: 80 cost: 1130495308 sta_id: 317 ener: 0 edge: 0 l: 233 r: 356
- dp, inst_id: 79 cost: 1088823907 sta_id: 296 ener: 0 edge: 0 l: 232 r: 327
- dp, inst_id: 78 cost: 1064310996 sta_id: 287 ener: 0 edge: 0 l: 222 r: 296
- dp, inst_id: 77 cost: 1017539050 sta_id: 277 ener: 3 edge: 0 l: 93 r: 277
- dp, inst_id: 76 cost: 977511469 sta_id: 250 ener: 4 edge: 0 l: 92 r: 276
- dp, inst_id: 75 cost: 962733442 sta_id: 240 ener: 3 edge: 0 l: 91 r: 268
- dp, inst_id: 74 cost: 954529192 sta_id: 222 ener: 1 edge: 0 l: 87 r: 267
- dp, inst_id: 73 cost: 901339080 sta_id: 211 ener: 0 edge: 1 l: 85 r: 220
- dp, inst_id: 72 cost: 843849421 sta_id: 180 ener: 0 edge: 0 l: 54 r: 220
- dp, inst_id: 71 cost: 824277310 sta_id: 162 ener: 3 edge: 0 l: 51 r: 200
- dp, inst_id: 70 cost: 780930381 sta_id: 152 ener: 4 edge: 0 l: 41 r: 173
- dp, inst_id: 69 cost: 774909521 sta_id: 144 ener: 2 edge: 0 l: 40 r: 164
- dp, inst_id: 68 cost: 694893944 sta_id: 139 ener: 2 edge: 0 l: 39 r: 160
- dp, inst_id: 67 cost: 657118259 sta_id: 132 ener: 4 edge: 0 l: 38 r: 153
- dp, inst_id: 66 cost: 645186992 sta_id: 127 ener: 4 edge: 0 l: 31 r: 152
- dp, inst_id: 65 cost: 569174536 sta_id: 117 ener: 1 edge: 0 l: 29 r: 151
- dp, inst_id: 64 cost: 555960695 sta_id: 107 ener: 0 edge: 1 l: 28 r: 149
- dp, inst_id: 63 cost: 514406986 sta_id: 103 ener: 0 edge: 0 l: 28 r: 88
- dp, inst_id: 62 cost: 503115434 sta_id: 102 ener: 3 edge: 0 l: 27 r: 87
- dp, inst_id: 61 cost: 434630727 sta_id: 91 ener: 3 edge: 0 l: 24 r: 84
- dp, inst_id: 60 cost: 411981777 sta_id: 77 ener: 1 edge: 0 l: 23 r: 63
- dp, inst_id: 59 cost: 370246938 sta_id: 63 ener: 0 edge: 0 l: 22 r: 62
- dp, inst_id: 58 cost: 329345354 sta_id: 57 ener: 1 edge: 0 l: 21 r: 61
- dp, inst_id: 57 cost: 278227359 sta_id: 44 ener: 2 edge: 0 l: 19 r: 60
- dp, inst_id: 56 cost: 221991438 sta_id: 42 ener: 3 edge: 0 l: 18 r: 48
- dp, inst_id: 55 cost: 195771392 sta_id: 37 ener: 1 edge: 0 l: 16 r: 47
- dp, inst_id: 54 cost: 187378651 sta_id: 19 ener: 2 edge: 0 l: 14 r: 45
- dp, inst_id: 53 cost: 92335840 sta_id: 12 ener: 4 edge: 1 l: 11 r: 44
- dp, inst_id: 52 cost: 44272113 sta_id: 11 ener: 3 edge: 0 l: 11 r: 44
- dp, inst_id: 51 cost: 30888988 sta_id: 7 ener: 0 edge: 0 l: 7 r: 11
- dp, inst_id: 50 cost: 9361579 sta_id: 3 ener: 0 edge: -1 l: 5 r: 10
-only_install_cost: 6730193761
-all_cost: 6730639495
-DP, answer: 6730639495
-dp, cost: 1911657526 sta: 509 ener: 2
- dp, inst_id: 100 cost: 1911657526 sta_id: 509 ener: 2 edge: 0 l: 475 r: 563
- dp, inst_id: 99 cost: 1906465105 sta_id: 508 ener: 0 edge: 1 l: 474 r: 562
- dp, inst_id: 98 cost: 1890241727 sta_id: 507 ener: 1 edge: 0 l: 474 r: 562
- dp, inst_id: 97 cost: 1812320013 sta_id: 498 ener: 1 edge: 0 l: 473 r: 561
- dp, inst_id: 96 cost: 1767813457 sta_id: 497 ener: 2 edge: 0 l: 472 r: 511
- dp, inst_id: 95 cost: 1676520682 sta_id: 487 ener: 0 edge: 0 l: 471 r: 508
- dp, inst_id: 94 cost: 1675989870 sta_id: 478 ener: 4 edge: 0 l: 470 r: 478
- dp, inst_id: 93 cost: 1634439630 sta_id: 457 ener: 0 edge: 0 l: 413 r: 477
- dp, inst_id: 92 cost: 1617514359 sta_id: 456 ener: 0 edge: 0 l: 412 r: 476
- dp, inst_id: 91 cost: 1556581353 sta_id: 455 ener: 4 edge: 0 l: 411 r: 475
- dp, inst_id: 90 cost: 1459777418 sta_id: 439 ener: 0 edge: 0 l: 404 r: 474
- dp, inst_id: 89 cost: 1442168419 sta_id: 411 ener: 0 edge: 0 l: 403 r: 458
- dp, inst_id: 88 cost: 1441428051 sta_id: 410 ener: 2 edge: 0 l: 402 r: 448
- dp, inst_id: 87 cost: 1348266775 sta_id: 392 ener: 0 edge: 0 l: 392 r: 447
- dp, inst_id: 86 cost: 1329417104 sta_id: 369 ener: 2 edge: 0 l: 285 r: 446
- dp, inst_id: 85 cost: 1280880786 sta_id: 359 ener: 1 edge: 0 l: 284 r: 445
- dp, inst_id: 84 cost: 1270092933 sta_id: 358 ener: 4 edge: 0 l: 283 r: 429
- dp, inst_id: 83 cost: 1243012902 sta_id: 356 ener: 0 edge: 0 l: 282 r: 411
- dp, inst_id: 82 cost: 1171498844 sta_id: 336 ener: 3 edge: 0 l: 235 r: 401
- dp, inst_id: 81 cost: 1154967038 sta_id: 327 ener: 0 edge: 0 l: 234 r: 357
- dp, inst_id: 80 cost: 1130495308 sta_id: 317 ener: 0 edge: 0 l: 233 r: 356
- dp, inst_id: 79 cost: 1088823907 sta_id: 296 ener: 0 edge: 0 l: 232 r: 327
- dp, inst_id: 78 cost: 1064310996 sta_id: 287 ener: 0 edge: 0 l: 222 r: 296
- dp, inst_id: 77 cost: 1017539050 sta_id: 277 ener: 3 edge: 0 l: 93 r: 277
- dp, inst_id: 76 cost: 977511469 sta_id: 250 ener: 4 edge: 0 l: 92 r: 276
- dp, inst_id: 75 cost: 962733442 sta_id: 240 ener: 3 edge: 0 l: 91 r: 268
- dp, inst_id: 74 cost: 954529192 sta_id: 222 ener: 1 edge: 0 l: 87 r: 267
- dp, inst_id: 73 cost: 901339080 sta_id: 211 ener: 0 edge: 1 l: 85 r: 220
- dp, inst_id: 72 cost: 843849421 sta_id: 180 ener: 0 edge: 0 l: 54 r: 220
- dp, inst_id: 71 cost: 824277310 sta_id: 162 ener: 3 edge: 0 l: 51 r: 200
- dp, inst_id: 70 cost: 780930381 sta_id: 152 ener: 4 edge: 0 l: 41 r: 173
- dp, inst_id: 69 cost: 774909521 sta_id: 144 ener: 2 edge: 0 l: 40 r: 164
- dp, inst_id: 68 cost: 694893944 sta_id: 139 ener: 2 edge: 0 l: 39 r: 160
- dp, inst_id: 67 cost: 657118259 sta_id: 132 ener: 4 edge: 0 l: 38 r: 153
- dp, inst_id: 66 cost: 645186992 sta_id: 127 ener: 4 edge: 0 l: 31 r: 152
- dp, inst_id: 65 cost: 569174536 sta_id: 117 ener: 1 edge: 0 l: 29 r: 151
- dp, inst_id: 64 cost: 555960695 sta_id: 107 ener: 0 edge: 1 l: 28 r: 149
- dp, inst_id: 63 cost: 514406986 sta_id: 103 ener: 0 edge: 0 l: 28 r: 88
- dp, inst_id: 62 cost: 503115434 sta_id: 102 ener: 3 edge: 0 l: 27 r: 87
- dp, inst_id: 61 cost: 434630727 sta_id: 91 ener: 3 edge: 0 l: 24 r: 84
+ dp, inst_id: 62 cost: 503115434 sta_id: 91 ener: 3 edge: 0 l: 27 r: 87
+ dp, inst_id: 61 cost: 434629677 sta_id: 82 ener: 3 edge: 0 l: 24 r: 84
  dp, inst_id: 60 cost: 411981777 sta_id: 77 ener: 1 edge: 0 l: 23 r: 63
  dp, inst_id: 59 cost: 370246938 sta_id: 63 ener: 0 edge: 0 l: 22 r: 62
  dp, inst_id: 58 cost: 329345354 sta_id: 57 ener: 1 edge: 0 l: 21 r: 61
@@ -3497,28 +2947,28 @@ install_tag: 1 1
 inst_id: 74 sta: 30 4 0 install_cost: 53174302
 Max 2 cost: 53174302 74333410
 install_tag: 1 1
-inst_id: 75 sta: 32 55 6 install_cost: 8196300
+inst_id: 75 sta: 32 55 0 install_cost: 8196300
 Max 2 cost: 8196300 92679857
 install_tag: 1 1
-inst_id: 76 sta: 32 128 7 install_cost: 14759269
+inst_id: 76 sta: 32 128 1 install_cost: 14759269
 Max 2 cost: 14759269 72131180
 install_tag: 1 1
-inst_id: 77 sta: 32 55 8 install_cost: 40015331
+inst_id: 77 sta: 32 55 2 install_cost: 40015331
 Max 2 cost: 40015331 78160859
 install_tag: 1 1
-inst_id: 78 sta: 39 126 5 install_cost: 46766824
+inst_id: 78 sta: 39 126 0 install_cost: 46766824
 Max 2 cost: 46766824 87929840
 install_tag: 1 1
-inst_id: 79 sta: 39 126 6 install_cost: 24505839
+inst_id: 79 sta: 39 126 1 install_cost: 24505839
 Max 2 cost: 24505839 44828949
 install_tag: 1 1
-inst_id: 80 sta: 39 126 7 install_cost: 41663627
+inst_id: 80 sta: 39 126 2 install_cost: 41663627
 Max 2 cost: 41663627 45812850
 install_tag: 1 1
-inst_id: 81 sta: 39 126 8 install_cost: 24465464
+inst_id: 81 sta: 39 126 3 install_cost: 24465464
 Max 2 cost: 24465464 59543446
 install_tag: 1 1
-inst_id: 82 sta: 48 69 8 install_cost: 16526056
+inst_id: 82 sta: 48 69 0 install_cost: 16526056
 Max 2 cost: 16526056 80770039
 install_tag: 1 1
 inst_id: 83 sta: 52 11 0 install_cost: 71508728
@@ -3536,7 +2986,7 @@ install_tag: 1 1
 inst_id: 87 sta: 64 148 0 install_cost: 18844549
 Max 2 cost: 18844549 95040920
 install_tag: 1 1
-inst_id: 88 sta: 66 0 8 install_cost: 93152591
+inst_id: 88 sta: 66 0 0 install_cost: 93152591
 Max 2 cost: 93152591 94159861
 install_tag: 1 1
 inst_id: 89 sta: 67 48 0 install_cost: 733894
@@ -3545,28 +2995,28 @@ install_tag: 1 1
 inst_id: 90 sta: 71 135 0 install_cost: 17604397
 Max 2 cost: 17604397 98550731
 install_tag: 1 1
-inst_id: 91 sta: 73 172 6 install_cost: 96785260
+inst_id: 91 sta: 73 172 0 install_cost: 96785260
 Max 2 cost: 29723226 96785260
 install_tag: 0 1
-inst_id: 92 sta: 73 6 7 install_cost: 40613704
+inst_id: 92 sta: 73 6 1 install_cost: 40613704
 Max 2 cost: 40613704 42659305
 install_tag: 1 1
-inst_id: 93 sta: 73 6 8 install_cost: 11280914
+inst_id: 93 sta: 73 6 2 install_cost: 11280914
 Max 2 cost: 11280914 76762566
 install_tag: 1 1
 inst_id: 94 sta: 78 124 0 install_cost: 41527000
 Max 2 cost: 41527000 68315119
 install_tag: 1 1
-inst_id: 95 sta: 79 148 8 install_cost: 526314
+inst_id: 95 sta: 79 148 0 install_cost: 526314
 Max 2 cost: 526314 17606731
 install_tag: 1 1
 inst_id: 96 sta: 81 62 0 install_cost: 91283865
 Max 2 cost: 66910214 91283865
 install_tag: 0 1
-inst_id: 97 sta: 83 99 7 install_cost: 44495421
+inst_id: 97 sta: 83 99 0 install_cost: 44495421
 Max 2 cost: 44495421 76068751
 install_tag: 1 1
-inst_id: 98 sta: 83 99 8 install_cost: 77911174
+inst_id: 98 sta: 83 99 1 install_cost: 77911174
 Max 2 cost: 77911174 81827679
 install_tag: 1 1
 inst_id: 99 sta: 84 91 0 install_cost: 16215916
@@ -4078,13 +3528,13 @@ sta: 223 224 225 226 227 228 229 230 231
 window_id: 32 cir: 32 one_time: 83 enter_k: 3 cost_k: 59 producer_k: 100 first_cost: 24900 second_cost: 4897 cost: 29797 inst_type: 0 0 1 
 window_ener: 1 0 0 1 1 
 sta: 232 233 234 235 236 237 238 239 240 
-Install_inst, 75 edge: 0 cir: 6 inst_type: 2 time_cost: 50
+Install_inst, 75 edge: 0 cir: 0 inst_type: 2 time_cost: 50
 26 85 45 50 83 
 0 0 0 8196300 92679857 
-Install_inst, 76 edge: 0 cir: 7 inst_type: 2 time_cost: 83
+Install_inst, 76 edge: 0 cir: 1 inst_type: 2 time_cost: 83
 26 85 45 50 83 
 0 0 0 72131180 14759269 
-Install_inst, 77 edge: 0 cir: 8 inst_type: 2 time_cost: 50
+Install_inst, 77 edge: 0 cir: 2 inst_type: 2 time_cost: 50
 26 85 45 50 83 
 0 0 0 40015331 78160859 
 
@@ -4115,16 +3565,16 @@ sta: 278
 window_id: 39 cir: 39 one_time: 26 enter_k: 4 cost_k: 97 producer_k: 100 first_cost: 10400 second_cost: 2522 cost: 12922 inst_type: 1 1 0 
 window_ener: 1 1 1 1 0 
 sta: 279 280 281 282 283 284 285 286 287 
-Install_inst, 78 edge: 0 cir: 5 inst_type: 0 time_cost: 26
+Install_inst, 78 edge: 0 cir: 0 inst_type: 0 time_cost: 26
 26 85 45 50 83 
 46766824 87929840 0 0 0 
-Install_inst, 79 edge: 0 cir: 6 inst_type: 1 time_cost: 26
+Install_inst, 79 edge: 0 cir: 1 inst_type: 1 time_cost: 26
 26 85 45 50 83 
 24505839 0 44828949 0 0 
-Install_inst, 80 edge: 0 cir: 7 inst_type: 1 time_cost: 26
+Install_inst, 80 edge: 0 cir: 2 inst_type: 1 time_cost: 26
 26 85 45 50 83 
 41663627 0 45812850 0 0 
-Install_inst, 81 edge: 0 cir: 8 inst_type: 1 time_cost: 26
+Install_inst, 81 edge: 0 cir: 3 inst_type: 1 time_cost: 26
 26 85 45 50 83 
 24465464 0 59543446 0 0 
 
@@ -4163,7 +3613,7 @@ sta: 319 320 321 322 323 324 325 326 327
 window_id: 48 cir: 48 one_time: 50 enter_k: 1 cost_k: 15 producer_k: 100 first_cost: 5000 second_cost: 750 cost: 5750 inst_type: 0 1 1 
 window_ener: 0 0 0 1 1 
 sta: 328 329 330 331 332 333 334 335 336 
-Install_inst, 82 edge: 0 cir: 8 inst_type: 2 time_cost: 50
+Install_inst, 82 edge: 0 cir: 0 inst_type: 2 time_cost: 50
 26 85 45 50 83 
 0 0 0 16526056 80770039 
 
@@ -4253,7 +3703,7 @@ sta: 393 394 395 396 397 398 399 400 401
 window_id: 66 cir: 66 one_time: 45 enter_k: 1 cost_k: 93 producer_k: 100 first_cost: 4500 second_cost: 4185 cost: 8685 inst_type: 0 1 1 
 window_ener: 0 1 1 0 0 
 sta: 402 403 404 405 406 407 408 409 410 
-Install_inst, 88 edge: 0 cir: 8 inst_type: 1 time_cost: 45
+Install_inst, 88 edge: 0 cir: 0 inst_type: 1 time_cost: 45
 26 85 45 50 83 
 94159861 0 93152591 0 0 
 
@@ -4290,13 +3740,13 @@ sta: 440 441 442 443 444 445 446 447 448
 window_id: 73 cir: 73 one_time: 83 enter_k: 3 cost_k: 125 producer_k: 100 first_cost: 24900 second_cost: 10375 cost: 35275 inst_type: 1 0 1 
 window_ener: 1 1 0 0 1 
 sta: 449 450 451 452 453 454 455 456 457 
-Install_inst, 91 edge: 0 cir: 6 inst_type: 2 time_cost: 83
+Install_inst, 91 edge: 0 cir: 0 inst_type: 2 time_cost: 83
 26 85 45 50 83 
 0 0 0 29723226 96785260 
-Install_inst, 92 edge: 0 cir: 7 inst_type: 0 time_cost: 26
+Install_inst, 92 edge: 0 cir: 1 inst_type: 0 time_cost: 26
 26 85 45 50 83 
 40613704 42659305 0 0 0 
-Install_inst, 93 edge: 0 cir: 8 inst_type: 0 time_cost: 26
+Install_inst, 93 edge: 0 cir: 2 inst_type: 0 time_cost: 26
 26 85 45 50 83 
 11280914 76762566 0 0 0 
 
@@ -4326,7 +3776,7 @@ Install_inst, 94 edge: 0 cir: 0 inst_type: 2 time_cost: 83
 window_id: 79 cir: 79 one_time: 26 enter_k: 1 cost_k: 73 producer_k: 100 first_cost: 2600 second_cost: 1898 cost: 4498 inst_type: 1 0 0 
 window_ener: 1 1 0 0 1 
 sta: 479 480 481 482 483 484 485 486 487 
-Install_inst, 95 edge: 0 cir: 8 inst_type: 0 time_cost: 26
+Install_inst, 95 edge: 0 cir: 0 inst_type: 0 time_cost: 26
 26 85 45 50 83 
 526314 17606731 0 0 0 
 
@@ -4348,10 +3798,10 @@ sta: 498
 window_id: 83 cir: 83 one_time: 85 enter_k: 2 cost_k: 24 producer_k: 100 first_cost: 17000 second_cost: 2040 cost: 19040 inst_type: 1 0 0 
 window_ener: 0 1 1 0 0 
 sta: 499 500 501 502 503 504 505 506 507 
-Install_inst, 97 edge: 0 cir: 7 inst_type: 0 time_cost: 85
+Install_inst, 97 edge: 0 cir: 0 inst_type: 0 time_cost: 85
 26 85 45 50 83 
 76068751 44495421 0 0 0 
-Install_inst, 98 edge: 0 cir: 8 inst_type: 0 time_cost: 85
+Install_inst, 98 edge: 0 cir: 1 inst_type: 0 time_cost: 85
 26 85 45 50 83 
 81827679 77911174 0 0 0 
 

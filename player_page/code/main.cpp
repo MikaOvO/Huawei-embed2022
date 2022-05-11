@@ -1069,7 +1069,7 @@ void DPMainWork() {
                             cost = dp[i-1][lst_sta_id][lst_ener_type] +
                                 CalcCost(inst_id, sta[sta_id].window_id, ener_type, sta[sta_id].cir, sta[lst_sta_id].window_id, lst_ener_type, sta[lst_sta_id].cir);
                             if (cost < dp[i][sta_id][ener_type] ||
-                                cost == dp[i][sta_id][ener_type] && nxt_pos < dp[l][sta_id][ener_type]) {
+                                cost == dp[i][sta_id][ener_type] && nxt_pos < dp_l[i][sta_id][ener_type]) {
                                 dp[i][sta_id][ener_type] = cost;
                                 dp_l[i][sta_id][ener_type] = nxt_pos;
                                 dp_lst_state[i][sta_id][ener_type] = lst_sta_id;
