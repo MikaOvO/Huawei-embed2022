@@ -71,6 +71,7 @@ int heart_inst_ids[MAXINST];
 ll best_answer = INF;
 
 int only_calc_install_cost;
+int dp_balance_cost = 100;
 
 int tp_sort_ids[MAXINST];
 
@@ -469,7 +470,8 @@ ll CalcCost(int inst_id, int window_id, int ener_type, int cir, int last_window_
     res += max_one_use_time * window[window_id].cost_k;
     res -= ener_time[last_ener_type] * 1 * produce_k;
     res -= ener_time[last_ener_type] * window[window_id].cost_k;
-    return res;
+    // 平衡一下，毕竟是非真实值
+    return res * dp_balance_cost / 100;
 }
 
 ll CalcCost(int inst_id, int window_id, int area_id, int cir) {
@@ -860,10 +862,10 @@ void TpWork(int qz_type, double qz, int update_best_answer, int only_heart) {
     if (only_heart == 0) Clear(1);
     else Clear(0);
     ll sum_cost = 0;
-    for (int i = inst_n - 1; i >= 0; --i) {
+    for (int i = 0; i < inst_n; ++i) {
         int inst_id = tp_sort_ids[i];
         if (only_heart == 1 && inst[inst_id].is_heart == 0) continue;
-        CalcR(inst_id, 0, 1, 1, 1);
+        CalcL(inst_id, 0, 1, 1, 1);
 
         int l = inst[inst_id].l_sta_id;
         int r = inst[inst_id].r_sta_id;
@@ -877,8 +879,8 @@ void TpWork(int qz_type, double qz, int update_best_answer, int only_heart) {
         int search_next =  (int)((double)(sta_n - l + 1) / (double)inst[inst_id].length * qz);
         if (qz_type == 1) search_next = (double)sta_n * qz / 10.0;
 
-        for (int j = r; j >= l; --j) {
-            if (min_cost < INF && j < r - search_next) {
+        for (int j = l; j <= r; ++j) {
+            if (min_cost < INF && j > l + search_next) {
                 break ;
             }
             tmp = sta[j];
@@ -1199,7 +1201,10 @@ void DPWork() {
         }
     }
 
-    DPMainWork();
+    for (int i = 90; i <= 110; i += 2) {
+        dp_balance_cost = i;
+        DPMainWork();
+    }
     
     for (int i = 0; i < inst_n; ++i) {
         if (inst[i].is_heart == 0) continue;
@@ -1225,9 +1230,9 @@ void Work() {
     g.Init();
     g.TpSort(1);
 
-    for (int i = 0; i < inst_n; ++i) {
+    for (int i = inst_n - 1; i >= 0; --i) {
         int inst_id = tp_sort_ids[i];
-        CalcL(inst_id, 0, 0, 1, 1);
+        CalcR(inst_id, 0, 0, 1, 1);
     }
 
     is_ab = 1;
